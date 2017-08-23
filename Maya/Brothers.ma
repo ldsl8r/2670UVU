@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Brothers.ma
-//Last modified: Wed, Aug 23, 2017 03:00:02 PM
+//Last modified: Wed, Aug 23, 2017 03:02:10 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "00552EBF-A54D-FBF4-F218-B6B1172DEF9E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.5015609401458696 10.003709863692205 4.1484768432660202 ;
-	setAttr ".r" -type "double3" -2.1383527290262325 351.39999999974162 0 ;
+	setAttr ".t" -type "double3" 1.169779894844329 10.763990443624586 -4.8540161538393534 ;
+	setAttr ".r" -type "double3" -11.738352729024689 540.1999999997347 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "508242D1-3545-4E05-20E3-4496CD8E0A1B";
 	setAttr -k off ".v" no;
@@ -370,15 +370,15 @@ createNode mesh -n "pCylinder4Shape" -p "pCylinder4";
 	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.59374997019767761 0.66677206754684448 ;
+	setAttr ".pv" -type "double2" 0.3958333432674408 0.59822243452072144 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 15 ".pt";
+	setAttr -s 16 ".pt";
 	setAttr ".pt[12]" -type "float3" 0 0.12154885 0 ;
-	setAttr ".pt[13]" -type "float3" -0.058012318 -0.090266883 0 ;
+	setAttr ".pt[13]" -type "float3" -0.058012318 -0.014096269 0 ;
 	setAttr ".pt[14]" -type "float3" -0.058012318 -0.090266883 0 ;
 	setAttr ".pt[15]" -type "float3" -0.058012318 -0.090266883 0 ;
 	setAttr ".pt[16]" -type "float3" 0 0.12154885 0 ;
@@ -389,6 +389,7 @@ createNode mesh -n "pCylinder4Shape" -p "pCylinder4";
 	setAttr ".pt[33]" -type "float3" 0 -0.012382289 0 ;
 	setAttr ".pt[34]" -type "float3" 0 0.023305973 0 ;
 	setAttr ".pt[35]" -type "float3" 0 0.023305973 0 ;
+	setAttr ".pt[172]" -type "float3" 0 -0.14768727 0 ;
 	setAttr ".pt[397]" -type "float3" 0 0.13616955 0 ;
 	setAttr ".pt[398]" -type "float3" 0 0.13616955 0 ;
 	setAttr ".pt[399]" -type "float3" 0 0.13616955 0 ;
