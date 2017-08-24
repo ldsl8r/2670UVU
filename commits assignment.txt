@@ -24,3 +24,4 @@ line 23
 line 24
 line 25 of 1st assignment
 lets turn this into a typing exercise
+the quick brown fox jumps over the lazy dog
