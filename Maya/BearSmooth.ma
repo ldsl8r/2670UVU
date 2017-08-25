@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Bear.ma
-//Last modified: Fri, Aug 25, 2017 11:36:42 AM
+//Name: BearSmooth.ma
+//Last modified: Fri, Aug 25, 2017 11:44:25 AM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "15BEC3AF-4CBA-8B8C-D73D-6DAA03899D83";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -17.965175890156466 1.3930210823350189 -18.701296077800702 ;
-	setAttr ".r" -type "double3" -1.5383527009084568 -1551.3999999995842 0 ;
+	setAttr ".t" -type "double3" -6.1865124111372287 2.3469391211095587 39.513776633223522 ;
+	setAttr ".r" -type "double3" -2.7383527009121522 -1445.7999999995316 2.4975942571210583e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "00A0C860-440A-F71D-8D36-84BE1C37CF87";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 23.397435497636156;
+	setAttr ".coi" 49.386901922562096;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -94,14 +94,6 @@ createNode mesh -n "pCubeShape1" -p "pCube1";
 	setAttr ".clst[1].clsn" -type "string" "SculptMaskColorTemp";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 7 ".pt";
-	setAttr ".pt[427]" -type "float3" 0 0 0.34130993 ;
-	setAttr ".pt[454]" -type "float3" 0 0 0.34130993 ;
-	setAttr ".pt[455]" -type "float3" 0 0 -0.20463821 ;
-	setAttr ".pt[500]" -type "float3" 0 0 0.16911086 ;
-	setAttr ".pt[501]" -type "float3" 0 0 0.34130993 ;
-	setAttr ".pt[507]" -type "float3" 0 0 0.34130993 ;
-	setAttr ".pt[938]" -type "float3" 0 0 0.34130993 ;
 createNode mesh -n "polySurfaceShape1" -p "pCube1";
 	rename -uid "D9D4CA3A-44FD-384A-4E1F-19AEC5F3156F";
 	setAttr -k off ".v";
@@ -5116,6 +5108,26 @@ createNode polyTweak -n "polyTweak99";
 	setAttr ".tk[1151]" -type "float3" 0 -0.019751126 0.06283918 ;
 	setAttr ".tk[1152]" -type "float3" 2.6077032e-08 -0.019751126 0.06283918 ;
 	setAttr ".tk[1153]" -type "float3" 7.4505806e-09 -0.019751126 0.062839225 ;
+createNode polySmoothFace -n "polySmoothFace1";
+	rename -uid "B92D4C78-FA4E-4CF8-21EB-38979AC6B11F";
+	setAttr ".ics" -type "componentList" 1 "f[*]";
+	setAttr ".sdt" 2;
+	setAttr ".suv" yes;
+	setAttr ".ps" 0.10000000149011612;
+	setAttr ".ro" 1;
+	setAttr ".ma" yes;
+	setAttr ".m08" yes;
+createNode polyTweak -n "polyTweak100";
+	rename -uid "89850E6B-C64E-6CCF-6B59-F5941366F9A3";
+	setAttr ".uopa" yes;
+	setAttr -s 7 ".tk";
+	setAttr ".tk[427]" -type "float3" 0 0 0.34130993 ;
+	setAttr ".tk[454]" -type "float3" 0 0 0.34130993 ;
+	setAttr ".tk[455]" -type "float3" 0 0 -0.20463821 ;
+	setAttr ".tk[500]" -type "float3" 0 0 0.16911086 ;
+	setAttr ".tk[501]" -type "float3" 0 0 0.34130993 ;
+	setAttr ".tk[507]" -type "float3" 0 0 0.34130993 ;
+	setAttr ".tk[938]" -type "float3" 0 0 0.34130993 ;
 select -ne :time1;
 	setAttr -av -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -5212,7 +5224,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr -k on ".hwcc";
 	setAttr -k on ".hwdp";
 	setAttr -k on ".hwql";
-connectAttr "polyPlanarProj1.out" "pCubeShape1.i";
+connectAttr "polySmoothFace1.out" "pCubeShape1.i";
 connectAttr ":defaultColorMgtGlobals.cme" "imagePlaneShape1.cme";
 connectAttr ":defaultColorMgtGlobals.cfe" "imagePlaneShape1.cmcf";
 connectAttr ":defaultColorMgtGlobals.cfp" "imagePlaneShape1.cmcp";
@@ -5704,6 +5716,8 @@ connectAttr "pCubeShape1.wm" "polySplitRing29.mp";
 connectAttr "polyTweak99.out" "polyPlanarProj1.ip";
 connectAttr "pCubeShape1.wm" "polyPlanarProj1.mp";
 connectAttr "polySplitRing29.out" "polyTweak99.ip";
+connectAttr "polyTweak100.out" "polySmoothFace1.ip";
+connectAttr "polyPlanarProj1.out" "polyTweak100.ip";
 connectAttr "lambert2SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert4SG.pa" ":renderPartition.st" -na;
@@ -5713,4 +5727,4 @@ connectAttr "lambert4.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pasted__pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Bear.ma
+// End of BearSmooth.ma

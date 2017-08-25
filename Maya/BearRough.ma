@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Bear.ma
-//Last modified: Fri, Aug 25, 2017 11:36:42 AM
+//Name: BearRough.ma
+//Last modified: Fri, Aug 25, 2017 11:45:08 AM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "15BEC3AF-4CBA-8B8C-D73D-6DAA03899D83";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -17.965175890156466 1.3930210823350189 -18.701296077800702 ;
-	setAttr ".r" -type "double3" -1.5383527009084568 -1551.3999999995842 0 ;
+	setAttr ".t" -type "double3" -3.6132028923802713 8.5806606778098278 5.3259327831061176 ;
+	setAttr ".r" -type "double3" -15.938352700914727 -1457.7999999995052 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "00A0C860-440A-F71D-8D36-84BE1C37CF87";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 23.397435497636156;
+	setAttr ".coi" 17.130520828804514;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -5713,4 +5713,4 @@ connectAttr "lambert4.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pasted__pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Bear.ma
+// End of BearRough.ma
