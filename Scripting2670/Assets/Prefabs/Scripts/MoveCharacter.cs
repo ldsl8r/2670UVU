@@ -6,14 +6,12 @@ using System;
 public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
-
 	Vector3 tempMove;
-
 	public float speed = 5;
 
 	void Start () {
 		cc = GetComponent<CharacterController>();
-		MoveInput.KeyAction =Move;
+		MoveInput.KeyAction += Move;
 	}
 
 

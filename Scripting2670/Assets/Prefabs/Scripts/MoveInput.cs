@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
+using System;//Needed to use actions.
 
 public class MoveInput : MonoBehaviour {
 
@@ -11,7 +11,7 @@ public class MoveInput : MonoBehaviour {
 	void Update () {
 		if (KeyAction != null)
 		{
-			KeyAction(Input.GetAxis("Horizontal"));
+			KeyAction(Input.GetAxis("Horizontal"));//checks between 1&-1
 		}
 	}
 }
