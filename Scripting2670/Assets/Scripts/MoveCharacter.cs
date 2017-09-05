@@ -11,6 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 5;
     public float gravity = 1;
     public float jumpHeight = 0.2f;
+	public float jumpCount = 2;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
@@ -25,6 +26,14 @@ public class MoveCharacter : MonoBehaviour {
 
 	void Jump () {
 		tempMove.y = jumpHeight;
+
+		if(cc.isGrounded == true){
+			jumpCount = 2;
+		}
+		if(jumpCount != 0){
+			tempMove.y = jumpHeight;
+			jumpCount -= 1;
+		}
 	}
 
 	void Move (float _movement) {
