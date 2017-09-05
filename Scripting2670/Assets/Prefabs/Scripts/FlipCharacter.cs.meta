@@ -1,11 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Scripting2670/Assets/Prefabs/Scripts/FlipCharacter.cs.meta
 guid: d99db5a9af4330148bbd34724776d26e
 timeCreated: 1504121266
+=======
+guid: 68f60d9177b933742b8934d0cdbc5cdc
+timeCreated: 1504121073
+>>>>>>> LearningAssets:Scripting2670/Assets/Scripts/MoveInput.cs.meta
 licenseType: Pro
 MonoImporter:
   serializedVersion: 2
   defaultReferences: []
-  executionOrder: 0
+  executionOrder: 100
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
