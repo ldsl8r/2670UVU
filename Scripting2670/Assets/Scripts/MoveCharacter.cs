@@ -11,6 +11,7 @@ public class MoveCharacter : MonoBehaviour {
     public float speed = 5;
     public float gravity = 1;
     public float jumpHeight = 0.2f;
+	public float jumpcount = 2;
 
     void Start () {
 		PlayButton.Play += OnPlay;
@@ -23,8 +24,14 @@ public class MoveCharacter : MonoBehaviour {
 			}
 
 	void Jump () {
-		print("Jump");
+
+		if (cc.isGrounded == true) {
+			jumpcount = 2;
+		}
+		if (jumpcount != 0) {
+			print(jumpcount);
 		tempMove.y += jumpHeight;
+		}
 	}
 
 	void Move (float _movement) {
