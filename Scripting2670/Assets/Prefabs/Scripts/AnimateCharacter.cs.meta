@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Scripting2670/Assets/Prefabs/Scripts/AnimateCharacter.cs.meta
+guid: f18d48f112f9a7e40a03fdac4ad5608c
+timeCreated: 1504120518
+=======
+guid: df14d5870cd2854438ca9d8a878c2692
+timeCreated: 1504121029
+>>>>>>> LearningAssets:Scripting2670/Assets/Scripts/MoveCharacter.cs.meta
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 200
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

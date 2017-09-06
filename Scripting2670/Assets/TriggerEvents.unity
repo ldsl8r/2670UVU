@@ -181,6 +181,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &89622624
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +245,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> LearningAssets
 --- !u!1 &118967971
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +303,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -386,7 +389,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: 94813570
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3802,6 +3805,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 --- !u!1 &338622858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,6 +3917,10 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> LearningAssets
 --- !u!1 &341660090
 GameObject:
   m_ObjectHideFlags: 0
@@ -4007,6 +4015,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+>>>>>>> LearningAssets
 --- !u!1 &373460914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4179,7 +4188,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -4265,7 +4274,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: 620964287
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -6009,6 +6018,7 @@ ParticleSystem:
     positionAmount:
       serializedVersion: 2
       minMaxState: 0
+<<<<<<< HEAD
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -6134,8 +6144,159 @@ ParticleSystem:
     curve:
       serializedVersion: 2
       minMaxState: 1
+=======
+>>>>>>> LearningAssets
       scalar: 1
       minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD
+    y:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    rotationAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD
+    z:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    sizeAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  SizeBySpeedModule:
+    enabled: 0
+<<<<<<< HEAD
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+=======
+    curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+>>>>>>> LearningAssets
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6174,9 +6335,15 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
+<<<<<<< HEAD
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+=======
       minMaxState: 1
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6213,11 +6380,19 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+<<<<<<< HEAD
+    curve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0.7853982
+      minScalar: 0.7853982
+=======
     z:
       serializedVersion: 2
       minMaxState: 1
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6260,6 +6435,8 @@ ParticleSystem:
     enabled: 0
     x:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
       minMaxState: 0
       scalar: 0
       minScalar: 0
@@ -6387,6 +6564,7 @@ ParticleSystem:
     enabled: 0
     gradient:
       serializedVersion: 2
+>>>>>>> LearningAssets
       minMaxState: 1
       minColor: {r: 1, g: 1, b: 1, a: 1}
       maxColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7528,7 +7706,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -7614,7 +7792,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: -1692250605
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -11299,6 +11477,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &1420355575
 GameObject:
   m_ObjectHideFlags: 0
@@ -11381,6 +11561,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> LearningAssets
 --- !u!1 &1510124196
 GameObject:
   m_ObjectHideFlags: 0
@@ -11454,7 +11635,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -11540,7 +11721,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 0
+  randomSeed: 544228493
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13111,6 +13292,11 @@ ParticleSystem:
         m_RotationOrder: 4
     remap:
       serializedVersion: 2
+<<<<<<< HEAD
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
       minMaxState: 1
       scalar: 1
       minScalar: 1
@@ -13238,6 +13424,148 @@ ParticleSystem:
       minMaxState: 0
       scalar: 1
       minScalar: 1
+>>>>>>> LearningAssets
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD
+    remapY:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    rotationAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD
+    remapZ:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+=======
+    sizeAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+>>>>>>> LearningAssets
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+<<<<<<< HEAD
+    remapEnabled: 0
+    positionAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -13356,6 +13684,8 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+=======
+>>>>>>> LearningAssets
   SizeBySpeedModule:
     enabled: 0
     curve:
@@ -14627,8 +14957,16 @@ GameObject:
   - component: {fileID: 1524743848}
   - component: {fileID: 1524743845}
   - component: {fileID: 1524743844}
+<<<<<<< HEAD
+  - component: {fileID: 1524743850}
+  - component: {fileID: 1524743849}
+=======
   - component: {fileID: 1524743846}
+<<<<<<< HEAD
   - component: {fileID: 1524743847}
+=======
+>>>>>>> LearningAssets
+>>>>>>> LearningAssets
   m_Layer: 16
   m_Name: AnimRoot
   m_TagString: Untagged
@@ -14719,6 +15057,9 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
+--- !u!114 &1524743849
+=======
 --- !u!1 &1612666129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14758,10 +15099,20 @@ RectTransform:
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1612666131
+>>>>>>> LearningAssets
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1524743842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99db5a9af4330148bbd34724776d26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1524743850
+=======
   m_GameObject: {fileID: 1612666129}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14769,10 +15120,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1612666132
+>>>>>>> LearningAssets
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1524743842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18d48f112f9a7e40a03fdac4ad5608c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
   m_GameObject: {fileID: 1612666129}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14853,6 +15213,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1612666129}
+>>>>>>> LearningAssets
 --- !u!1 &1742574865
 GameObject:
   m_ObjectHideFlags: 0
@@ -14934,8 +15295,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1775461898}
   - component: {fileID: 1775461897}
+<<<<<<< HEAD
+  - component: {fileID: 1775461900}
+  - component: {fileID: 1775461899}
+=======
   - component: {fileID: 1775461899}
   - component: {fileID: 1775461900}
+>>>>>>> LearningAssets
   m_Layer: 12
   m_Name: Character
   m_TagString: Player
@@ -14987,7 +15353,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775461896}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: b99537d06a76b2644901cd31cfa0a187, type: 3}
+=======
   m_Script: {fileID: 11500000, guid: 68f60d9177b933742b8934d0cdbc5cdc, type: 3}
+>>>>>>> LearningAssets
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1775461900
@@ -14998,13 +15368,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775461896}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: d6b43132bdee4344780de9e2dca1b25f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+=======
   m_Script: {fileID: 11500000, guid: df14d5870cd2854438ca9d8a878c2692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
   gravity: 1
+<<<<<<< HEAD
   jumpHeight: 0.25
   jumpCount: 2
+=======
+  jumpHeight: 0.2
+>>>>>>> LearningAssets
+>>>>>>> LearningAssets
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0
@@ -15157,6 +15538,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &1823481204
 GameObject:
   m_ObjectHideFlags: 0
@@ -15239,6 +15622,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> LearningAssets
 --- !u!1 &1851903688
 GameObject:
   m_ObjectHideFlags: 0
@@ -15601,6 +15985,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &2011839792
 GameObject:
   m_ObjectHideFlags: 0
@@ -15675,6 +16061,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2011839792}
+>>>>>>> LearningAssets
 --- !u!1 &2041684855
 GameObject:
   m_ObjectHideFlags: 0
