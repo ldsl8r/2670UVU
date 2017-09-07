@@ -7,7 +7,6 @@ public class Reset : MonoBehaviour {
 
 public Transform startPoint;
 
-public GameObject art;
 
 
 
@@ -17,13 +16,11 @@ void Start (){
 
 
 	void ResetThis (){
-		art.SetActive(false);
 		transform.position = startPoint.position;
 		Invoke("Restart", 3);
 }
 
 	void Restart(){
-		art.SetActive(true);
 		transform.position = startPoint.position;
 	}
 
