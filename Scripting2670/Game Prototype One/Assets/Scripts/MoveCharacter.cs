@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -13,6 +14,7 @@ public class MoveCharacter : MonoBehaviour {
     public float jumpHeight = 0.2f;
 	public float jumpCount = 2;
 
+
     void Start () {
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
@@ -21,7 +23,19 @@ public class MoveCharacter : MonoBehaviour {
 	void OnPlay () {
 		MoveInput.JumpAction = Jump;
 		MoveInput.KeyAction += Move;
+		MoveInput.CrouchAction += Crouch;
+		MoveInput.StandingAction += Standing;
 		PlayButton.Play -= OnPlay;
+	}
+
+	void Crouch()
+	{
+		transform.localScale = new Vector3(1, .5f, 1);
+	}
+
+	void Standing()
+	{
+		transform.localScale = new Vector3(1, 1f, 1);
 	}
 
 	void Jump () {
@@ -41,4 +55,6 @@ public class MoveCharacter : MonoBehaviour {
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
+
+
 }
