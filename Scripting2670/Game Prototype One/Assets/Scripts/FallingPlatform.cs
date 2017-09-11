@@ -4,26 +4,24 @@ using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour {
 
-	bool isFalling = false;
 	float downSpeed = 0;
 
 	void OnTriggerEnter(Collider collider)
 	{
 		if (collider.gameObject.name == "Character")
-			
-			isFalling = true;
-			Destroy(gameObject, 10);
+			StartCoroutine(falling());
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (isFalling)
+	IEnumerator falling () {
+		while (transform.position.y > 0)
 		{
 			downSpeed += Time.deltaTime/15;
 			transform.position = new Vector3(transform.position.x,
 			transform.position.y-downSpeed,
 			transform.position.z);
-
+			yield return null;
 		}
+		gameObject.SetActive(false);
 	}
 }
