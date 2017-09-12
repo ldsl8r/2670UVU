@@ -41,16 +41,19 @@ public class MoveCharacter : MonoBehaviour {
 	void Jump () {
 		tempMove.y = jumpHeight;
 
-		if(cc.isGrounded == true){
+		if(cc.isGrounded == true)
+		{
 			jumpCount = 2;
 		}
-		if(jumpCount != 0){
+		if(jumpCount != 0)
+		{
 			tempMove.y = jumpHeight;
-			jumpCount -= 1;
+			jumpCount --;
 		}
 	}
 
-	void Move (float _movement) {
+	void Move (float _movement) 
+	{
 		tempMove.y -= gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
