@@ -21,7 +21,7 @@ public class MoveInput : MonoBehaviour {
 	IEnumerator RunInput () {
 		while (canPlay)
 		{
-		if (Input.GetKeyDown(KeyCode.Space) )
+		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			JumpAction();
 		}

@@ -41,14 +41,18 @@ public class MoveCharacter : MonoBehaviour {
 	void Jump () {
 		tempMove.y = jumpHeight;
 
-		if(cc.isGrounded == true)
-		{
-			jumpCount = 2;
-		}
+	
+
 		if(jumpCount != 0)
 		{
 			tempMove.y = jumpHeight;
 			jumpCount --;
+			print(jumpCount);
+		}
+
+			if(cc.isGrounded == true)
+		{
+			jumpCount = 2;
 		}
 	}
 
