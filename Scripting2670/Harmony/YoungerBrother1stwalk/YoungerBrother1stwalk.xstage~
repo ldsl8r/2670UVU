@@ -25,6 +25,9 @@
     <dwg name="20" scaleFactor="1"/>
     <dwg name="21" scaleFactor="1"/>
     <dwg name="22" scaleFactor="1"/>
+    <dwg name="23" scaleFactor="1"/>
+    <dwg name="24" scaleFactor="1"/>
+    <dwg name="25" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="3" elementName="clothing" elementFolder="clothing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -51,16 +54,16 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08cb3845f8000ae1" nbframes="26">
+  <scene name="Top" id="08cb3845f8000ae1" nbframes="25">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1,26,76" val="1" id="1"/>
+     <elementSeq exposures="1,76" val="1" id="1"/>
      <elementSeq exposures="2" val="13" id="1"/>
      <elementSeq exposures="3" val="4" id="1"/>
      <elementSeq exposures="4" val="15" id="1"/>
      <elementSeq exposures="5" val="5" id="1"/>
      <elementSeq exposures="6" val="16" id="1"/>
-     <elementSeq exposures="7,19,69-70" val="3" id="1"/>
+     <elementSeq exposures="7,69-70" val="3" id="1"/>
      <elementSeq exposures="8" val="18" id="1"/>
      <elementSeq exposures="9" val="6" id="1"/>
      <elementSeq exposures="10" val="17" id="1"/>
@@ -72,10 +75,13 @@
      <elementSeq exposures="16" val="20" id="1"/>
      <elementSeq exposures="17,67-68" val="9" id="1"/>
      <elementSeq exposures="18" val="21" id="1"/>
+     <elementSeq exposures="19" val="25" id="1"/>
      <elementSeq exposures="20" val="22" id="1"/>
-     <elementSeq exposures="21-22,71-72" val="10" id="1"/>
+     <elementSeq exposures="21,71-72" val="10" id="1"/>
+     <elementSeq exposures="22" val="23" id="1"/>
      <elementSeq exposures="23,73" val="14" id="1"/>
-     <elementSeq exposures="24-25,74-75" val="11" id="1"/>
+     <elementSeq exposures="24,74-75" val="11" id="1"/>
+     <elementSeq exposures="25" val="24" id="1"/>
     </column>
     <column type="0" name="clothing" displayOrder="2" width="100" anonymous="true" id="3"/>
     <column type="0" name="Background" displayOrder="3" width="100" anonymous="true" id="4">
