@@ -3,4 +3,5 @@
  <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="3" elementName="clothing" elementFolder="clothing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="4" elementName="Background" elementFolder="Background" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="11" elementName="young_boy_final_2scale" elementFolder="young_boy_final_2scale" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
 </elements>
