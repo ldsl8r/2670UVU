@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 CurrentProcessId = 20120
 ServerProcessID = 10552
 ServerSessionID = 1103914736
 HoudiniSceneExists = true
+=======
+CurrentProcessId = 10212
+ServerProcessID = 6148
+ServerSessionID = 1057974080
+HoudiniSceneExists = true
+>>>>>>> LearningAssets
