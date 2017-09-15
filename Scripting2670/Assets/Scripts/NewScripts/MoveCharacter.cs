@@ -14,13 +14,8 @@ public class MoveCharacter : MonoBehaviour {
 
     void Start () {
 		cc = GetComponent<CharacterController>();
-		PlayButton.Play += OnPlay;
-	}
-
-	void OnPlay () {
 		MoveInput.JumpAction = Jump;
 		MoveInput.MoveAction += Move;
-		PlayButton.Play -= OnPlay;
 	}
 
 	void Jump () {
@@ -28,7 +23,7 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void Move (float _movement) {
-		tempMove.y -= gravity*Time.deltaTime;
+		tempMove.y = -gravity*Time.deltaTime;
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
