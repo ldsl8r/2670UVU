@@ -4,8 +4,18 @@ using UnityEngine;
 
 public class AddThisToPlayer : MonoBehaviour {
 
-	public Transform attachObject;
-	public GameObject assetArt;
+	Transform attachObject;
+	//public GameObject assetArt;
+
+	void Awake()
+	{
+		SendWeaponAttach.SendAttachPoint += AttachPointHandler;
+	}
+
+	void AttachPointHandler (Transform _transform) {
+		attachObject = _transform;
+	}
+
 	void OnTriggerEnter()
 	{
 		transform.parent = attachObject;

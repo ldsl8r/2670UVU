@@ -16,7 +16,10 @@ public class MoveInput : MonoBehaviour {
 
 		if (MoveAction != null)
 		{
+<<<<<<< HEAD
 
+=======
+>>>>>>> LearningAssets
 			MoveAction(Input.GetAxis("Horizontal"));
 		} 
 	}
