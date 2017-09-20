@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour {
 
-	float downSpeed = 0;
+	public float downSpeed = 0;
 
 	void OnTriggerEnter(Collider collider)
 	{
