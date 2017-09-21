@@ -314,7 +314,6 @@
      </module>
      <module type="READ" name="clothing" pos="0,0,0" publishUnderTab="clothing">
       <options>
-       <outlineMode val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
