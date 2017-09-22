@@ -314,7 +314,7 @@
     <column type="0" name="BackGround" displayOrder="4" width="100" anonymous="true" id="5">
      <elementSeq exposures="1-79" val="1" id="5"/>
     </column>
-    <column type="0" name="ATV-08CD4ED67AF0EFAE" display="false" displayOrder="5" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-08CD4ED67AF0EFAE" displayOrder="5" width="100" anonymous="true" id="6">
      <elementSeq exposures="1-79" val="1" id="6"/>
     </column>
     <column type="0" name="Clothing" displayOrder="3" width="100" anonymous="true" id="7">
