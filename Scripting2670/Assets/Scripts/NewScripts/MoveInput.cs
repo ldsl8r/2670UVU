@@ -27,19 +27,11 @@ public class MoveInput : MonoBehaviour {
 			} 
 			yield return new WaitForSeconds(runTime);
 		}
-<<<<<<< HEAD
-=======
+		
 		if (MoveAction != null)
 		{
-<<<<<<< HEAD
-
-=======
->>>>>>> LearningAssets
 			MoveAction(Input.GetAxis("Horizontal"));
 		} 
->>>>>>> LearningAssets:Scripting2670/Assets/Scripts/NewScripts/MoveInput.cs
-=======
 
->>>>>>> LearningAssets
 	}
 }

@@ -8,14 +8,23 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-    public float speed = 5;
-    public float gravity = 1;
+     float speed;
+     float gravity;
     public float jumpHeight = 0.2f;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
 		MoveInput.JumpAction = Jump;
 		MoveInput.MoveAction += Move;
+		ChangesSpeed.SendSpeed = SendSpeedHandler;
+		speed = StaticVars.speed;
+		gravity = StaticVars.gravity;
+	}
+
+	private void SendSpeedHandler(float _speed, float _gravity)
+	{
+		speed = _speed;
+		gravity= _gravity;
 	}
 
 	void Jump () {
