@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,26 +9,27 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-     float speed;
-     float gravity;
+    float speed;
+    float gravity;
     public float jumpHeight = 0.2f;
 
     void Start () {
 		cc = GetComponent<CharacterController>();
 		MoveInput.JumpAction = Jump;
 		MoveInput.MoveAction += Move;
-		ChangesSpeed.SendSpeed = SendSpeedHandler;
+		ChangeSpeed.SendSpeed = SendSpeedHandler;
 		speed = StaticVars.speed;
 		gravity = StaticVars.gravity;
 	}
 
-	private void SendSpeedHandler(float _speed, float _gravity)
-	{
+    private void SendSpeedHandler(float _speed, float _gravity)
+    {
 		speed = _speed;
-		gravity= _gravity;
-	}
+		gravity = _gravity;
+    }
 
-	void Jump () {
+    void Jump () {
+		print("jump");
 		tempMove.y = jumpHeight;
 	}
 
