@@ -27,6 +27,6 @@ public class ObjectPhysics : MonoBehaviour {
         Vector3 pushDirection = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
        
         //apply push force to object
-        body.velocity = pushForce * pushDirection;
+        body.velocity += pushForce * pushDirection;
     }
 }

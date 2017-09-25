@@ -9,15 +9,26 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-    public float speed = 5;
-    public float gravity = 1;
+    public float speed;
+    public float gravity;
     public float jumpHeight = 0.2f;
 	public float jumpCount = 2;
+	public bool gravityOn = false;
+	public float maxFallSpeed = 30;
 
 
     void Start () {
 		cc = GetComponent<CharacterController>();
 		PlayButton.Play += OnPlay;
+		speed = StaticVars.speed;
+		gravity = StaticVars.gravity;
+	}
+
+	private void SendSpeedHandler(float _speed, float _gravity)
+	{
+		speed = _speed;
+		gravity = _gravity;
+		print( _gravity);
 	}
 
 	void OnPlay () {
@@ -26,6 +37,7 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.CrouchAction += Crouch;
 		MoveInput.StandingAction += Standing;
 		PlayButton.Play -= OnPlay;
+		ChangesSpeed.SendSpeed +=SendSpeedHandler;
 	}
 
 	void Crouch()
@@ -47,9 +59,7 @@ public class MoveCharacter : MonoBehaviour {
 			}
 			
 		}*/
-		if(cc.isGrounded == true){
-			jumpCount = 2;
-		}
+
 		if(jumpCount != 0){
 			tempMove.y = jumpHeight;
 			jumpCount -= 1;
@@ -59,17 +69,35 @@ public class MoveCharacter : MonoBehaviour {
 
 	void Move (float _movement) 
 	{
-		if(cc.isGrounded == true){
-			gravity = 0;
+		if(!cc.isGrounded){
+			if(!gravityOn)
+			{
+				print("gravity");
+				StartCoroutine(Gravity());
+			}
 		}
-		else{
-			gravity = 1;
-		}
-		
-		tempMove.y -= gravity*Time.deltaTime;
+	
 		tempMove.x = _movement*speed*Time.deltaTime;
 		cc.Move(tempMove);
 	}
-
+	IEnumerator Gravity()
+	{
+		gravityOn = true;
+		yield return new WaitForSeconds(.01f);
+		do
+		{
+			if(tempMove.y > maxFallSpeed)
+			{
+				tempMove.y -= gravity * Time.deltaTime;
+			}
+		yield return new WaitForSeconds(.01f);
+	
+		}
+		while(!cc.isGrounded);
+		tempMove.y = -.01f;
+		gravityOn = false;
+		jumpCount = 2;
+	}
+	
 
 }
