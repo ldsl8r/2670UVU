@@ -4,12 +4,8 @@ using UnityEngine;
 using System;
 public class MoveInput : MonoBehaviour {
 
-<<<<<<< HEAD:Scripting2670/Assets/Scripts/MoveInput.cs
 	public float runTime = 0.01f;
-	public static Action<float> KeyAction;
-=======
 	public static Action<float> MoveAction;
->>>>>>> LearningAssets:Scripting2670/Assets/Scripts/NewScripts/MoveInput.cs
 	public static Action JumpAction;
 	public bool canPlay = true;
 
@@ -25,14 +21,13 @@ public class MoveInput : MonoBehaviour {
 				JumpAction();
 			}
 
-
-<<<<<<< HEAD:Scripting2670/Assets/Scripts/MoveInput.cs
-			if (KeyAction != null)
+			if (MoveAction != null)
 			{
-				KeyAction(Input.GetAxis("Horizontal"));
+				MoveAction(Input.GetAxis("Horizontal"));
 			} 
 			yield return new WaitForSeconds(runTime);
 		}
+<<<<<<< HEAD
 =======
 		if (MoveAction != null)
 		{
@@ -43,5 +38,8 @@ public class MoveInput : MonoBehaviour {
 			MoveAction(Input.GetAxis("Horizontal"));
 		} 
 >>>>>>> LearningAssets:Scripting2670/Assets/Scripts/NewScripts/MoveInput.cs
+=======
+
+>>>>>>> LearningAssets
 	}
 }
