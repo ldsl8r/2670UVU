@@ -67,9 +67,10 @@ public class MoveCharacter : MonoBehaviour {
 
 	}
 
-	void Move (float _movement) 
+	public void Move (float _movement) 
 	{
-		if(!cc.isGrounded){
+		if(!cc.isGrounded)
+		{
 			if(!gravityOn)
 			{
 				print("gravity");
@@ -89,6 +90,7 @@ public class MoveCharacter : MonoBehaviour {
 			if(tempMove.y > maxFallSpeed)
 			{
 				tempMove.y -= gravity * Time.deltaTime;
+				print("work dangit!!!");
 			}
 		yield return new WaitForSeconds(.01f);
 	
