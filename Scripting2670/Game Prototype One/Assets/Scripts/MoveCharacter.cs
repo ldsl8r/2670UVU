@@ -9,12 +9,12 @@ public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
 	Vector3 tempMove;
-    public float speed;
-    public float gravity;
-    public float jumpHeight = 0.2f;
+    float speed;
+    float gravity;
+    public float jumpHeight = 0.3f;
 	public float jumpCount = 2;
 	public bool gravityOn = false;
-	public float maxFallSpeed = 30;
+	public float maxFallSpeed = -30;
 
 
     void Start () {
@@ -32,7 +32,7 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void OnPlay () {
-		MoveInput.JumpAction = Jump;
+		MoveInput.JumpAction += Jump;
 		MoveInput.KeyAction += Move;
 		MoveInput.CrouchAction += Crouch;
 		MoveInput.StandingAction += Standing;
@@ -51,14 +51,6 @@ public class MoveCharacter : MonoBehaviour {
 	}
 
 	void Jump () {
-		/*if(cc.isGrounded || jumpCount < 1()){
-			tempMove.y = jumpHeight;
-			jump
-			if(cc.isGrounded){
-				jumcCount =- 0;
-			}
-			
-		}*/
 
 		if(jumpCount != 0){
 			tempMove.y = jumpHeight;
@@ -66,14 +58,13 @@ public class MoveCharacter : MonoBehaviour {
 		}
 
 	}
-
-	public void Move (float _movement) 
+	
+		public void Move (float _movement) 
 	{
 		if(!cc.isGrounded)
 		{
 			if(!gravityOn)
 			{
-				print("gravity");
 				StartCoroutine(Gravity());
 			}
 		}
@@ -90,13 +81,13 @@ public class MoveCharacter : MonoBehaviour {
 			if(tempMove.y > maxFallSpeed)
 			{
 				tempMove.y -= gravity * Time.deltaTime;
-				print("work dangit!!!");
+				//print("adding grav" + tempMove.y);
 			}
 		yield return new WaitForSeconds(.01f);
 	
 		}
 		while(!cc.isGrounded);
-		tempMove.y = -.01f;
+		tempMove.y += -.01f;
 		gravityOn = false;
 		jumpCount = 2;
 	}
