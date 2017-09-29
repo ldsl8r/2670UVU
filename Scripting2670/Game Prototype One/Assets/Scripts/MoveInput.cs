@@ -9,6 +9,8 @@ public class MoveInput : MonoBehaviour {
 	public static Action JumpAction;
 	public static Action CrouchAction;
 	public static Action StandingAction;
+	public static Action grab;
+	public static Action offGrab;
 
 	public bool canPlay = true;
 
@@ -39,7 +41,18 @@ public class MoveInput : MonoBehaviour {
 		if (KeyAction != null)
 		{
 			KeyAction(Input.GetAxis("Horizontal"));
-		} 
+		}
+
+			if(Input.GetKeyDown(KeyCode.G) && grab != null)
+		{
+			grab();
+		}
+
+		if(Input.GetKeyUp(KeyCode.G) && offGrab != null)
+		{
+			offGrab();
+		}
+
 		yield return new WaitForSeconds(runTime);
 		}
 	}
