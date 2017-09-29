@@ -8,7 +8,7 @@ public class ChangeSpeed : MonoBehaviour {
 	public static Action<float, float> SendSpeed;
 	
 	void OnTriggerEnter () {
-		SendSpeed(StaticVars.waterSpeed, StaticVars.waterGravity);
+		SendSpeed(StaticVars.dragSpeed, StaticVars.dragGravity);
 	}
 
 	void OnTriggerExit()
