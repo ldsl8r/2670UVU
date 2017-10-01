@@ -26,8 +26,11 @@ void Update () {
 		}
 	}
 	//adapted from OnMouseDown.
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
 	{
+		if(other.tag == "Key")
+		{
 		doorIsOpening = true;
+		}
 	}
 }

@@ -12,7 +12,7 @@ public class FallingPlatform : MonoBehaviour {
 			StartCoroutine(falling());
 	}
 	
-	// Update is called once per frame
+
 	IEnumerator falling () {
 		while (transform.position.y > 0)
 		{
