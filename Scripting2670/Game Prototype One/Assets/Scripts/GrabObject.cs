@@ -37,7 +37,7 @@ public class GrabObject : MonoBehaviour {
 	void offGrabe ()
 	{
 		GetComponent<Rigidbody>().useGravity = true;
-		GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+		// GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
 		transform.parent = null;
 	}
 }
