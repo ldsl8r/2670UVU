@@ -3,28 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RespawnField : MonoBehaviour {
-	Vector3 originalPos;
-	public float startDelay;
 
-void Start()
-	{
-	 originalPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
-	}
+public Transform respawnPoint;
 
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
 	{
-		StopAllCoroutines();
-		StartCoroutine(ResetOBJPosition());
-			
-	}
-
-	IEnumerator ResetOBJPosition()
-	{
-		yeild return new WaitForSeconds(startDelay);
-		while(transform.position !=originalPos)
+		if(other.tag == "Player")
 		{
-			gameObject.transform.position = originalPos;
-			yield return null;
-		}
+			other.transform.position = respawnPoint.position;
+		}	
 	}
 }
