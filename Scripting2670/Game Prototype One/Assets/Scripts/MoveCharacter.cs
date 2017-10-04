@@ -22,6 +22,9 @@ public class MoveCharacter : MonoBehaviour {
 		PlayButton.Play += OnPlay;
 		speed = StaticVars.speed;
 		gravity = StaticVars.gravity;
+		ChangesSpeed.SendSpeed = SendSpeedHandler;
+		speed = StaticVars.speed;
+		gravity = StaticVars.gravity;
 	}
 
 	private void SendSpeedHandler(float _speed, float _gravity)
@@ -37,7 +40,7 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.CrouchAction += Crouch;
 		MoveInput.StandingAction += Standing;
 		PlayButton.Play -= OnPlay;
-		ChangesSpeed.SendSpeed +=SendSpeedHandler;
+		// ChangesSpeed.SendSpeed +=SendSpeedHandler;
 	}
 
 	void Crouch()
@@ -66,6 +69,7 @@ public class MoveCharacter : MonoBehaviour {
 			if(!gravityOn)
 			{
 				StartCoroutine(Gravity());
+				
 			}
 		}
 	
