@@ -38,8 +38,8 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction += Jump;
 		MoveInput.KeyAction += Move;
 		MoveInput.CrouchAction += Crouch;
-		MoveInput.StandingAction += Standing;
-		PlayButton.Play -= OnPlay;
+		MoveInput.StandingAction += Standing; 
+		PlayButton.Play -= OnPlay; //
 		// ChangesSpeed.SendSpeed +=SendSpeedHandler;
 	}
 
