@@ -6,6 +6,11 @@ public class FallingPlatform : MonoBehaviour {
 
 	public float downSpeed = 0;
 
+
+	void Start()
+	{
+		ResetPosition.ResetDownSpeed += ResetSpeed; 	
+	}
 	void OnTriggerEnter(Collider collider)
 	{
 		if (collider.gameObject.name == "Character")
@@ -23,5 +28,10 @@ public class FallingPlatform : MonoBehaviour {
 			yield return null;
 		}
 		// gameObject.SetActive(false);
+	}
+
+	void ResetSpeed(float resetValue)
+	{
+		downSpeed = resetValue;
 	}
 }

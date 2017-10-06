@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class ResetPosition : MonoBehaviour {
+
+public static Action<float> ResetDownSpeed;
 
 	Vector3 originalPos;
 	public float startDelay;
@@ -22,7 +25,9 @@ public class ResetPosition : MonoBehaviour {
 			while(transform.position != originalPos)
 			{
 				transform.position = originalPos;
+				ResetDownSpeed(0);
 				yield return null;
+
 			}
 		}
 }
