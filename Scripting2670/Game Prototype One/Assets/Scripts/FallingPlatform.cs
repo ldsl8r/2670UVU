@@ -22,6 +22,6 @@ public class FallingPlatform : MonoBehaviour {
 			transform.position.z);
 			yield return null;
 		}
-		gameObject.SetActive(false);
+		// gameObject.SetActive(false);
 	}
 }
