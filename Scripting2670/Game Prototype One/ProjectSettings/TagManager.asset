@@ -19,18 +19,18 @@ TagManager:
   - 
   - 
   - 
+  - Enemy
   - 
   - 
   - 
   - 
+  - Level
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PowerUps/Health
+  - PowerUps/Death
+  - PowerUps/Satan
   - 
   - 
   - 
