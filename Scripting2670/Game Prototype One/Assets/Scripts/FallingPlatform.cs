@@ -6,15 +6,18 @@ public class FallingPlatform : MonoBehaviour {
 
 	public float downSpeed = 0;
 
+	Vector3 originalPos;
+	public float startDelay = 4;
 
 	void Start()
 	{
-		ResetPosition.ResetDownSpeed += ResetSpeed; 	
+		originalPos = transform.position; 	
 	}
 	void OnTriggerEnter(Collider collider)
 	{
 		if (collider.gameObject.name == "Character")
 			StartCoroutine(falling());
+			StartCoroutine(ResetOBJPosition());
 	}
 	
 
@@ -29,6 +32,13 @@ public class FallingPlatform : MonoBehaviour {
 		}
 		// gameObject.SetActive(false);
 	}
+	IEnumerator ResetOBJPosition()
+		{
+			yield return new WaitForSeconds(startDelay);
+			transform.position = originalPos;
+			downSpeed = 0;
+			StopAllCoroutines();
+		}
 
 	void ResetSpeed(float resetValue)
 	{
