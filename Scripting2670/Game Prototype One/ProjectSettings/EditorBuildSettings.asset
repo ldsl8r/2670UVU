@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/GamePrototypeOne.unity
     guid: 9c44a6b913b814a8589fb2ff10502fb0
-  - enabled: 1
+  - enabled: 0
     path: Assets/GameBuild5.unity
     guid: 2e06b136d8c2a964f94816c4eedb4df2
+  - enabled: 1
+    path: Assets/GameBuild6.unity
+    guid: 81d6a7e35d2ddfd44a856049dada0311
