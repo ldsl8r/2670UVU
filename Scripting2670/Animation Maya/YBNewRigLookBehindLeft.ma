@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: YBNewRigLookBehindLeft.ma
-//Last modified: Thu, Oct 12, 2017 11:37:38 AM
+//Last modified: Thu, Oct 12, 2017 11:48:50 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.4.2.3";
@@ -809,6 +809,8 @@ createNode transform -n "Neck_ctrl_grp" -p "CSpine_crtl";
 	setAttr ".sp" -type "double3" 7.646479893160758 -2.342969383160395 -4.3394928981056295e-015 ;
 createNode transform -n "Neck_ctrl" -p "Neck_ctrl_grp";
 	rename -uid "8559578D-4E56-CC5B-0E21-779BD989242C";
+	setAttr ".r" -type "double3" 98.957613881877322 -9.9915627054344025 -20.847552045192788 ;
+	setAttr -av ".ry";
 	setAttr ".rp" -type "double3" 7.646479936044341 -2.3429693901496234 -4.3394929176947758e-015 ;
 	setAttr ".sp" -type "double3" 7.646479936044341 -2.3429693901496234 -4.3394929176947758e-015 ;
 createNode nurbsCurve -n "Neck_ctrlShape" -p "Neck_ctrl";
@@ -11953,7 +11955,7 @@ createNode orientConstraint -n "LB_Head_DEF_orientConstraint1" -p "LB_Head_DEF";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" -44.499715868811514 7.6384683401682665 7.512583413785765 ;
+	setAttr ".lr" -type "double3" -44.499715868811514 7.6384683401682665 7.5125834137857455 ;
 	setAttr -k on ".w0";
 createNode orientConstraint -n "LB_Neck_DEF_orientConstraint1" -p "LB_Neck_DEF";
 	rename -uid "E6F369AF-4659-7A8A-2AD2-3BB53DEC936F";
@@ -11970,7 +11972,7 @@ createNode orientConstraint -n "LB_Neck_DEF_orientConstraint1" -p "LB_Neck_DEF";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
-	setAttr ".lr" -type "double3" 98.957613881877322 13.585658369000958 -20.84755204519282 ;
+	setAttr ".lr" -type "double3" 98.957613881877307 -9.9915627054344114 -20.847552045192806 ;
 	setAttr -k on ".w0";
 createNode joint -n "LB_L_Collar_DEF" -p "LB_CSpine_DEF";
 	rename -uid "2C00A6DB-4E60-AE6F-23B3-388C5DF856BB";
@@ -13273,7 +13275,7 @@ createNode parentConstraint -n "LB_Head_JNT_parentConstraint1" -p "LB_Head_JNT";
 	setAttr ".tg[0].tot" -type "double3" -8.5678939498734508e-008 1.7992911605091422e-008 
 		1.013010302621086e-018 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 8.7465253740246703e-015 ;
-	setAttr ".lr" -type "double3" -44.499715868811514 7.6384683401682683 7.5125834137857632 ;
+	setAttr ".lr" -type "double3" -44.499715868811514 7.6384683401682683 7.5125834137857455 ;
 	setAttr ".rst" -type "double3" 0.68230811740497366 0 -2.4808398600692292e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -9.5416640443905503e-015 ;
 	setAttr -k on ".w0";
@@ -13295,7 +13297,7 @@ createNode parentConstraint -n "LB_Neck_JNT_parentConstraint1" -p "LB_Neck_JNT";
 	setAttr ".tg[0].tot" -type "double3" -4.28835829069385e-008 6.9892278631300542e-009 
 		1.9589145854172423e-023 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 3.1805546814635168e-015 ;
-	setAttr ".lr" -type "double3" 162.96209429871502 0.45984450292322337 6.05643648975233 ;
+	setAttr ".lr" -type "double3" 164.70602762573324 -9.6687794500626545 -15.332564957003822 ;
 	setAttr ".rst" -type "double3" 1.1271020946298256 -2.2204460492503131e-016 -5.694362750021756e-016 ;
 	setAttr ".rsrr" -type "double3" 0 0 -6.3611093629270335e-015 ;
 	setAttr -k on ".w0";
@@ -26769,15 +26771,15 @@ createNode mesh -n "pCubeShape4" -p "pCube4";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "persp1";
 	rename -uid "8992D3A4-4DF0-8D1D-AAEA-58B3D9536807";
-	setAttr ".t" -type "double3" 7.6195443736226913 15.033801353665194 -14.15169194182157 ;
-	setAttr ".r" -type "double3" 689.66164387014248 -27566.600000001308 0 ;
+	setAttr ".t" -type "double3" 4.2350191195436908 12.044925399947955 -9.1225499966222134 ;
+	setAttr ".r" -type "double3" 695.66164387255458 -27560.599999999242 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -n "persp1Shape" -p "persp1";
 	rename -uid "AE971E53-4A57-A083-5206-848BC9DB8C8B";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 20.877272078090705;
+	setAttr ".coi" 14.149540875056154;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -58720,24 +58722,24 @@ createNode animCurveTA -n "Neck_ctrl_rotateZ";
 createNode animCurveTA -n "Neck_ctrl_rotateY";
 	rename -uid "0D180656-435B-D249-23A1-1D8AF169D9C9";
 	setAttr ".tan" 5;
-	setAttr -s 24 ".ktv[0:23]"  1 -10.601370073740938 3 -3.2996052567443255
+	setAttr -s 25 ".ktv[0:24]"  1 -10.601370073740938 3 -3.2996052567443255
 		 5 17.160720448647393 7 14.356601431378046 9 -6.1564855386043975 11 -14.221156237804625
 		 13 -10.601370073740938 15 -3.2996052567443255 17 -17.161 19 14.356601431378046 21 4.7645865451946987
 		 23 -5.7300307002061839 25 3.5641849962737902 27 6.2053013780210478 29 17.160720448647393
-		 31 13.585658369000962 33 18.59227626731764 35 15.171257115545064 37 13.009806098089671
-		 39 7.2049931126422049 41 21.109906556531229 43 14.356601431378046 45 11.836051932385516
-		 47 2.278056686305542;
-	setAttr -s 24 ".kit[0:23]"  1 3 3 1 3 3 1 3 
-		3 1 3 3 1 3 3 1 3 3 1 3 3 1 3 3;
-	setAttr -s 24 ".kix[0:23]"  0.083333328366279602 0.083333328366279602 
+		 31 13.585658369000962 32 -9.9915627054344025 33 18.59227626731764 35 15.171257115545064
+		 37 13.009806098089671 39 7.2049931126422049 41 21.109906556531229 43 14.356601431378046
+		 45 11.836051932385516 47 2.278056686305542;
+	setAttr -s 25 ".kit[0:24]"  1 3 3 1 3 3 1 3 
+		3 1 3 3 1 3 3 1 3 3 3 1 3 3 1 3 3;
+	setAttr -s 25 ".kix[0:24]"  0.083333328366279602 0.083333328366279602 
 		0.083333328366279602 0.2083333283662796 0.083333343267440796 0.083333343267440796 
 		0.083333328366279602 0.08333333333333337 0.08333333333333337 0.2083333283662796 0.08333333333333337 
 		0.083333313465118408 0.083333328366279602 0.083333373069763184 0.083333333333333259 
-		0.2083333283662796 0.083333333333333259 0.083333333333333259 0.083333328366279602 
-		0.083333333333333259 0.083333333333333259 0.2083333283662796 0.083333333333333259 
-		0.083333333333333259;
-	setAttr -s 24 ".kiy[0:23]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-		0 0 0 0;
+		0.2083333283662796 0.041666666666666519 0.041666666666666741 0.083333333333333259 
+		0.083333328366279602 0.083333333333333259 0.083333333333333259 0.2083333283662796 
+		0.083333333333333259 0.083333333333333259;
+	setAttr -s 25 ".kiy[0:24]"  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+		0 0 0 0 0;
 createNode animCurveTA -n "Neck_ctrl_rotateX";
 	rename -uid "B0EDB6B1-4C18-BC40-CE8B-E395BE3D9F06";
 	setAttr ".tan" 5;
