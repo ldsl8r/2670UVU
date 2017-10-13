@@ -8,4 +8,5 @@ public class Data {
 	public float health;
 	public string playerName;
 	public Vector3 checkPoint;
+	public int gold = 100;
 }
