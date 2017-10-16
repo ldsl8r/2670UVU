@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class GetHoney : MonoBehaviour {
 
-	void OnTriggerEnter(Collider collider)
+	void OnTriggerEnter(Collider other)
 	{
 		print("Got Some Honey!");
+		gameObject.SetActive(false);
 	}
 
 }

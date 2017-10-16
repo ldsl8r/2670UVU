@@ -43,7 +43,7 @@ public class MoveInput : MonoBehaviour {
 			KeyAction(Input.GetAxis("Horizontal"));
 		}
 
-			if(Input.GetKeyDown(KeyCode.LeftShift) && grab != null)
+		if(Input.GetKeyDown(KeyCode.LeftShift) && grab != null)
 		{
 			grab();
 		}
