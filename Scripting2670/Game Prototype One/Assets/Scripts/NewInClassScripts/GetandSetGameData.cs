@@ -11,6 +11,13 @@ public class GetandSetGameData : MonoBehaviour {
 	void Awake()
 	{
 		ForPurchase.PurchaseAction += PurchaseHandler;
+		BuyGold.BuyGoldAction += BuyGoldhandler;
+	}
+
+	private void BuyGoldhandler(int _gold)
+	{
+		data.gold += _gold;
+		UpdateGold(data.gold);
 	}
 
 	private void PurchaseHandler(int _price, GameObject _item)
@@ -19,16 +26,20 @@ public class GetandSetGameData : MonoBehaviour {
 		{
 			data.gold -= _price;
 			UpdateGold(data.gold);
+
+			data.purchases.Add(_item);
 		}
 	}
  
 	void Start () {
-		data =  JsonUtility.FromJson<Data>(PlayerPrefs.GetString("GameData"));
+		// set data
+		data = data.GetData ();
+		UpdateGold(data.gold);
 	}
 
 	void OnAppliOncationQuit()//OnTriggerEnter to reset checkpoint in game
 	{
-		PlayerPrefs.SetString("GameData", JsonUtility.ToJson(data));
+		data.SetData(data);
 	}
 	
 }
