@@ -10,13 +10,13 @@ public class StaticVars {
     public static float waterGravity = .1f;
     public static float gravity = .5f;
 
-    public static Data data = new Data();
+    // public static Data data = new Data();
 
-    public static void GetData (){
-        data = data.GetData();
-    }
+    // public static void GetData (){
+        // data = Data.GetData();
+    // }
 
-    public static void SetData(){
-        data.SetData(data);
-    }
+    // public static void SetData(){
+    //     Data.SetData(data);
+    // }
 }

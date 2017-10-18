@@ -33,13 +33,13 @@ public class GetandSetGameData : MonoBehaviour {
  
 	void Start () {
 		// set data
-		data = data.GetData ();
+		// data = data.GetData ();
 		UpdateGold(data.gold);
 	}
 
 	void OnAppliOncationQuit()//OnTriggerEnter to reset checkpoint in game
 	{
-		data.SetData(data);
+		// data.SetData(data);
 	}
 	
 }
