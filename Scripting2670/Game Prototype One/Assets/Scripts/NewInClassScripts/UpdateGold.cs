@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UpdateGold : MonoBehaviour {
 
-	public Text goldUI;
+	Text goldUI;
 	void Awake()
 	{
 		GetandSetGameData.UpdateGold += GoldHandler;
-		goldUI.GetComponent<Text>();
+		goldUI = GetComponent<Text>();
 	}
 
 	private void GoldHandler(int _gold)
