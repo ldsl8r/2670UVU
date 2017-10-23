@@ -131,7 +131,7 @@
  <scenes>
   <scene name="Top" id="08d4d67ca66009d5" nbframes="53">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="2" id="1"/>
      <elementSeq exposures="3" val="3" id="1"/>
@@ -186,7 +186,7 @@
      <elementSeq exposures="52" val="39_1" id="1"/>
      <elementSeq exposures="53" val="40_1" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4D67CA6600FE3" display="false" displayOrder="2" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4D67CA6600FE3" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -403,7 +403,6 @@
      </module>
      <module type="READ" name="YBNewRigLookBehindLeft" pos="0,0,0" publishUnderTab="YBNewRigLookBehindLeft">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

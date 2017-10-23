@@ -131,7 +131,7 @@
  <scenes>
   <scene name="Top" id="08d4d67ca66009d5" nbframes="53">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="2" id="1"/>
      <elementSeq exposures="3" val="3" id="1"/>
