@@ -813,13 +813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf52b19f53761d74caf51926f6a034bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    totalScore: 0
-    health: 0
-    playerName: 
-    checkPoint: {x: 0, y: 0, z: 0}
-    gold: 100
-    purchases: []
 --- !u!4 &1864206562
 Transform:
   m_ObjectHideFlags: 0
