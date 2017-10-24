@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/SplashScreenUVU.unity
+    guid: 7400b45cc9562488bafb4d0dcc16db41
+  - enabled: 1
     path: Assets/MainMenu.unity
     guid: aa96eaac1ebef40319f7c3c1aadc6792
+  - enabled: 1
+    path: Assets/GameBuild6.unity
+    guid: 81d6a7e35d2ddfd44a856049dada0311
   - enabled: 0
     path: Assets/GamePrototypeOne.unity
     guid: 9c44a6b913b814a8589fb2ff10502fb0
   - enabled: 0
     path: Assets/GameBuild5.unity
     guid: 2e06b136d8c2a964f94816c4eedb4df2
-  - enabled: 1
-    path: Assets/GameBuild6.unity
-    guid: 81d6a7e35d2ddfd44a856049dada0311
