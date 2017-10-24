@@ -8,6 +8,7 @@ public GameObject Door;
 public bool doorIsOpening;
 public float moveDistance;
 public float doorSpeed;
+public bool isBoobyTrap = false;
 Vector3 startPosition;
 
 void Start()
@@ -31,6 +32,18 @@ void Update () {
 		if(other.tag == "Key")
 		{
 		doorIsOpening = true;
+		}
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		if (isBoobyTrap ==false)
+		{
+			if(other.tag == "Key")
+			{
+			doorIsOpening = false;
+			Door.transform.position = startPosition;
+			}
 		}
 	}
 }
