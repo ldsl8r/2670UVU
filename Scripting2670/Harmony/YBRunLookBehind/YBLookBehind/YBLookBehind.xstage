@@ -129,7 +129,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="08d4d67ca66009d5" nbframes="53">
+  <scene name="Top" id="08d4d67ca66009d5" nbframes="52">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
@@ -178,13 +178,12 @@
      <elementSeq exposures="44" val="44" id="1"/>
      <elementSeq exposures="45" val="45" id="1"/>
      <elementSeq exposures="46" val="46" id="1"/>
-     <elementSeq exposures="47" val="34_1" id="1"/>
-     <elementSeq exposures="48" val="35_1" id="1"/>
-     <elementSeq exposures="49" val="36_1" id="1"/>
-     <elementSeq exposures="50" val="37_1" id="1"/>
-     <elementSeq exposures="51" val="38_1" id="1"/>
-     <elementSeq exposures="52" val="39_1" id="1"/>
-     <elementSeq exposures="53" val="40_1" id="1"/>
+     <elementSeq exposures="47" val="35_1" id="1"/>
+     <elementSeq exposures="48" val="36_1" id="1"/>
+     <elementSeq exposures="49" val="37_1" id="1"/>
+     <elementSeq exposures="50" val="38_1" id="1"/>
+     <elementSeq exposures="51" val="39_1" id="1"/>
+     <elementSeq exposures="52" val="40_1" id="1"/>
     </column>
     <column type="0" name="ATV-08D4D67CA6600FE3" display="false" displayOrder="2" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
