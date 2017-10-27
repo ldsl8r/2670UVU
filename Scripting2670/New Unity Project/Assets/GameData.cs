@@ -5,18 +5,22 @@ using UnityEngine;
 [System.Serializable]
 public class GameData {
 
-	// public float health = 1;
+	public float health = 1;
+	public float speed = 100;
+	public Vector3 checkPoint;
+
+	public List<PowerUp> powerUps;
 
 	protected GameData (){
 
 	}
 
-	protected string dataName = "GameData";
+
+	public const string dataName = "GameData";
 	
 	private static GameData instance;
 
-	public static GameData Instance 
-	{
+	public static GameData Instance {
 		get 
 		{
 			if (instance == null)
@@ -38,7 +42,13 @@ public class GameData {
 		}
 	}
 
+	
+
 	public static void SetData () {
 		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(instance));
+	}
+
+	public void SaveDataFromInstance () {
+		PlayerPrefs.SetString(dataName, JsonUtility.ToJson(this));
 	}
 }
