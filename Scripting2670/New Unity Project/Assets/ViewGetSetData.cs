@@ -14,7 +14,7 @@ public class ViewGetSetData : MonoBehaviour {
 
 	void Update()
 	{
-		SetData();
+		//SetData();
 	}
 
 	[ContextMenu("Get Data")]
