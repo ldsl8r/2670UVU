@@ -1,0 +1,112 @@
+newmtl RedDeath
+Kd 0.591 0.041 0.028
+Tr 0.466
+d 0.534
+illum 2
+
+newmtl Ledge
+Kd 0.4485294 0.4485294 0.4485294
+map_Kd null
+illum 2
+
+newmtl House
+Kd 0.9044118 0.3094813 0
+map_Kd null
+illum 2
+
+newmtl MountainCave
+Kd 0.08088237 0.04995676 0.04995676
+map_Kd null
+illum 2
+
+newmtl PlatPath Mat
+Kd 0.9485294 0.7720991 0.03487238
+Tr 0.653
+d 0.347
+illum 2
+
+newmtl TestTexture-2-1024
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl Platform
+Kd 0.5514706 0.5474157 0.5474157
+map_Kd null
+illum 2
+
+newmtl TestTextureGround
+Kd 0.1764706 0.4039216 0.1215686
+map_Kd null
+illum 2
+
+newmtl TempleWhite
+Kd 1 1 1
+map_Kd null
+illum 2
+
+newmtl Honey
+Kd 0.9779412 0.5231886 0.03595369
+map_Kd null
+illum 2
+
+newmtl Ground 1
+Kd 0.1347318 0.6544118 0.004811856
+map_Kd null
+illum 2
+
+newmtl Ruin Wall
+Kd 0.2867647 0.2299934 0.1581423
+map_Kd null
+illum 2
+
+newmtl RedCarpet
+Kd 0.9117647 0.03352074 0.03352074
+map_Kd null
+illum 2
+
+newmtl Sky
+Kd 0.4290658 0.8263106 0.9411765
+map_Kd null
+illum 2
+
+newmtl RuinRoof
+Kd 0.2132353 0.02487025 0.003135816
+map_Kd null
+illum 2
+
+newmtl Wood 2
+Kd 0.2132353 0.07985871 0.006271633
+map_Kd null
+illum 2
+
+newmtl TempleStone1
+Kd 0.1944204 0.2069637 0.2132353
+map_Kd null
+illum 2
+
+newmtl BackGround
+Kd 0.09656143 0.5681525 0.6911765
+map_Kd null
+illum 2
+
+newmtl Default-Material
+Kd 1 1 1
+illum 2
+
+newmtl Ground 2
+Kd 0.125447 0.7426471 0.0709883
+map_Kd null
+illum 2
+
+newmtl Cave
+Kd 0.2132353 0.1138359 0.04860511
+map_Kd null
+illum 2
+
+newmtl Water
+Kd 0.02189661 0.4294154 0.5955882
+Tr 0.491
+d 0.509
+illum 2
+
