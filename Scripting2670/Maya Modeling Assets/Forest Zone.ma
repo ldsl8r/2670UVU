@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Forest Zone.ma
-//Last modified: Wed, Nov 01, 2017 10:36:46 AM
+//Last modified: Wed, Nov 01, 2017 11:07:38 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2E0F6895-4582-E462-3705-CABEF20B68C4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 37.726100542441955 103.70766887731114 344.38992483934521 ;
-	setAttr ".r" -type "double3" -11.138352709661822 356.20000000154295 4.9805666234230105e-016 ;
+	setAttr ".t" -type "double3" 63.508722898524375 21.225376089121347 158.60564441228331 ;
+	setAttr ".r" -type "double3" 5.0616472903359018 361.00000000152141 -1.8638901381668909e-017 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "74BA17D8-4D15-C8B4-768B-CB95ED46BF8D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 353.47739881036341;
+	setAttr ".coi" 160.92433763084006;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
