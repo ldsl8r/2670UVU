@@ -11,6 +11,8 @@ public class GameData {
 
 	public List<PowerUp> powerUps;
 
+	public List<int> highScores;
+
 	protected GameData (){
 
 	}
