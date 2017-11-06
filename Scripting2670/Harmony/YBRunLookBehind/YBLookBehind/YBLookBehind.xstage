@@ -118,6 +118,8 @@
   <element id="4" elementName="DrawingCleanUp" elementFolder="DrawingCleanUp" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="6" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -195,7 +197,7 @@
      <elementSeq exposures="51" val="39_1" id="1"/>
      <elementSeq exposures="52" val="40_1" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4D67CA6600FE3" display="false" displayOrder="4" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4D67CA6600FE3" displayOrder="4" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -247,6 +249,8 @@
      <elementSeq exposures="1-53" val="1" id="3"/>
     </column>
     <column type="0" name="DrawingCleanUp" displayOrder="3" width="100" anonymous="true" id="4">
+     <elementSeq exposures="1" val="2" id="4"/>
+     <elementSeq exposures="2" val="3" id="4"/>
      <elementSeq exposures="27" val="1" id="4"/>
     </column>
     <column type="0" name="ATV-08D8B872013984D8" display="false" displayOrder="2" width="100" anonymous="true" id="6">
@@ -523,7 +527,6 @@
      </module>
      <module type="READ" name="YBNewRigLookBehindLeft" pos="0,0,0" publishUnderTab="YBNewRigLookBehindLeft">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
