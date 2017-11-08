@@ -107,6 +107,11 @@ ModelImporter:
     100198: pCylinder98
     100200: pCylinder99
     100202: pPipe1
+    100204: Honey_1
+    100206: Honey_2
+    100208: Honey_3
+    100210: Honey_4
+    100212: pCylinder102
     400000: //RootNode
     400002: group
     400004: pCube1
@@ -209,6 +214,11 @@ ModelImporter:
     400198: pCylinder98
     400200: pCylinder99
     400202: pPipe1
+    400204: Honey_1
+    400206: Honey_2
+    400208: Honey_3
+    400210: Honey_4
+    400212: pCylinder102
     2300000: pCube1
     2300002: pCube2
     2300004: pCylinder10
@@ -309,6 +319,11 @@ ModelImporter:
     2300194: pCylinder98
     2300196: pCylinder99
     2300198: pPipe1
+    2300200: Honey_1
+    2300202: Honey_2
+    2300204: Honey_3
+    2300206: Honey_4
+    2300208: pCylinder102
     3300000: pCube1
     3300002: pCube2
     3300004: pCylinder10
@@ -409,6 +424,11 @@ ModelImporter:
     3300194: pCylinder98
     3300196: pCylinder99
     3300198: pPipe1
+    3300200: Honey_1
+    3300202: Honey_2
+    3300204: Honey_3
+    3300206: Honey_4
+    3300208: pCylinder102
     4300000: pPipe1
     4300002: pCylinder2
     4300004: pCylinder5
@@ -509,6 +529,11 @@ ModelImporter:
     4300194: pCylinder99
     4300196: pCylinder100
     4300198: pCylinder101
+    4300200: Honey_1
+    4300202: pCylinder102
+    4300204: Honey_2
+    4300206: Honey_3
+    4300208: Honey_4
     9500000: //RootNode
   materials:
     importMaterials: 1
