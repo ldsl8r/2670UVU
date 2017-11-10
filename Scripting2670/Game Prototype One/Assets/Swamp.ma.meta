@@ -117,6 +117,7 @@ ModelImporter:
     100218: Vines7
     100220: Vines8
     100222: Vines9
+    100224: pCube6
     400000: Forest_Zone:imagePlane1
     400002: pCube1
     400004: pCube2
@@ -229,6 +230,7 @@ ModelImporter:
     400218: Vines7
     400220: Vines8
     400222: Vines9
+    400224: pCube6
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3
@@ -338,6 +340,7 @@ ModelImporter:
     2300212: Vines7
     2300214: Vines8
     2300216: Vines9
+    2300218: pCube6
     3300000: pCube1
     3300002: pCube2
     3300004: pCube3
@@ -447,6 +450,7 @@ ModelImporter:
     3300212: Vines7
     3300214: Vines8
     3300216: Vines9
+    3300218: pCube6
     4300000: Swamp_Plat9
     4300002: Swamp_Plat6
     4300004: Swamp_Plat5
@@ -556,6 +560,7 @@ ModelImporter:
     4300212: Vines40
     4300214: Vines41
     4300216: Vines42
+    4300218: pCube6
     9500000: //RootNode
   materials:
     importMaterials: 1
