@@ -134,6 +134,12 @@
     <dwg name="15" scaleFactor="1"/>
     <dwg name="16" scaleFactor="1"/>
     <dwg name="17" scaleFactor="1"/>
+    <dwg name="18" scaleFactor="1"/>
+    <dwg name="19" scaleFactor="1"/>
+    <dwg name="20" scaleFactor="1"/>
+    <dwg name="21" scaleFactor="1"/>
+    <dwg name="22" scaleFactor="1"/>
+    <dwg name="23" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="6" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -211,7 +217,7 @@
      <elementSeq exposures="51" val="39_1" id="1"/>
      <elementSeq exposures="52" val="40_1" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4D67CA6600FE3" displayOrder="4" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4D67CA6600FE3" display="false" displayOrder="4" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -279,9 +285,15 @@
      <elementSeq exposures="23-24" val="15" id="4"/>
      <elementSeq exposures="25" val="16" id="4"/>
      <elementSeq exposures="27-28" val="1" id="4"/>
-     <elementSeq exposures="29" val="17" id="4"/>
+     <elementSeq exposures="29-30" val="17" id="4"/>
+     <elementSeq exposures="31-32" val="18" id="4"/>
+     <elementSeq exposures="33-34" val="19" id="4"/>
+     <elementSeq exposures="35-36" val="20" id="4"/>
+     <elementSeq exposures="37-38" val="21" id="4"/>
+     <elementSeq exposures="39-40" val="22" id="4"/>
+     <elementSeq exposures="41" val="23" id="4"/>
     </column>
-    <column type="0" name="ATV-08D8B872013984D8" display="false" displayOrder="2" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-08D8B872013984D8" displayOrder="2" width="100" anonymous="true" id="6">
      <elementSeq exposures="27" val="1" id="6"/>
     </column>
    </columns>
@@ -555,6 +567,7 @@
      </module>
      <module type="READ" name="YBNewRigLookBehindLeft" pos="0,0,0" publishUnderTab="YBNewRigLookBehindLeft">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
