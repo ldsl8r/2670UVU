@@ -158,6 +158,53 @@ ModelImporter:
     100300: Shmusher_group
     100302: Steps_group
     100304: //RootNode
+    100306: pSphere1 1
+    100308: Shmusher_group1
+    100310: transform1
+    100312: transform10
+    100314: transform11
+    100316: transform12
+    100318: transform13
+    100320: transform14
+    100322: transform15
+    100324: transform16
+    100326: transform17
+    100328: transform18
+    100330: transform19
+    100332: transform2
+    100334: transform20
+    100336: transform21
+    100338: transform22
+    100340: transform23
+    100342: transform24
+    100344: transform25
+    100346: transform26
+    100348: transform27
+    100350: transform28
+    100352: transform29
+    100354: transform3
+    100356: transform30
+    100358: transform31
+    100360: transform32
+    100362: transform33
+    100364: transform34
+    100366: transform35
+    100368: transform36
+    100370: transform37
+    100372: transform38
+    100374: transform39
+    100376: transform4
+    100378: transform40
+    100380: transform41
+    100382: transform42
+    100384: transform43
+    100386: transform5
+    100388: transform6
+    100390: transform7
+    100392: transform8
+    100394: transform9
+    100396: Shmusher_group2
+    100398: ShmusherOmega
     400000: group
     400002: Idol_Group
     400004: Moving_Platform
@@ -311,6 +358,53 @@ ModelImporter:
     400300: Shmusher_group
     400302: Steps_group
     400304: //RootNode
+    400306: pSphere1 1
+    400308: Shmusher_group1
+    400310: transform1
+    400312: transform10
+    400314: transform11
+    400316: transform12
+    400318: transform13
+    400320: transform14
+    400322: transform15
+    400324: transform16
+    400326: transform17
+    400328: transform18
+    400330: transform19
+    400332: transform2
+    400334: transform20
+    400336: transform21
+    400338: transform22
+    400340: transform23
+    400342: transform24
+    400344: transform25
+    400346: transform26
+    400348: transform27
+    400350: transform28
+    400352: transform29
+    400354: transform3
+    400356: transform30
+    400358: transform31
+    400360: transform32
+    400362: transform33
+    400364: transform34
+    400366: transform35
+    400368: transform36
+    400370: transform37
+    400372: transform38
+    400374: transform39
+    400376: transform4
+    400378: transform40
+    400380: transform41
+    400382: transform42
+    400384: transform43
+    400386: transform5
+    400388: transform6
+    400390: transform7
+    400392: transform8
+    400394: transform9
+    400396: Shmusher_group2
+    400398: ShmusherOmega
     2300000: Moving_Platform
     2300002: Moving_Platform1
     2300004: Moving_Platform10
@@ -458,6 +552,9 @@ ModelImporter:
     2300288: PitSpike9
     2300290: pSphere1
     2300292: Shmusher
+    2300294: Shmusher_group1
+    2300296: Shmusher_group2
+    2300298: ShmusherOmega
     3300000: Moving_Platform
     3300002: Moving_Platform1
     3300004: Moving_Platform10
@@ -605,6 +702,9 @@ ModelImporter:
     3300288: PitSpike9
     3300290: pSphere1
     3300292: Shmusher
+    3300294: Shmusher_group1
+    3300296: Shmusher_group2
+    3300298: ShmusherOmega
     4300000: pCube1
     4300002: pCylinder1
     4300004: pCylinder2
@@ -752,6 +852,9 @@ ModelImporter:
     4300288: pCube39
     4300290: pCube33
     4300292: pSphere1
+    4300294: Shmusher_group1
+    4300296: Shmusher_group2
+    4300298: ShmusherOmega
     9500000: //RootNode
   materials:
     importMaterials: 1
