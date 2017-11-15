@@ -13,6 +13,8 @@ public class EnemyMove : MonoBehaviour {
 	public Transform Spot1;
 	public Transform Spot2;
 	public int location;
+
+	public Animator anims;
 	
 	void Awake ()
 	{
@@ -50,17 +52,8 @@ public class EnemyMove : MonoBehaviour {
 		}
 	}	
 
-	// OnTriggerEnter (){
-	// 	switch (location){
-	// 		case 1:
-	// 			TowardsMe = Spot1;
-	// 			location = 2;
-	// 		break;
-	// 		case 2:
-	// 			TowardsMe = Spot2;
-	// 			location = 1;
-	// 		break;
-	// 	}
-	
+	void OnTriggerEnter (){
+		anims.SetTrigger("Run");
+	}
 	
 }
