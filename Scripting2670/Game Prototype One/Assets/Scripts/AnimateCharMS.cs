@@ -27,7 +27,6 @@ public class AnimateCharMS : MonoBehaviour {
 			obj *= -1;
 		}
 		anims.SetFloat("Run", obj);
-		print(obj);
 	}
 
 	private void AnimJump()
