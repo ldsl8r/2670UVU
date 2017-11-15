@@ -8,7 +8,7 @@ using System;
 public class MoveCharacter : MonoBehaviour {
 
 	CharacterController cc;
-	Vector3 tempMove;
+	public static Vector3 tempMove;
     float speed;
     float gravity;
     public float jumpHeight = 0.3f;
@@ -38,20 +38,27 @@ public class MoveCharacter : MonoBehaviour {
 		MoveInput.JumpAction += Jump;
 		MoveInput.KeyAction += Move;
 		MoveInput.CrouchAction += Crouch;
-		MoveInput.StandingAction += Standing; 
+		// MoveInput.StandingAction += Standing; 
 		PlayButton.Play -= OnPlay; //
 		// ChangesSpeed.SendSpeed +=SendSpeedHandler;
 	}
 
 	void Crouch()
 	{
-		transform.localScale = new Vector3(1, .5f, 1);
+		if(cc.height == 1)
+		{
+			cc.height = 2;
+			cc.center = new Vector3 (0,0,0);
+		} else {
+			cc.height = 1;
+			cc.center = new Vector3 (0,-0.5f,0);
+		}
 	}
 
-	void Standing()
-	{
-		transform.localScale = new Vector3(1, 1f, 1);
-	}
+	// void Standing()
+	// {
+	// 	transform.localScale = new Vector3(1, 1f, 1);
+	// }
 
 	void Jump () {
 

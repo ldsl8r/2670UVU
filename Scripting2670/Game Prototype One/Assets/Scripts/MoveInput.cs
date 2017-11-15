@@ -33,10 +33,10 @@ public class MoveInput : MonoBehaviour {
 			CrouchAction();
 		}
 
-		if (Input.GetKeyUp(KeyCode.DownArrow))
-		{
-			StandingAction();
-		}
+		// if (Input.GetKeyUp(KeyCode.DownArrow))
+		// {
+		// 	StandingAction();
+		// }
 
 		if (KeyAction != null)
 		{
