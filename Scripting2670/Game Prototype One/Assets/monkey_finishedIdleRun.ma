@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: monkey_finished.ma
-//Last modified: Wed, Nov 15, 2017 09:33:44 PM
+//Name: monkey_finishedIdleRun.ma
+//Last modified: Wed, Nov 15, 2017 09:38:13 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15019,20 +15019,6 @@ createNode mesh -n "polySurface7ShapeOrig" -p "polySurface7";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".vcs" 2;
-createNode transform -n "pCube3";
-	rename -uid "11EAE6A0-9C40-88B7-7033-FAA4310B4D54";
-	setAttr ".t" -type "double3" -0.016192119207873668 0 -1.4017056041384803 ;
-	setAttr ".s" -type "double3" 1.3955792644055931 0.067154115798381417 0.80268913575255163 ;
-createNode mesh -n "pCubeShape1" -p "pCube3";
-	rename -uid "5A27A499-1942-47F9-2B39-C7B9DD2F5D47";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "790715BF-E54D-3E84-9527-55AA2F0BD01F";
 	setAttr -s 9 ".lnk";
@@ -15139,7 +15125,7 @@ createNode script -n "uiConfigurationScriptNode";
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "251C184F-4941-C936-21B1-3C9DB8E21D86";
-	setAttr ".b" -type "string" "playbackOptions -min 10 -max 22 -ast 1 -aet 200 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 22 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
 createNode lambert -n "lambert2";
 	rename -uid "72E54AF3-4B6D-01EB-BAAB-B38709011E90";
@@ -23191,9 +23177,6 @@ createNode animCurveTU -n "TailRoot_scaleZ";
 	setAttr -s 7 ".kox[1:6]"  0.1666666567325592 0.083333313465118408 
 		0.083333313465118408 0.20833331346511841 0.20833331346511841 0.1666666567325592;
 	setAttr -s 7 ".koy[1:6]"  0 0 0 0 0 0;
-createNode polyCube -n "polyCube1";
-	rename -uid "774699CC-F248-44BD-0907-659DFF18ACCB";
-	setAttr ".cuv" 1;
 select -ne :time1;
 	setAttr ".o" 20;
 	setAttr ".unw" 20;
@@ -23212,7 +23195,6 @@ select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
 select -ne :initialShadingGroup;
-	setAttr -s 2 ".dsm";
 	setAttr ".ro" yes;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
@@ -23638,7 +23620,6 @@ connectAttr "groupId89.id" "polySurface7Shape.iog.og[15].gid";
 connectAttr "tweakSet1.mwc" "polySurface7Shape.iog.og[15].gco";
 connectAttr "skinCluster1GroupId.id" "polySurface7Shape.iog.og[16].gid";
 connectAttr "skinCluster1Set.mwc" "polySurface7Shape.iog.og[16].gco";
-connectAttr "polyCube1.out" "pCubeShape1.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "lambert2SG.message" ":defaultLightSet.message";
@@ -23972,6 +23953,5 @@ connectAttr "lambert7.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert8.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "polySurface7Shape.iog.og[4]" ":initialShadingGroup.dsm" -na;
-connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId82.msg" ":initialShadingGroup.gn" -na;
-// End of monkey_finished.ma
+// End of monkey_finishedIdleRun.ma
