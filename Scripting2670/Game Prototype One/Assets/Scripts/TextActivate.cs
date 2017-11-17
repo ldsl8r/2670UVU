@@ -9,14 +9,12 @@ public class TextActivate : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Text.SetActive(false);
-		print("inactive");
 	}
 	
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other)
 	{
 		Text.SetActive(true);
-		print("active");
 	}
 
 	void OnTriggerExit(Collider other)

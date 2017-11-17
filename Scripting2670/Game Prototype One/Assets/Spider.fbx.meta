@@ -67,6 +67,37 @@ ModelImporter:
     100118: UpperSegmentControl 5
     100120: UpperSegmentControl 6
     100122: UpperSegmentControl 7
+    100124: Head
+    100126: Head 1
+    100128: L_Joint_01
+    100130: L_Joint_02
+    100132: L_Joint_03
+    100134: L_Joint_04
+    100136: L_Leg_01
+    100138: L_Leg_02
+    100140: L_Leg_03
+    100142: L_Leg_04
+    100144: L_Mouth
+    100146: pCylinder1
+    100148: pCylinder1 1
+    100150: pCylinder5
+    100152: pCylinder5 1
+    100154: pCylinder6
+    100156: pCylinder6 1
+    100158: pCylinder7
+    100160: pCylinder7 1
+    100162: pCylinder8
+    100164: pCylinder8 1
+    100166: R_Joint_01
+    100168: R_Joint_02
+    100170: R_Joint_03
+    100172: R_Joint_04
+    100174: R_Leg_01
+    100176: R_Leg_02
+    100178: R_Leg_03
+    100180: R_Leg_04
+    100182: R_Mouth
+    100184: Thorax
     400000: bottom
     400002: Leg
     400004: Leg1
@@ -129,6 +160,37 @@ ModelImporter:
     400118: UpperSegmentControl 5
     400120: UpperSegmentControl 6
     400122: UpperSegmentControl 7
+    400124: Head
+    400126: Head 1
+    400128: L_Joint_01
+    400130: L_Joint_02
+    400132: L_Joint_03
+    400134: L_Joint_04
+    400136: L_Leg_01
+    400138: L_Leg_02
+    400140: L_Leg_03
+    400142: L_Leg_04
+    400144: L_Mouth
+    400146: pCylinder1
+    400148: pCylinder1 1
+    400150: pCylinder5
+    400152: pCylinder5 1
+    400154: pCylinder6
+    400156: pCylinder6 1
+    400158: pCylinder7
+    400160: pCylinder7 1
+    400162: pCylinder8
+    400164: pCylinder8 1
+    400166: R_Joint_01
+    400168: R_Joint_02
+    400170: R_Joint_03
+    400172: R_Joint_04
+    400174: R_Leg_01
+    400176: R_Leg_02
+    400178: R_Leg_03
+    400180: R_Leg_04
+    400182: R_Mouth
+    400184: Thorax
     2000000: bottom
     2300000: Leg
     2300002: Leg1
@@ -190,6 +252,29 @@ ModelImporter:
     2300114: UpperSegmentControl 5
     2300116: UpperSegmentControl 6
     2300118: UpperSegmentControl 7
+    2300120: Head 1
+    2300122: L_Joint_01
+    2300124: L_Joint_02
+    2300126: L_Joint_03
+    2300128: L_Joint_04
+    2300130: L_Mouth
+    2300132: pCylinder1
+    2300134: pCylinder1 1
+    2300136: pCylinder5
+    2300138: pCylinder5 1
+    2300140: pCylinder6
+    2300142: pCylinder6 1
+    2300144: pCylinder7
+    2300146: pCylinder7 1
+    2300148: pCylinder8
+    2300150: pCylinder8 1
+    2300152: R_Joint_01
+    2300154: R_Joint_02
+    2300156: R_Joint_03
+    2300158: R_Joint_04
+    2300160: R_Mouth
+    2300162: Thorax
+    2300164: //RootNode
     3300000: Leg
     3300002: Leg1
     3300004: Leg2
@@ -250,6 +335,29 @@ ModelImporter:
     3300114: UpperSegmentControl 5
     3300116: UpperSegmentControl 6
     3300118: UpperSegmentControl 7
+    3300120: Head 1
+    3300122: L_Joint_01
+    3300124: L_Joint_02
+    3300126: L_Joint_03
+    3300128: L_Joint_04
+    3300130: L_Mouth
+    3300132: pCylinder1
+    3300134: pCylinder1 1
+    3300136: pCylinder5
+    3300138: pCylinder5 1
+    3300140: pCylinder6
+    3300142: pCylinder6 1
+    3300144: pCylinder7
+    3300146: pCylinder7 1
+    3300148: pCylinder8
+    3300150: pCylinder8 1
+    3300152: R_Joint_01
+    3300154: R_Joint_02
+    3300156: R_Joint_03
+    3300158: R_Joint_04
+    3300160: R_Mouth
+    3300162: Thorax
+    3300164: //RootNode
     4300000: SpiderBody1
     4300002: SpiderButt
     4300004: Leg
@@ -310,6 +418,28 @@ ModelImporter:
     4300114: pCylinder4
     4300116: pasted__RFang
     4300118: pasted__LFang
+    4300120: Thorax
+    4300122: R_Joint_04
+    4300124: R_Joint_03
+    4300126: R_Joint_02
+    4300128: R_Joint_01
+    4300130: L_Joint_04
+    4300132: L_Joint_03
+    4300134: L_Joint_02
+    4300136: L_Joint_01
+    4300138: Head
+    4300140: pCylinder1
+    4300142: pCylinder5
+    4300144: pCylinder1
+    4300146: pCylinder5
+    4300148: pCylinder6
+    4300150: pCylinder6
+    4300152: pCylinder7
+    4300154: pCylinder7
+    4300156: pCylinder8
+    4300158: pCylinder8
+    4300160: R_Mouth
+    4300162: L_Mouth
     7400000: SpiderWalk
     9500000: //RootNode
   materials:
@@ -328,7 +458,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -354,7 +484,7 @@ ModelImporter:
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
+      keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -370,10 +500,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -403,7 +533,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: SpiderButt
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0

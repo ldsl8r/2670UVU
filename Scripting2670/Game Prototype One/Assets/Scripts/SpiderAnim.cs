@@ -22,7 +22,7 @@ public class SpiderAnim : MonoBehaviour {
 		{
 			Speed = agent.velocity.x;
 			Speed = Mathf.Abs(Speed);
-			animator.SetFloat("Velocity" , Speed/3);
+			animator.SetFloat("Speed" , Speed);
 			yield return new WaitForSeconds(.1f);
 		}
 	}
