@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: JungleTree.ma
-//Last modified: Tue, Nov 28, 2017 02:10:51 PM
+//Last modified: Tue, Nov 28, 2017 02:46:50 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "D3DFE710-E742-A45B-6E39-E1B1AA1D2C06";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 22.086759898682043 4.2418570973902874 26.015264907343948 ;
-	setAttr ".r" -type "double3" 362.0616472470083 761.40000000001874 2.6500697781924184e-016 ;
+	setAttr ".t" -type "double3" 33.397614712407801 6.8194168719330026 2.9012562123566505 ;
+	setAttr ".r" -type "double3" 356.66164724700661 803.00000000001637 1.6311293885541586e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8800C22F-B341-84F7-22F2-B69DEDEB18E1";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 36.096058630774777;
+	setAttr ".coi" 36.096058630771942;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
