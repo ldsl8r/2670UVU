@@ -154,6 +154,12 @@
     <dwg name="35" scaleFactor="1"/>
     <dwg name="36" scaleFactor="1"/>
     <dwg name="37" scaleFactor="1"/>
+    <dwg name="38" scaleFactor="1"/>
+    <dwg name="39" scaleFactor="1"/>
+    <dwg name="40" scaleFactor="1"/>
+    <dwg name="41" scaleFactor="1"/>
+    <dwg name="42" scaleFactor="1"/>
+    <dwg name="43" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="6" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -177,7 +183,7 @@
  <scenes>
   <scene name="Top" id="08d4d67ca66009d5" nbframes="52">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="2" id="1"/>
      <elementSeq exposures="3" val="3" id="1"/>
@@ -310,17 +316,23 @@
      <elementSeq exposures="25" val="16" id="4"/>
      <elementSeq exposures="26" val="37" id="4"/>
      <elementSeq exposures="27" val="1" id="4"/>
+     <elementSeq exposures="28" val="38" id="4"/>
      <elementSeq exposures="29" val="17" id="4"/>
+     <elementSeq exposures="30" val="39" id="4"/>
      <elementSeq exposures="31" val="18" id="4"/>
+     <elementSeq exposures="32" val="40" id="4"/>
      <elementSeq exposures="33" val="19" id="4"/>
+     <elementSeq exposures="34" val="41" id="4"/>
      <elementSeq exposures="35,47" val="20" id="4"/>
+     <elementSeq exposures="36" val="42" id="4"/>
      <elementSeq exposures="37,49" val="21" id="4"/>
+     <elementSeq exposures="38" val="43" id="4"/>
      <elementSeq exposures="39,51,53" val="22" id="4"/>
      <elementSeq exposures="41" val="23" id="4"/>
      <elementSeq exposures="43" val="24" id="4"/>
      <elementSeq exposures="45" val="25" id="4"/>
     </column>
-    <column type="0" name="ATV-08D8B872013984D8" display="false" displayOrder="2" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-08D8B872013984D8" displayOrder="2" width="100" anonymous="true" id="6">
      <elementSeq exposures="27" val="1" id="6"/>
     </column>
    </columns>
