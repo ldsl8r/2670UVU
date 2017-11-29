@@ -412,7 +412,7 @@
  <scenes>
   <scene name="Top" id="08d4d67ca66009d5" nbframes="52">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="1" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
      <elementSeq exposures="2" val="2" id="1"/>
      <elementSeq exposures="3" val="3" id="1"/>
@@ -466,7 +466,7 @@
      <elementSeq exposures="51" val="39_1" id="1"/>
      <elementSeq exposures="52" val="40_1" id="1"/>
     </column>
-    <column type="0" name="ATV-08D4D67CA6600FE3" display="false" displayOrder="7" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-08D4D67CA6600FE3" displayOrder="7" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -571,7 +571,7 @@
      <elementSeq exposures="51" val="53" id="4"/>
      <elementSeq exposures="52" val="50" id="4"/>
     </column>
-    <column type="0" name="Head" displayOrder="2" width="100" anonymous="true" id="7">
+    <column type="0" name="Head" display="false" displayOrder="2" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
      <elementSeq exposures="2" val="2" id="7"/>
      <elementSeq exposures="3" val="3" id="7"/>
@@ -954,6 +954,7 @@
      </module>
      <module type="READ" name="Head" pos="0,0,0" publishUnderTab="Head">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
