@@ -303,10 +303,10 @@
  <scenes>
   <scene name="Top" id="08d4d67ca66009d5" nbframes="52">
    <columns>
-    <column type="0" name="Background" displayOrder="6" width="100" anonymous="true" id="3">
+    <column type="0" name="Background" display="false" displayOrder="6" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-53" val="1" id="3"/>
     </column>
-    <column type="0" name="Body" displayOrder="3" width="100" anonymous="true" id="4">
+    <column type="0" name="Body" display="false" displayOrder="3" width="100" anonymous="true" id="4">
      <elementSeq exposures="1" val="2" id="4"/>
      <elementSeq exposures="2" val="3" id="4"/>
      <elementSeq exposures="3" val="4" id="4"/>
@@ -360,7 +360,7 @@
      <elementSeq exposures="51" val="53" id="4"/>
      <elementSeq exposures="52" val="50" id="4"/>
     </column>
-    <column type="0" name="Head" displayOrder="1" width="100" anonymous="true" id="7">
+    <column type="0" name="Head" display="false" displayOrder="1" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
      <elementSeq exposures="2" val="2" id="7"/>
      <elementSeq exposures="3" val="3" id="7"/>
@@ -414,7 +414,7 @@
      <elementSeq exposures="51" val="51" id="7"/>
      <elementSeq exposures="52" val="52" id="7"/>
     </column>
-    <column type="0" name="RightArm" displayOrder="4" width="100" anonymous="true" id="8">
+    <column type="0" name="RightArm" display="false" displayOrder="4" width="100" anonymous="true" id="8">
      <elementSeq exposures="1" val="1" id="8"/>
      <elementSeq exposures="2" val="2" id="8"/>
      <elementSeq exposures="3" val="3" id="8"/>
@@ -522,7 +522,7 @@
      <elementSeq exposures="51" val="51" id="9"/>
      <elementSeq exposures="52" val="52" id="9"/>
     </column>
-    <column type="0" name="LeftArm" displayOrder="2" width="100" anonymous="true" id="11">
+    <column type="0" name="LeftArm" display="false" displayOrder="2" width="100" anonymous="true" id="11">
      <elementSeq exposures="1" val="1" id="11"/>
      <elementSeq exposures="2" val="2" id="11"/>
      <elementSeq exposures="3" val="3" id="11"/>
@@ -638,6 +638,7 @@
      </module>
      <module type="READ" name="Head" pos="0,0,0" publishUnderTab="Head">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -742,6 +743,7 @@
      </module>
      <module type="READ" name="LeftArm" pos="0,0,0" publishUnderTab="LeftArm">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -846,6 +848,7 @@
      </module>
      <module type="READ" name="Body" pos="0,0,0" publishUnderTab="DrawingCleanUp">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -950,6 +953,7 @@
      </module>
      <module type="READ" name="RightArm" pos="0,0,0" publishUnderTab="RightArm">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1158,6 +1162,7 @@
      </module>
      <module type="READ" name="Background" pos="0,0,0" publishUnderTab="Background">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
