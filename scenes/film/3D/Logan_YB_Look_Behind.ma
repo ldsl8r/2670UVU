@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: Logan_YB_Look_Behind.ma
-//Last modified: Thu, Nov 30, 2017 09:21:55 AM
+//Last modified: Thu, Nov 30, 2017 10:39:23 AM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "AnnaRunSet:Bamboo_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -218,8 +218,6 @@ file -rdi 1 -ns "boulder1_model_JonathanFranklin" -rfn "AnnaRunSet:boulder1_mode
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
 file -rdi 1 -ns "FallenTrunk_DE" -rfn "AnnaRunSet:FallenTrunk_DERN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
-file -rdi 1 -ns "MushroomBunch1" -rfn "AnnaRunSet:MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
 file -rdi 1 -ns "Grass_DE" -rfn "AnnaRunSet:Grass_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -rdi 1 -ns "BigFallenLog_JonathanFranklin" -rfn "AnnaRunSet:BigFallenLog_JonathanFranklinRN"
@@ -232,23 +230,17 @@ file -rdi 1 -ns "BananaTree_SC" -rfn "AnnaRunSet:BananaTree_SCRN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin" -rfn "AnnaRunSet:AnotherRock_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 1 -ns "Mushroom" -rfn "AnnaRunSet:MushroomRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -rdi 1 -ns "Mushroom1" -rfn "AnnaRunSet:Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
 file -rdi 1 -ns "Mushroom2" -rfn "AnnaRunSet:Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -rdi 1 -ns "Mushroom3" -rfn "AnnaRunSet:MushroomRN1" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -rdi 1 -ns "AddisonM_Rock2" -rfn "AnnaRunSet:AddisonM_Rock2RN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnnaRunSet:AnotherRock_JonathanFranklinRN1"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 1 -ns "ImageProjectionRig" -rfn "AnnaRunSet:ImageProjectionRigRN"
+file -rdi 1 -ns "ImageProjectionRig" -dr 1 -rfn "AnnaRunSet:ImageProjectionRigRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
 file -rdi 1 -ns "AddisonM_Rock2" -rfn "AddisonM_Rock2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
-file -rdi 1 -ns "AddisonM_HRock1" -dr 1 -rfn "AddisonM_HRock1RN" -op "fbx" 
-		-typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/AddisonM_HRock1.fbx";
 file -rdi 1 -ns "AddisonM_Rock3" -rfn "AddisonM_Rock2RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -rdi 1 -ns "Bamboo_DE81" -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE83" -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -271,19 +263,8 @@ file -rdi 1 -ns "Bamboo_DE104" -rfn "Bamboo_DE87RN1" -typ "mayaAscii" "C:/Users/
 file -rdi 1 -ns "Bamboo_DE105" -rfn "Bamboo_DE96RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE106" -rfn "Bamboo_DE91RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "AddisonM_Rock4" -rfn "AddisonM_Rock2RN2" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
-file -rdi 1 -ns "PalmTree_SQB" -dr 1 -rfn "PalmTree_SQBRN" -op "mo=1" -typ "OBJexport"
-		 "C:/Users/10561728/Documents/2670UVU//assets/obj/PalmTree_SQB.obj";
-file -rdi 1 -ns "Palm_Tree_SC" -rfn "Palm_Tree_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Palm_Tree_SC.fbx";
-file -rdi 1 -ns "Banana_Tree_SC" -rfn "Banana_Tree_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Banana_Tree_SC.fbx";
 file -rdi 1 -ns "BigFallenLog_JonathanFranklin" -rfn "BigFallenLog_JonathanFranklinRN"
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
-file -rdi 1 -ns "Short_Palm_SC" -rfn "Short_Palm_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Short_Palm_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC" -rfn "Small_Bush_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC1" -rfn "Small_Bush_SCRN1" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
 file -rdi 1 -ns "Fern_DE1" -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "Fern_DE2" -rfn "Fern_DE1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -rdi 1 -ns "Fern_DE3" -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
@@ -294,12 +275,23 @@ file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnotherRock_JonathanFrankl
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
 file -rdi 1 -ns "SwampTallTreeNoLeaves_JonathanFranklin" -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -rdi 1 -ns "Small_Bush_SC2" -rfn "Small_Bush_SCRN2" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC3" -rfn "Small_Bush_SC2RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC4" -rfn "Small_Bush_SC3RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC5" -rfn "Small_Bush_SC4RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -rdi 1 -ns "Small_Bush_SC6" -rfn "Small_Bush_SC5RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
+file -rdi 1 -ns "PalmTree_SC" -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "SmallBush_SC" -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC1" -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC2" -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC3" -rfn "SmallBush_SCRN2" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC4" -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC5" -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC6" -rfn "SmallBush_SC1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC7" -rfn "SmallBush_SCRN3" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "Fern_DE5" -rfn "AnnaRunSet:Fern_DE1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "Fern_DE6" -rfn "AnnaRunSet:Fern_DE5RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -rdi 1 -ns "BananaTree_SC" -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -rdi 1 -ns "ImageProjectionRig" -rfn "ImageProjectionRigRN" -op "v=0;"
+		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//scenes/film/ImageProjectionRig.ma";
 file -r -ns "Bamboo_DE" -dr 1 -rfn "AnnaRunSet:Bamboo_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE1" -dr 1 -rfn "AnnaRunSet:Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -500,8 +492,6 @@ file -r -ns "boulder1_model_JonathanFranklin" -dr 1 -rfn "AnnaRunSet:boulder1_mo
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/boulder1_model_JonathanFranklin.ma";
 file -r -ns "FallenTrunk_DE" -dr 1 -rfn "AnnaRunSet:FallenTrunk_DERN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
-file -r -ns "MushroomBunch1" -dr 1 -rfn "AnnaRunSet:MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
 file -r -ns "Grass_DE" -dr 1 -rfn "AnnaRunSet:Grass_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -r -ns "BigFallenLog_JonathanFranklin" -dr 1 -rfn "AnnaRunSet:BigFallenLog_JonathanFranklinRN"
@@ -514,14 +504,10 @@ file -r -ns "BananaTree_SC" -dr 1 -rfn "AnnaRunSet:BananaTree_SCRN" -op "v=0;" -
 		 "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -r -ns "AnotherRock_JonathanFranklin" -dr 1 -rfn "AnnaRunSet:AnotherRock_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -r -ns "Mushroom" -dr 1 -rfn "AnnaRunSet:MushroomRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -r -ns "Mushroom1" -dr 1 -rfn "AnnaRunSet:Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
 file -r -ns "Mushroom2" -dr 1 -rfn "AnnaRunSet:Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
 		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -r -ns "Mushroom3" -dr 1 -rfn "AnnaRunSet:MushroomRN1" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
 file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AnnaRunSet:AddisonM_Rock2RN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnnaRunSet:AnotherRock_JonathanFranklinRN1"
@@ -529,8 +515,6 @@ file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnnaRunSet:AnotherRock_J
 file -r -ns "ImageProjectionRig" -dr 1 -rfn "AnnaRunSet:ImageProjectionRigRN" -op
 		 "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
 file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AddisonM_Rock2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
-file -r -ns "AddisonM_HRock1" -dr 1 -rfn "AddisonM_HRock1RN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/AddisonM_HRock1.fbx";
 file -r -ns "AddisonM_Rock3" -dr 1 -rfn "AddisonM_Rock2RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -r -ns "Bamboo_DE81" -dr 1 -rfn "Bamboo_DE81RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE83" -dr 1 -rfn "Bamboo_DE83RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -553,19 +537,8 @@ file -r -ns "Bamboo_DE104" -dr 1 -rfn "Bamboo_DE87RN1" -typ "mayaAscii" "C:/User
 file -r -ns "Bamboo_DE105" -dr 1 -rfn "Bamboo_DE96RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE106" -dr 1 -rfn "Bamboo_DE91RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "AddisonM_Rock4" -dr 1 -rfn "AddisonM_Rock2RN2" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
-file -r -ns "PalmTree_SQB" -dr 1 -rfn "PalmTree_SQBRN" -op "mo=1" -typ "OBJexport"
-		 "C:/Users/10561728/Documents/2670UVU//assets/obj/PalmTree_SQB.obj";
-file -r -ns "Palm_Tree_SC" -dr 1 -rfn "Palm_Tree_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Palm_Tree_SC.fbx";
-file -r -ns "Banana_Tree_SC" -dr 1 -rfn "Banana_Tree_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Banana_Tree_SC.fbx";
 file -r -ns "BigFallenLog_JonathanFranklin" -dr 1 -rfn "BigFallenLog_JonathanFranklinRN"
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
-file -r -ns "Short_Palm_SC" -dr 1 -rfn "Short_Palm_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Short_Palm_SC.fbx";
-file -r -ns "Small_Bush_SC" -dr 1 -rfn "Small_Bush_SCRN" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -r -ns "Small_Bush_SC1" -dr 1 -rfn "Small_Bush_SCRN1" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
 file -r -ns "Fern_DE1" -dr 1 -rfn "Fern_DE1RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -r -ns "Fern_DE2" -dr 1 -rfn "Fern_DE1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
 file -r -ns "Fern_DE3" -dr 1 -rfn "Fern_DE2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
@@ -576,12 +549,23 @@ file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnotherRock_JonathanFran
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
 file -r -ns "SwampTallTreeNoLeaves_JonathanFranklin" -dr 1 -rfn "SwampTallTreeNoLeaves_JonathanFranklinRN"
 		 -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/SwampTallTreeNoLeaves_JonathanFranklin.ma";
-file -r -ns "Small_Bush_SC2" -dr 1 -rfn "Small_Bush_SCRN2" -op "fbx" -typ "FBX export"
-		 "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -r -ns "Small_Bush_SC3" -dr 1 -rfn "Small_Bush_SC2RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -r -ns "Small_Bush_SC4" -dr 1 -rfn "Small_Bush_SC3RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -r -ns "Small_Bush_SC5" -dr 1 -rfn "Small_Bush_SC4RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
-file -r -ns "Small_Bush_SC6" -dr 1 -rfn "Small_Bush_SC5RN" -typ "FBX export" "C:/Users/10561728/Documents/2670UVU//assets/fbx/Small_Bush_SC.fbx";
+file -r -ns "PalmTree_SC" -dr 1 -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "SmallBush_SC" -dr 1 -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC1" -dr 1 -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC2" -dr 1 -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC3" -dr 1 -rfn "SmallBush_SCRN2" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC4" -dr 1 -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC5" -dr 1 -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC6" -dr 1 -rfn "SmallBush_SC1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC7" -dr 1 -rfn "SmallBush_SCRN3" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "Fern_DE5" -dr 1 -rfn "AnnaRunSet:Fern_DE1RN1" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "Fern_DE6" -dr 1 -rfn "AnnaRunSet:Fern_DE5RN" -typ "mayaAscii" "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/Fern_DE.ma";
+file -r -ns "BananaTree_SC" -dr 1 -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10561728/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
+file -r -ns "ImageProjectionRig" -dr 1 -rfn "ImageProjectionRigRN" -op "v=0;" -typ
+		 "mayaAscii" "C:/Users/10561728/Documents/2670UVU//scenes/film/ImageProjectionRig.ma";
 requires maya "2017ff05";
 requires -nodeType "houdiniAsset" "houdiniEngine" "3.0 (API: 60)";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.4.2.3";
@@ -596,11 +580,11 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" 119.60293171698792 31.786335180738977 15.365579042077862 ;
+	setAttr ".t" -type "double3" 43.891351331154659 17.835125064712141 45.995146856818081 ;
 	setAttr -av ".tx";
 	setAttr -av ".ty";
 	setAttr -av ".tz";
-	setAttr ".r" -type "double3" 701.66164180982298 7288.9999999945894 0 ;
+	setAttr ".r" -type "double3" 705.86164181934407 7959.7999999944414 0 ;
 	setAttr -av ".rx";
 	setAttr -av ".ry";
 	setAttr -av ".rz";
@@ -610,28 +594,28 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 153.69674566419138;
+	setAttr ".coi" 56.168199342428132;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 42.692625686824847 2.283968951388434 -19.318156649846351 ;
+	setAttr ".tp" -type "double3" 45.850457673118648 0.39804650886819903 64.057068853517521 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
 	rename -uid "C096FF9C-40CE-6815-8F9C-7CBB77ED65AD";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 85.25943420588986 1000.111620715214 486.14363847931361 ;
+	setAttr ".t" -type "double3" 0 1107.1372349092237 19.126931822304186 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "35DF2A17-48AD-91A7-40EB-C6924F635E21";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 994.31442638512772;
-	setAttr ".ow" 1044.906594937918;
+	setAttr ".coi" 1106.4092427545656;
+	setAttr ".ow" 419.3674949563333;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
-	setAttr ".tp" -type "double3" 1.2743638103378272 5.7971943300862385 -0.24464002249500538 ;
+	setAttr ".tp" -type "double3" 0 0.72799215465784073 19.126931822303966 ;
 	setAttr ".hc" -type "string" "viewSet -t %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
@@ -27348,15 +27332,15 @@ createNode mesh -n "pCubeShape4" -p "pCube4";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "persp1";
 	rename -uid "8992D3A4-4DF0-8D1D-AAEA-58B3D9536807";
-	setAttr ".t" -type "double3" 309.66853356854813 76.454779859191987 -10.538172582947061 ;
-	setAttr ".r" -type "double3" 707.06164375912931 -27988.199999998022 0 ;
+	setAttr ".t" -type "double3" 92.56765965146306 558.05731032298513 -17.355286475872443 ;
+	setAttr ".r" -type "double3" 636.86164370509482 -27982.199999985587 -5.0888874903416268e-014 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -n "persp1Shape" -p "persp1";
 	rename -uid "AE971E53-4A57-A083-5206-848BC9DB8C8B";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 314.88841687925094;
+	setAttr ".coi" 551.91997737581778;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -27373,9 +27357,12 @@ createNode lookAt -n "camera1_group";
 	setAttr ".t" -type "double3" 13.453335039183075 7.5850661328234885 11.967350029042416 ;
 	setAttr ".r" -type "double3" 0 58.55585354941681 0 ;
 	setAttr ".a" -type "double3" 0 0 -1 ;
-	setAttr ".db" 16.024531970120503;
+	setAttr ".db" 20.436057046035728;
 createNode transform -n "camera1" -p "camera1_group";
 	rename -uid "74634409-421E-0ED3-4A84-23B765E70527";
+	setAttr ".t" -type "double3" -0.35747536637316263 0 3.5119925538482235 ;
+	setAttr -av ".tx";
+	setAttr -av ".tz";
 createNode camera -n "cameraShape1" -p "camera1";
 	rename -uid "D3A87806-4AB7-02E5-E9AC-ACAFE2AB8023";
 	setAttr -k off ".v";
@@ -27383,7 +27370,7 @@ createNode camera -n "cameraShape1" -p "camera1";
 	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
 	setAttr ".ff" 0;
 	setAttr ".ovr" 1.3;
-	setAttr ".coi" 16.024531970120503;
+	setAttr ".coi" 20.436057046035728;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "camera1";
 	setAttr ".den" -type "string" "camera1_depth";
@@ -27392,7 +27379,7 @@ createNode camera -n "cameraShape1" -p "camera1";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -n "camera1_aim" -p "camera1_group";
 	rename -uid "9F12CDD8-4ACC-12C6-C943-B9B08F6F937C";
-	setAttr ".t" -type "double3" -1.3646627299937368e-014 0 -5.0000000000000204 ;
+	setAttr ".t" -type "double3" -1.213113005126159e-014 0 -5.0000000000000213 ;
 	setAttr ".rp" -type "double3" 1.2985022953290104 0 -11.856860275232972 ;
 	setAttr ".drp" yes;
 createNode locator -n "camera1_aimShape" -p "camera1_aim";
@@ -29215,12 +29202,13 @@ createNode mesh -n "AnnaRunSet:GroundShape" -p "AnnaRunSet:Ground";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.80000001192092896 0.60000002384185791 ;
+	setAttr ".pv" -type "double2" 0.099999904632568359 0.85045576095581055 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
+	setAttr ".pt[135]" -type "float3"  0 1.4478924 0;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode houdiniAsset -n "AnnaRunSet:Small_Bush9";
 	rename -uid "4B6856F1-42B7-3A19-CDA9-719E9D4AF289";
@@ -31181,19 +31169,19 @@ createNode transform -n "AnnaRunSet:group1";
 	setAttr ".t" -type "double3" 5.7637895813917108 0 32.087363803417396 ;
 	setAttr ".r" -type "double3" 0 87.061086074424935 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "DC27EE81-43A7-24D7-5DC6-2AB5E03A556F";
-	setAttr -s 692 ".lnk";
-	setAttr -s 692 ".slnk";
+	rename -uid "EA4232D1-4755-F3BB-2794-9BB2CF8B29AA";
+	setAttr -s 725 ".lnk";
+	setAttr -s 725 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "635817C1-4D8D-7A88-A6A8-04B3F114D33B";
+	rename -uid "1521BCF9-4566-2669-3C5E-55B3100A4EF8";
 	setAttr -s 2 ".bsdt";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 1 -1 ;
 	setAttr ".bsdt[1].bscd" -type "Int32Array" 0 ;
 	setAttr ".bsdt[1].bsdn" -type "string" "AnnaRunSet";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "0F4467DB-4C94-B3EF-B226-979515BFEE42";
+	rename -uid "DF7B7B88-48B9-6164-DAEA-7587CFFF643F";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "48769CA3-47B4-1A47-CAB6-F29341847C9D";
+	rename -uid "449C087B-4F48-C816-A1A6-91A20AA37502";
 	setAttr ".cdl" 5;
 	setAttr -s 14 ".dli[1:13]"  6 1 3 8 5 2 7 9 
 		4 10 11 12 13;
@@ -31201,7 +31189,7 @@ createNode displayLayerManager -n "layerManager";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "18D9BB2D-4236-A4AA-0787-F7B5E984E157";
+	rename -uid "49C55064-44AC-9133-4BE9-BDBD9F2926C1";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -31239,10 +31227,10 @@ createNode materialInfo -n "materialInfo3";
 createNode script -n "uiConfigurationScriptNode";
 	rename -uid "F0A794B1-4F07-F6A7-594A-A28EC9690361";
 	setAttr ".b" -type "string" (
-		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
-		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
-		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n"
-		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n"
+		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"camera1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n"
+		+ "            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n"
+		+ "            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n"
+		+ "            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1283\n            -height 727\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
 		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n"
@@ -31252,7 +31240,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n"
 		+ "            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n"
 		+ "            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n"
-		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1285\n            -height 727\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n"
+		+ "            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 870\n            -height 727\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n"
 		+ "            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n"
 		+ "            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n"
@@ -31279,9 +31267,9 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n"
 		+ "            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n"
 		+ "            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n"
-		+ "\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1285\\n    -height 727\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1285\\n    -height 727\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Top View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Top View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 727\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Top View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -camera \\\"camera1\\\" \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1283\\n    -height 727\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -33105,7 +33093,7 @@ createNode animCurveTU -n "front_scaleZ";
 createNode animCurveTL -n "camera1_translateX";
 	rename -uid "4045D8DD-4BAA-F2B0-23D9-B3BCAA8F9388";
 	setAttr ".tan" 2;
-	setAttr -s 2 ".ktv[0:1]"  1 5.5511151231257827e-017 47 17.839231558751411;
+	setAttr -s 2 ".ktv[0:1]"  1 -0.35747536637316263 47 17.839231558751411;
 	setAttr -s 2 ".kit[1]"  3;
 	setAttr -s 2 ".kot[1]"  5;
 createNode animCurveTL -n "camera1_translateY";
@@ -33115,7 +33103,7 @@ createNode animCurveTL -n "camera1_translateY";
 createNode animCurveTL -n "camera1_translateZ";
 	rename -uid "9056177F-44B6-27C9-B3DD-B6ADF4B05BCA";
 	setAttr ".tan" 2;
-	setAttr -s 2 ".ktv[0:1]"  1 -0.88502516932110453 47 7.3977172685857706;
+	setAttr -s 2 ".ktv[0:1]"  1 3.5119925538482235 47 7.3977172685857706;
 	setAttr -s 2 ".kit[1]"  3;
 	setAttr -s 2 ".kot[1]"  5;
 createNode animCurveTU -n "camera1_visibility";
@@ -57963,21 +57951,21 @@ createNode lambert -n "AnnaRunSet:pasted__Bule1";
 createNode animCurveTL -n "AnnaRunSet:persp_translateX";
 	rename -uid "FD916D2D-43FA-FD61-1A0B-9591711BE84D";
 	setAttr ".tan" 10;
-	setAttr -s 3 ".ktv[0:2]"  1 119.60293171698792 5 144.21572589183128
+	setAttr -s 3 ".ktv[0:2]"  1 43.891351331154659 5 144.21572589183128
 		 72 80.80830870300224;
 	setAttr -s 3 ".kit[1:2]"  9 10;
 	setAttr -s 3 ".kot[1:2]"  9 10;
 createNode animCurveTL -n "AnnaRunSet:persp_translateY";
 	rename -uid "5596BA56-4596-B319-29A0-548317EE7C82";
 	setAttr ".tan" 10;
-	setAttr -s 3 ".ktv[0:2]"  1 31.786335180738977 5 118.40473629331011
+	setAttr -s 3 ".ktv[0:2]"  1 17.835125064712141 5 118.40473629331011
 		 72 16.415830751619293;
 	setAttr -s 3 ".kit[1:2]"  9 10;
 	setAttr -s 3 ".kot[1:2]"  9 10;
 createNode animCurveTL -n "AnnaRunSet:persp_translateZ";
 	rename -uid "7ED2EFE6-4F2B-F806-4B63-3588A7F4CD99";
 	setAttr ".tan" 10;
-	setAttr -s 3 ".ktv[0:2]"  1 15.365579042077862 5 -137.26632311042496
+	setAttr -s 3 ".ktv[0:2]"  1 45.995146856818081 5 -137.26632311042496
 		 72 59.042362322010398;
 	setAttr -s 3 ".kit[1:2]"  9 10;
 	setAttr -s 3 ".kot[1:2]"  9 10;
@@ -57988,14 +57976,14 @@ createNode animCurveTU -n "AnnaRunSet:persp_visibility";
 createNode animCurveTA -n "AnnaRunSet:persp_rotateX";
 	rename -uid "5E0776BA-44EC-D40C-BE25-E89C4EBA0C54";
 	setAttr ".tan" 10;
-	setAttr -s 3 ".ktv[0:2]"  1 701.66164180982298 5 332.66164202777168
+	setAttr -s 3 ".ktv[0:2]"  1 705.86164181934407 5 332.66164202777168
 		 72 351.26164203008921;
 	setAttr -s 3 ".kit[1:2]"  9 10;
 	setAttr -s 3 ".kot[1:2]"  9 10;
 createNode animCurveTA -n "AnnaRunSet:persp_rotateY";
 	rename -uid "09D46341-4259-1BE3-C133-3E80C9508322";
 	setAttr ".tan" 10;
-	setAttr -s 3 ".ktv[0:2]"  1 7288.9999999945894 5 5899.7999999952763
+	setAttr -s 3 ".ktv[0:2]"  1 7959.7999999944414 5 5899.7999999952772
 		 72 5850.5999999958076;
 	setAttr -s 3 ".kit[1:2]"  9 10;
 	setAttr -s 3 ".kot[1:2]"  9 10;
@@ -59382,7 +59370,6 @@ createNode reference -n "AnnaRunSet:MushroomBunch1RN";
 	rename -uid "AF2A05CD-4FF6-C577-D6A7-8AB6A5391CC2";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnnaRunSet:MushroomBunch1RN"
-		"MushroomBunch1RN" 0
 		"MushroomBunch1RN" 39
 		0 "|MushroomBunch1:pCylinder1" "|Mushroom_Bunch" "-s -r "
 		0 "|MushroomBunch1:pCylinder2" "|Mushroom_Bunch" "-s -r "
@@ -59583,7 +59570,6 @@ createNode reference -n "AnnaRunSet:MushroomRN";
 	rename -uid "BD10B4CD-427D-5253-1228-08847D022B41";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnnaRunSet:MushroomRN"
-		"MushroomRN" 0
 		"MushroomRN" 3
 		2 "|Mushroom:pCube1" "translate" " -type \"double3\" 43.422278815293467 0.77680022861590192 63.882165522981666"
 		
@@ -59618,7 +59604,6 @@ createNode reference -n "AnnaRunSet:MushroomRN1";
 	rename -uid "2F9A25EF-4F88-3C98-78E7-0487925FB3BA";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnnaRunSet:MushroomRN1"
-		"MushroomRN1" 0
 		"MushroomRN1" 3
 		2 "|Mushroom3:pCube1" "translate" " -type \"double3\" 44.266934183584112 0.63466566300991278 63.408113356696305"
 		
@@ -59652,13 +59637,9 @@ lockNode -l 1 ;
 createNode reference -n "AnnaRunSet:ImageProjectionRigRN";
 	rename -uid "DAB99967-42D9-EFF4-BDEA-078629AAECC5";
 	setAttr -s 3 ".phl";
-	setAttr ".phl[1]" 0;
-	setAttr ".phl[2]" 0;
-	setAttr ".phl[3]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnnaRunSet:ImageProjectionRigRN"
-		"ImageProjectionRigRN" 0
-		"ImageProjectionRigRN" 16
+		"ImageProjectionRigRN" 17
 		0 "|ImageProjectionRig:group1" "|group1" "-s -r "
 		0 "|ImageProjectionRig:YB_Projection_Rig" "|group1" "-s -r "
 		0 "|ImageProjectionRig:OB_Projection_Rig1" "|group1" "-s -r "
@@ -59675,11 +59656,13 @@ createNode reference -n "AnnaRunSet:ImageProjectionRigRN";
 		"translate" " -type \"double3\" -59.878231439406299 0 3.0740739862471393"
 		2 "|group1|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_SuperBack1" 
 		"translate" " -type \"double3\" -59.878231439406299 0 3.0740739862471393"
-		3 "ImageProjectionRig:layerManager.displayLayerId[1]" "ImageProjectionRig:YB_lyr.identification" 
-		""
+		2 "|ImageProjectionRig:pCube1" "translate" " -type \"double3\" 0 49.743133116359445 0"
+		
 		3 "ImageProjectionRig:layerManager.displayLayerId[4]" "ImageProjectionRig:Bear_lyr.identification" 
 		""
 		3 "ImageProjectionRig:layerManager.displayLayerId[3]" "ImageProjectionRig:OB_lyr.identification" 
+		""
+		3 "ImageProjectionRig:layerManager.displayLayerId[1]" "ImageProjectionRig:YB_lyr.identification" 
 		""
 		5 4 "AnnaRunSet:ImageProjectionRigRN" "ImageProjectionRig:YB_lyr.identification" 
 		"AnnaRunSet:ImageProjectionRigRN.placeHolderList[1]" ""
@@ -59879,7 +59862,7 @@ createNode reference -n "AddisonM_Rock2RN1";
 		"AddisonM_Rock2RN1" 6
 		2 "|AddisonM_Rock3:group" "translate" " -type \"double3\" -6.2690336047325701 -13.098420393539973 -22.434316565566178"
 		
-		2 "|AddisonM_Rock3:group" "rotate" " -type \"double3\" -18.141925838282862 -148.46474986937105 -0.35404779926247676"
+		2 "|AddisonM_Rock3:group" "rotate" " -type \"double3\" -18.141925838282862 -148.46474986937108 -0.35404779926247676"
 		
 		2 "|AddisonM_Rock3:group" "scale" " -type \"double3\" 0.671599643671004 0.671599643671004 0.671599643671004"
 		
@@ -60254,7 +60237,6 @@ createNode reference -n "Palm_Tree_SCRN";
 	rename -uid "ABD26A6C-4764-5D75-59B2-70BF7FF9C657";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Palm_Tree_SCRN"
-		"Palm_Tree_SCRN" 0
 		"Palm_Tree_SCRN" 3
 		2 "|Palm_Tree_SC:subnet1|Palm_Tree_SC:line_object1" "translate" " -type \"double3\" 37.337443501466275 -0.69536579459796943 -37.283588407904062"
 		
@@ -60267,7 +60249,6 @@ createNode reference -n "Banana_Tree_SCRN";
 	rename -uid "87651E01-4F61-BD2D-C2B6-AB8E89C769F5";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Banana_Tree_SCRN"
-		"Banana_Tree_SCRN" 0
 		"Banana_Tree_SCRN" 4
 		2 "|Banana_Tree_SC:subnet1" "translate" " -type \"double3\" 0 0 0"
 		2 "|Banana_Tree_SC:subnet1|Banana_Tree_SC:bananaleaf" "translate" " -type \"double3\" -28.330666365112833 0 -50.62751834474318"
@@ -60300,7 +60281,6 @@ createNode reference -n "Short_Palm_SCRN";
 	rename -uid "09370531-4CC3-0824-8DC2-819CE208A210";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Short_Palm_SCRN"
-		"Short_Palm_SCRN" 0
 		"Short_Palm_SCRN" 2
 		2 "|Short_Palm_SC:subnet1|Short_Palm_SC:grid1" "translate" " -type \"double3\" -27.691929030115435 -5.8127544274034193 -40.639652282440693"
 		
@@ -60311,7 +60291,6 @@ createNode reference -n "Small_Bush_SCRN";
 	rename -uid "7E6EC64E-4E2C-2FA6-F764-8C996B4685A2";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SCRN"
-		"Small_Bush_SCRN" 0
 		"Small_Bush_SCRN" 1
 		2 "|Small_Bush_SC:subnet1|Small_Bush_SC:line_object1" "translate" " -type \"double3\" -20.158551799730091 0 -61.650049890268043";
 	setAttr ".ptag" -type "string" "";
@@ -60320,7 +60299,6 @@ createNode reference -n "Small_Bush_SCRN1";
 	rename -uid "1F83D91B-45D9-E221-C12C-689AB19413E4";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SCRN1"
-		"Small_Bush_SCRN1" 0
 		"Small_Bush_SCRN1" 2
 		2 "|Small_Bush_SC1:subnet1" "translate" " -type \"double3\" -12.203948815782599 0 -8.3435283805841944"
 		
@@ -60401,7 +60379,6 @@ createNode reference -n "Small_Bush_SCRN2";
 	rename -uid "52C71F9D-4729-3D87-0752-26AB08154F75";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SCRN2"
-		"Small_Bush_SCRN2" 0
 		"Small_Bush_SCRN2" 2
 		2 "|Small_Bush_SC2:subnet1" "translate" " -type \"double3\" 23.048177585496877 0 -25.409954411461538"
 		
@@ -60412,7 +60389,6 @@ createNode reference -n "Small_Bush_SC2RN";
 	rename -uid "8462208D-40A2-FAD6-FEF2-A48BBC99B1A5";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SC2RN"
-		"Small_Bush_SC2RN" 0
 		"Small_Bush_SC2RN" 2
 		2 "|Small_Bush_SC3:subnet1" "translate" " -type \"double3\" 23.048177585496877 0 -25.409954411461538"
 		
@@ -60422,7 +60398,6 @@ createNode reference -n "Small_Bush_SC3RN";
 	rename -uid "92B60E26-4BB6-FF93-D078-24828417E24F";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SC3RN"
-		"Small_Bush_SC3RN" 0
 		"Small_Bush_SC3RN" 2
 		2 "|Small_Bush_SC4:subnet1" "translate" " -type \"double3\" 23.048177585496877 0 -25.409954411461538"
 		
@@ -60432,7 +60407,6 @@ createNode reference -n "Small_Bush_SC4RN";
 	rename -uid "EF017E90-4CC1-3A9C-DF63-69B161D8ED65";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SC4RN"
-		"Small_Bush_SC4RN" 0
 		"Small_Bush_SC4RN" 2
 		2 "|Small_Bush_SC5:subnet1" "translate" " -type \"double3\" 23.048177585496877 0 -25.409954411461538"
 		
@@ -60442,11 +60416,230 @@ createNode reference -n "Small_Bush_SC5RN";
 	rename -uid "8F0A0936-4C7F-EAE2-1D4D-6884AC33711E";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Small_Bush_SC5RN"
-		"Small_Bush_SC5RN" 0
 		"Small_Bush_SC5RN" 2
 		2 "|Small_Bush_SC6:subnet1" "translate" " -type \"double3\" 23.048177585496877 0 -25.409954411461538"
 		
 		2 "|Small_Bush_SC6:subnet1|Small_Bush_SC6:line_object1" "translate" " -type \"double3\" 20.425679343894235 0 -6.6348813604835293";
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN";
+	rename -uid "57855D33-4941-E73A-532A-70BD3F2EDEA3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN"
+		"PalmTree_SCRN" 0
+		"PalmTree_SCRN" 8
+		2 "|PalmTree_SC:SC_PalmTree" "visibility" " 1"
+		2 "|PalmTree_SC:SC_PalmTree" "translate" " -type \"double3\" 36.499979526339338 0 -34.696665255783074"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "rotate" " -type \"double3\" 0 37.907307194924606 0"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "scale" " -type \"double3\" 1.9125779347269032 1.9125779347269032 1.9125779347269032"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "scaleX" " -av"
+		2 "|PalmTree_SC:SC_PalmTree" "scaleY" " -av"
+		2 "|PalmTree_SC:SC_PalmTree" "scaleZ" " -av"
+		2 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk" "translate" " -type \"double3\" 0 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN";
+	rename -uid "18AD20D4-491C-6C42-A8C6-0EB0CEDDB09D";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN"
+		"SmallBush_SCRN" 0
+		"SmallBush_SCRN" 1
+		2 "|SmallBush_SC:SmallBush" "translate" " -type \"double3\" -27.648454030034934 0 -28.846135174028021";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN1";
+	rename -uid "FF6C7EF6-47BA-7EE4-0195-98941A852945";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN1"
+		"SmallBush_SCRN1" 0
+		"SmallBush_SCRN1" 3
+		2 "|SmallBush_SC1:SmallBush" "translate" " -type \"double3\" -19.007442798755974 0 -61.955531466106862"
+		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "translate" " -type \"double3\" 0 0.88509362111932521 0"
+		
+		2 "|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "scale" " -type \"double3\" 1.174994740116337 1.174994740116337 1.174994740116337";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC1RN";
+	rename -uid "3662A3BB-43E7-9F4D-A3BE-899B9F1CC6D0";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC1RN"
+		"SmallBush_SC1RN" 0
+		"SmallBush_SC1RN" 4
+		2 "|SmallBush_SC2:SmallBush" "translate" " -type \"double3\" -15.439829657831229 0 -18.609365549136772"
+		
+		2 "|SmallBush_SC2:SmallBush" "scale" " -type \"double3\" 1.1773855456044848 1.1773855456044848 1.1773855456044848"
+		
+		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves" "translate" " -type \"double3\" 0 0.50726499471285158 0"
+		
+		2 "|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves" "scale" " -type \"double3\" 1.2571739761442873 1.2571739761442873 1.2571739761442873";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN2";
+	rename -uid "083D6668-400A-C3CA-6083-6CA103E4B049";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN2"
+		"SmallBush_SCRN2" 0
+		"SmallBush_SCRN2" 3
+		2 "|SmallBush_SC3:SmallBush" "translate" " -type \"double3\" 44.361239641934311 0 -28.846135174028021"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "translate" " -type \"double3\" -10.344322682796253 0 -37.341382030802059"
+		
+		2 "|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "translate" " -type \"double3\" -11.307010926852954 0 -37.454103647698375";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC3RN";
+	rename -uid "48CCB5D6-4B88-A47B-4C7E-CE8F360E60B5";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC3RN"
+		"SmallBush_SC3RN" 0
+		"SmallBush_SC3RN" 4
+		2 "|SmallBush_SC4:SmallBush" "translate" " -type \"double3\" 44.361239641934311 0 -28.846135174028021"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "translate" " -type \"double3\" -71.599805562462592 0 -16.359422411024813"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "scale" " -type \"double3\" 1.2439766974767519 1.2439766974767519 1.2439766974767519"
+		
+		2 "|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "translate" " -type \"double3\" -71.551668203356826 0 -16.722278348454598";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC2RN";
+	rename -uid "E7C3DC17-4ED4-457B-65B2-19A2D65A9D49";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC2RN"
+		"SmallBush_SC2RN" 0
+		"SmallBush_SC2RN" 4
+		2 "|SmallBush_SC5:SmallBush" "translate" " -type \"double3\" 44.361239641934311 0 -28.846135174028021"
+		
+		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "translate" " -type \"double3\" 0 0.60515958561264593 -36.388887040855693"
+		
+		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "scale" " -type \"double3\" 1.4629550459170093 1.4629550459170093 1.4629550459170093"
+		
+		2 "|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem" "translate" " -type \"double3\" 0 0 -36.528358956526731";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC1RN1";
+	rename -uid "F54C5D68-4F16-6401-15F9-DDA0E30210AE";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC1RN1"
+		"SmallBush_SC1RN1" 0
+		"SmallBush_SC1RN1" 4
+		2 "|SmallBush_SC6:SmallBush" "translate" " -type \"double3\" 44.361239641934311 0 -28.846135174028021"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "translate" " -type \"double3\" -15.723256361510462 1.6427039403286701 -20.381919426749729"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "scale" " -type \"double3\" 1.7068258295441219 1.7068258295441219 1.7068258295441219"
+		
+		2 "|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem" "translate" " -type \"double3\" -16.274941470459119 0 -19.682364181040409";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN3";
+	rename -uid "D1C4DA01-4866-7EE9-1D04-8691C9C0F9B8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN3"
+		"SmallBush_SCRN3" 0
+		"SmallBush_SCRN3" 1
+		2 "|SmallBush_SC7:SmallBush" "translate" " -type \"double3\" 44.361239641934311 0 -39.492041992824753";
+lockNode -l 1 ;
+createNode polyPlanarProj -n "polyPlanarProj1";
+	rename -uid "8B993352-4FDB-81DA-0E2C-208FD71CF550";
+	setAttr ".uopa" yes;
+	setAttr ".ics" -type "componentList" 1 "f[0:139]";
+	setAttr ".ix" -type "matrix" 97.264999344777564 0 0 0 0 1 0 0 0 0 162.13229819129819 0
+		 0 0 50.935358093604052 1;
+	setAttr ".ws" yes;
+	setAttr ".pc" -type "double3" 0 0.72799217700958252 19.126932144165039 ;
+	setAttr ".ro" -type "double3" -89.999999999999986 0 0 ;
+	setAttr ".ps" -type "double2" 97.264981952440365 225.74915073389832 ;
+	setAttr ".cam" -type "matrix" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1;
+createNode reference -n "AnnaRunSet:Fern_DE1RN1";
+	rename -uid "3A4DE9F7-4084-84FB-BD45-84B06B122A7E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"AnnaRunSet:Fern_DE1RN1"
+		"Fern_DE1RN1" 0
+		"Fern_DE1RN1" 2
+		2 "|Fern_DE5:Bush" "translate" " -type \"double3\" -33.167844658601823 0 -24.678392840650851"
+		
+		2 "|Fern_DE5:Bush" "scale" " -type \"double3\" 2.1157917380086411 2.1157917380086411 2.1157917380086411";
+lockNode -l 1 ;
+createNode reference -n "AnnaRunSet:Fern_DE5RN";
+	rename -uid "86FF62F5-4936-EFF1-9A6C-16B3ACE43EA7";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"AnnaRunSet:Fern_DE5RN"
+		"Fern_DE5RN" 0
+		"Fern_DE5RN" 3
+		2 "|Fern_DE6:Bush" "translate" " -type \"double3\" -31.70661631778384 0 -16.405307837901908"
+		
+		2 "|Fern_DE6:Bush" "rotate" " -type \"double3\" 0 18.002546047870553 0"
+		2 "|Fern_DE6:Bush" "scale" " -type \"double3\" 1.5521465483825545 1.5521465483825545 1.5521465483825545";
+lockNode -l 1 ;
+createNode reference -n "BananaTree_SCRN";
+	rename -uid "1EC1744D-4E6E-4BC2-ACAD-3D8E3BEEBC37";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"BananaTree_SCRN"
+		"BananaTree_SCRN" 0
+		"BananaTree_SCRN" 8
+		2 "|BananaTree_SC:BananaTree" "translate" " -type \"double3\" -26.815249093211897 0 -51.821686794507393"
+		
+		2 "|BananaTree_SC:BananaTree" "rotate" " -type \"double3\" 0 101.55665605514628 0"
+		
+		2 "|BananaTree_SC:BananaTree" "scale" " -type \"double3\" 8.2342051963100698 8.2342051963100698 8.2342051963100698"
+		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:Trunk" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed" "scale" 
+		" -type \"double3\" 1 1 1"
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:Bananas" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananStem" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeaves" "scale" " -type \"double3\" 1 1 1";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "sharedReferenceNode1";
+	rename -uid "73587704-4B1B-9837-FC96-6CA40A20479F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"sharedReferenceNode1";
+createNode reference -n "ImageProjectionRigRN";
+	rename -uid "CACF5156-4CED-BA28-341B-509DD0ACF929";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ImageProjectionRigRN"
+		"ImageProjectionRigRN" 0
+		"ImageProjectionRigRN" 21
+		0 "|ImageProjectionRig:group1" "|camera1_group" "-s -r "
+		0 "|ImageProjectionRig:YB_Projection_Rig" "|camera1_group" "-s -r "
+		0 "|ImageProjectionRig:OB_Projection_Rig1" "|camera1_group" "-s -r "
+		0 "|ImageProjectionRig:Bear_Projection_Rig" "|camera1_group" "-s -r "
+		2 "|camera1_group|ImageProjectionRig:group1" "translate" " -type \"double3\" 1.5390006389853574 -7.5850661328234894 -16.710069794769655"
+		
+		2 "|camera1_group|ImageProjectionRig:group1" "rotate" " -type \"double3\" 0 -58.55585354941681 0"
+		
+		2 "|camera1_group|ImageProjectionRig:group1" "scale" " -type \"double3\" 1.0000000000000002 1 1.0000000000000002"
+		
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig" "translate" " -type \"double3\" 1.27965949680683 -5.5706383908573862 -16.958205136175163"
+		
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig" "rotate" " -type \"double3\" 0 -56.378641465716065 0"
+		
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig" "scale" " -type \"double3\" 1.0000000000000002 1 1.0000000000000002"
+		
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_Front2" 
+		"rotate" " -type \"double3\" 0 51.094312505784067 0"
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_Back" 
+		"rotate" " -type \"double3\" 0 51.094312505784067 0"
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_Mid1" 
+		"rotate" " -type \"double3\" 0 51.094312505784067 0"
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_SuperFront1" 
+		"rotate" " -type \"double3\" 0 51.094312505784067 0"
+		2 "|camera1_group|ImageProjectionRig:YB_Projection_Rig|ImageProjectionRig:YB_SuperBack1" 
+		"rotate" " -type \"double3\" 0 51.094312505784067 0"
+		2 "|camera1_group|ImageProjectionRig:OB_Projection_Rig1" "translate" " -type \"double3\" 3.1917711760046776 -7.5850661328234894 -17.720674003946872"
+		
+		2 "|camera1_group|ImageProjectionRig:OB_Projection_Rig1" "rotate" " -type \"double3\" 0 -58.55585354941681 0"
+		
+		2 "|camera1_group|ImageProjectionRig:OB_Projection_Rig1" "scale" " -type \"double3\" 1.0000000000000002 1 1.0000000000000002"
+		
+		2 "|camera1_group|ImageProjectionRig:Bear_Projection_Rig" "translate" " -type \"double3\" 3.1917711760046776 -7.5850661328234894 -17.720674003946872"
+		
+		2 "|camera1_group|ImageProjectionRig:Bear_Projection_Rig" "rotate" " -type \"double3\" 0 -58.55585354941681 0"
+		
+		2 "|camera1_group|ImageProjectionRig:Bear_Projection_Rig" "scale" " -type \"double3\" 1.0000000000000002 1 1.0000000000000002";
+	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 select -ne :time1;
 	setAttr ".o" 1;
@@ -60458,27 +60651,27 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 692 ".st";
+	setAttr -s 725 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 54 ".s";
+	setAttr -s 76 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 22 ".u";
+	setAttr -s 51 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 289 ".r";
+	setAttr -s 300 ".r";
 select -ne :defaultTextureList1;
-	setAttr -s 22 ".tx";
+	setAttr -s 51 ".tx";
 select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 207 ".dsm";
+	setAttr -s 187 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 131 ".gn";
+	setAttr -s 134 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
-	setAttr -s 5 ".t";
+	setAttr -s 14 ".t";
 select -ne :defaultRenderGlobals;
 	setAttr ".ren" -type "string" "arnold";
 	setAttr ".outf" 51;
@@ -60492,11 +60685,9 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :defaultHideFaceDataSet;
+	setAttr -s 2 ".dnsm";
 select -ne :ikSystem;
 	setAttr -s 4 ".sol";
-connectAttr "layerManager.dli[11]" "AnnaRunSet:ImageProjectionRigRN.phl[1]";
-connectAttr "layerManager.dli[12]" "AnnaRunSet:ImageProjectionRigRN.phl[2]";
-connectAttr "layerManager.dli[13]" "AnnaRunSet:ImageProjectionRigRN.phl[3]";
 connectAttr "AnnaRunSet:persp_translateX.o" ":persp.tx";
 connectAttr "AnnaRunSet:persp_translateY.o" ":persp.ty";
 connectAttr "AnnaRunSet:persp_translateZ.o" ":persp.tz";
@@ -62668,7 +62859,7 @@ connectAttr "AnnaRunSet:Small_Bush8.outputObjects[0].outputObjectScale" "|AnnaRu
 		;
 connectAttr "AnnaRunSet:Small_Bush8.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|AnnaRunSet:Small_Bush8|AnnaRunSet:line_object1|AnnaRunSet:color1_0|AnnaRunSet:color1_0Shape.i"
 		;
-connectAttr "polyExtrudeEdge4.out" "AnnaRunSet:GroundShape.i";
+connectAttr "polyPlanarProj1.out" "AnnaRunSet:GroundShape.i";
 connectAttr ":time1.o" "AnnaRunSet:Small_Bush9.inTime";
 connectAttr "AnnaRunSet:Small_Bush9.outputObjects[0].outputObjectTranslate" "|AnnaRunSet:Small_Bush9|AnnaRunSet:line_object1.t"
 		;
@@ -65097,6 +65288,10 @@ connectAttr "AnnaRunSet:deleteComponent1.og" "AnnaRunSet:deleteComponent2.ig";
 connectAttr "|AnnaRunSet:Tree_Anna2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "AnnaRunSet:groupParts2.ig"
 		;
 connectAttr "AnnaRunSet:groupId2.id" "AnnaRunSet:groupParts2.gi";
+connectAttr "layerManager.dli[11]" "AnnaRunSet:ImageProjectionRigRN.phl[1]";
+connectAttr "layerManager.dli[12]" "AnnaRunSet:ImageProjectionRigRN.phl[2]";
+connectAttr "layerManager.dli[13]" "AnnaRunSet:ImageProjectionRigRN.phl[3]";
+connectAttr "sharedReferenceNode1.sr" "AnnaRunSet:ImageProjectionRigRN.sr";
 connectAttr "AnnaRunSet:polyTweak1.out" "polyExtrudeEdge1.ip";
 connectAttr "AnnaRunSet:GroundShape.wm" "polyExtrudeEdge1.mp";
 connectAttr "AnnaRunSet:polyPlane1.out" "AnnaRunSet:polyTweak1.ip";
@@ -65108,6 +65303,8 @@ connectAttr "polyExtrudeEdge3.out" "polyExtrudeEdge4.ip";
 connectAttr "AnnaRunSet:GroundShape.wm" "polyExtrudeEdge4.mp";
 connectAttr "sharedReferenceNode.sr" "AddisonM_HRock1RN.sr";
 connectAttr "sharedReferenceNode.sr" "PalmTree_SQBRN.sr";
+connectAttr "polyExtrudeEdge4.out" "polyPlanarProj1.ip";
+connectAttr "AnnaRunSet:GroundShape.wm" "polyPlanarProj1.mp";
 connectAttr "L_Eye2SG.pa" ":renderPartition.st" -na;
 connectAttr "L_Eye2SG1.pa" ":renderPartition.st" -na;
 connectAttr "HeadBandSG.pa" ":renderPartition.st" -na;
