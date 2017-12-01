@@ -205,6 +205,20 @@ ModelImporter:
     100394: transform9
     100396: Shmusher_group2
     100398: ShmusherOmega
+    100400: Main_Temple_Body
+    100402: pCube2 1
+    100404: transform44
+    100406: transform45
+    100408: transform46
+    100410: transform47
+    100412: transform48
+    100414: transform49
+    100416: transform50
+    100418: transform51
+    100420: transform52
+    100422: transform53
+    100424: transform54
+    100426: transform55
     400000: group
     400002: Idol_Group
     400004: Moving_Platform
@@ -405,6 +419,20 @@ ModelImporter:
     400394: transform9
     400396: Shmusher_group2
     400398: ShmusherOmega
+    400400: Main_Temple_Body
+    400402: pCube2 1
+    400404: transform44
+    400406: transform45
+    400408: transform46
+    400410: transform47
+    400412: transform48
+    400414: transform49
+    400416: transform50
+    400418: transform51
+    400420: transform52
+    400422: transform53
+    400424: transform54
+    400426: transform55
     2300000: Moving_Platform
     2300002: Moving_Platform1
     2300004: Moving_Platform10
@@ -555,6 +583,7 @@ ModelImporter:
     2300294: Shmusher_group1
     2300296: Shmusher_group2
     2300298: ShmusherOmega
+    2300300: Main_Temple_Body
     3300000: Moving_Platform
     3300002: Moving_Platform1
     3300004: Moving_Platform10
@@ -705,6 +734,7 @@ ModelImporter:
     3300294: Shmusher_group1
     3300296: Shmusher_group2
     3300298: ShmusherOmega
+    3300300: Main_Temple_Body
     4300000: pCube1
     4300002: pCylinder1
     4300004: pCylinder2
@@ -855,6 +885,7 @@ ModelImporter:
     4300294: Shmusher_group1
     4300296: Shmusher_group2
     4300298: ShmusherOmega
+    4300300: Main_Temple_Body
     9500000: //RootNode
   materials:
     importMaterials: 1
