@@ -118,6 +118,16 @@ ModelImporter:
     100220: Vines8
     100222: Vines9
     100224: pCube6
+    100226: polySurface1
+    100228: polySurface2
+    100230: polySurface3
+    100232: polySurface4
+    100234: polySurface5
+    100236: polySurface6
+    100238: polySurface7
+    100240: transform1
+    100242: transform2
+    100244: transform3
     400000: Forest_Zone:imagePlane1
     400002: pCube1
     400004: pCube2
@@ -231,6 +241,16 @@ ModelImporter:
     400220: Vines8
     400222: Vines9
     400224: pCube6
+    400226: polySurface1
+    400228: polySurface2
+    400230: polySurface3
+    400232: polySurface4
+    400234: polySurface5
+    400236: polySurface6
+    400238: polySurface7
+    400240: transform1
+    400242: transform2
+    400244: transform3
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3
@@ -341,6 +361,13 @@ ModelImporter:
     2300214: Vines8
     2300216: Vines9
     2300218: pCube6
+    2300220: polySurface1
+    2300222: polySurface2
+    2300224: polySurface3
+    2300226: polySurface4
+    2300228: polySurface5
+    2300230: polySurface6
+    2300232: polySurface7
     3300000: pCube1
     3300002: pCube2
     3300004: pCube3
@@ -451,6 +478,13 @@ ModelImporter:
     3300214: Vines8
     3300216: Vines9
     3300218: pCube6
+    3300220: polySurface1
+    3300222: polySurface2
+    3300224: polySurface3
+    3300226: polySurface4
+    3300228: polySurface5
+    3300230: polySurface6
+    3300232: polySurface7
     4300000: Swamp_Plat9
     4300002: Swamp_Plat6
     4300004: Swamp_Plat5
@@ -561,6 +595,13 @@ ModelImporter:
     4300214: Vines41
     4300216: Vines42
     4300218: pCube6
+    4300220: polySurface1
+    4300222: polySurface2
+    4300224: polySurface5
+    4300226: polySurface6
+    4300228: polySurface7
+    4300230: polySurface3
+    4300232: polySurface4
     9500000: //RootNode
   materials:
     importMaterials: 1
