@@ -7,6 +7,8 @@ public class AnimateCharMS : MonoBehaviour {
 	Animator anims;
 	bool crouching = false;
 
+	public AudioSource soundFX;
+
 	void Start()
 	{
 	anims = GetComponentInChildren<Animator>();
