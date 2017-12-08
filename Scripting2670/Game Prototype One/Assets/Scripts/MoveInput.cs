@@ -12,6 +12,8 @@ public class MoveInput : MonoBehaviour {
 	public static Action grab;
 	public static Action offGrab;
 
+	public AudioSource jumpSound;
+
 	public bool canPlay = true;
 
 	void Start()
@@ -26,6 +28,7 @@ public class MoveInput : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
 			JumpAction();
+			jumpSound.Play();
 		}
 
 		if (Input.GetKeyDown(KeyCode.DownArrow))
