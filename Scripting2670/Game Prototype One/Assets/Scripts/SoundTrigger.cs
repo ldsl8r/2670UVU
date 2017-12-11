@@ -20,6 +20,11 @@ public class SoundTrigger : MonoBehaviour {
 		}
 	}
 
+	void OnTriggerExit(Collider other)
+	{
+		SoundSource.Stop();
+	}
+
 
 
 }
