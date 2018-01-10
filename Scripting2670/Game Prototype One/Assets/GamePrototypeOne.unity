@@ -44105,7 +44105,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -766299810
+  randomSeed: 117993437
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -71921,7 +71921,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c0a9f9106e324ee68af0ec1d2e7961e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -78292,7 +78292,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e3970cfcc8faf6842bd731ddc8aece61, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -88021,7 +88021,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1619261321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 870.2, y: 75.29, z: -19.2}
+  m_LocalPosition: {x: 870.2, y: 75.29, z: -292.3}
   m_LocalScale: {x: 239.74455, y: 129.38437, z: 0.66119313}
   m_Children: []
   m_Father: {fileID: 0}
