@@ -2642,7 +2642,6 @@
      </module>
      <module type="READ" name="Monkies-Pass2" pos="0,0,19" publishUnderTab="Monkies-Pass2">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
@@ -3375,7 +3374,6 @@
      </module>
      <module type="READ" name="Monkey1-3rdPass" pos="0,0,26" publishUnderTab="Monkey1-3rdPass">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3480,7 +3478,6 @@
      </module>
      <module type="READ" name="Monkey3-Pass3" pos="0,0,27" publishUnderTab="Monkey3-Pass3">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -3585,7 +3582,6 @@
      </module>
      <module type="READ" name="Monkey2-Pass3" pos="0,0,28" publishUnderTab="Monkey2-Pass3">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -4632,7 +4628,6 @@
      </module>
      <module type="READ" name="rough" pos="0,0,38" publishUnderTab="rough">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
