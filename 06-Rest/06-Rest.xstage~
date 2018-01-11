@@ -1,385 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461" creator="harmony">
+<project source="Harmony Premium (HarmonyPremium.exe) version 15.0.0 build 13055 2017-10-12 14:25:19" version="1500" build="13055" creator="harmony">
  <elements>
   <element id="1" elementName="BG_White_Rect" elementFolder="BG_White_Rect" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
+    <dwg name="1"/>
    </drawings>
   </element>
   <element id="4" elementName="YB" elementFolder="YB" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="001" scaleFactor="1"/>
-    <dwg name="004" scaleFactor="1"/>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="010" scaleFactor="1"/>
-    <dwg name="013" scaleFactor="1"/>
-    <dwg name="016" scaleFactor="1"/>
-    <dwg name="019" scaleFactor="1"/>
-    <dwg name="022" scaleFactor="1"/>
-    <dwg name="025" scaleFactor="1"/>
-    <dwg name="028" scaleFactor="1"/>
-    <dwg name="031" scaleFactor="1"/>
-    <dwg name="034" scaleFactor="1"/>
-    <dwg name="037" scaleFactor="1"/>
-    <dwg name="040" scaleFactor="1"/>
-    <dwg name="043" scaleFactor="1"/>
-    <dwg name="046" scaleFactor="1"/>
-    <dwg name="049" scaleFactor="1"/>
-    <dwg name="052" scaleFactor="1"/>
-    <dwg name="055" scaleFactor="1"/>
-    <dwg name="058" scaleFactor="1"/>
-    <dwg name="083" scaleFactor="1"/>
-    <dwg name="120" scaleFactor="1"/>
+    <dwg name="001"/>
+    <dwg name="004"/>
+    <dwg name="1"/>
+    <dwg name="010"/>
+    <dwg name="013"/>
+    <dwg name="016"/>
+    <dwg name="019"/>
+    <dwg name="022"/>
+    <dwg name="025"/>
+    <dwg name="028"/>
+    <dwg name="031"/>
+    <dwg name="034"/>
+    <dwg name="037"/>
+    <dwg name="040"/>
+    <dwg name="043"/>
+    <dwg name="046"/>
+    <dwg name="049"/>
+    <dwg name="052"/>
+    <dwg name="055"/>
+    <dwg name="058"/>
+    <dwg name="083"/>
+    <dwg name="120"/>
    </drawings>
   </element>
   <element id="5" elementName="YB-Pass2" elementFolder="YB-Pass2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
    </drawings>
   </element>
   <element id="6" elementName="Y-Pass3" elementFolder="Y-Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1" key="0"/>
-    <dwg name="2" scaleFactor="1" key="0"/>
-    <dwg name="3" scaleFactor="1" key="0"/>
-    <dwg name="4" scaleFactor="1" key="0"/>
-    <dwg name="5" scaleFactor="1" key="0"/>
-    <dwg name="6" scaleFactor="1" key="0"/>
-    <dwg name="7" scaleFactor="1" key="0"/>
-    <dwg name="8" scaleFactor="1" key="0"/>
-    <dwg name="9" scaleFactor="1" key="0"/>
-    <dwg name="10" scaleFactor="1" key="0"/>
-    <dwg name="11" scaleFactor="1" key="0"/>
-    <dwg name="12" scaleFactor="1" key="0"/>
-    <dwg name="13" scaleFactor="1" key="0"/>
-    <dwg name="14" scaleFactor="1" key="0"/>
-    <dwg name="15" scaleFactor="1" key="0"/>
-    <dwg name="16" scaleFactor="1" key="0"/>
-    <dwg name="17" scaleFactor="1" key="0"/>
-    <dwg name="18" scaleFactor="1" key="0"/>
-    <dwg name="19" scaleFactor="1" key="0"/>
-    <dwg name="20" scaleFactor="1" key="0"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1" key="0"/>
-    <dwg name="23" scaleFactor="1" key="0"/>
-    <dwg name="24" scaleFactor="1" key="0"/>
-    <dwg name="25" scaleFactor="1" key="0"/>
-    <dwg name="26" scaleFactor="1" key="0"/>
-    <dwg name="27" scaleFactor="1" key="0"/>
-    <dwg name="28" scaleFactor="1" key="0"/>
-    <dwg name="29" scaleFactor="1" key="0"/>
-    <dwg name="30" scaleFactor="1" key="0"/>
-    <dwg name="31" scaleFactor="1" key="0"/>
-    <dwg name="32" scaleFactor="1" key="0"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1" key="0"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
+    <dwg name="1" key="0"/>
+    <dwg name="2" key="0"/>
+    <dwg name="3" key="0"/>
+    <dwg name="4" key="0"/>
+    <dwg name="5" key="0"/>
+    <dwg name="6" key="0"/>
+    <dwg name="7" key="0"/>
+    <dwg name="8" key="0"/>
+    <dwg name="9" key="0"/>
+    <dwg name="10" key="0"/>
+    <dwg name="11" key="0"/>
+    <dwg name="12" key="0"/>
+    <dwg name="13" key="0"/>
+    <dwg name="14" key="0"/>
+    <dwg name="15" key="0"/>
+    <dwg name="16" key="0"/>
+    <dwg name="17" key="0"/>
+    <dwg name="18" key="0"/>
+    <dwg name="19" key="0"/>
+    <dwg name="20" key="0"/>
+    <dwg name="21"/>
+    <dwg name="22" key="0"/>
+    <dwg name="23" key="0"/>
+    <dwg name="24" key="0"/>
+    <dwg name="25" key="0"/>
+    <dwg name="26" key="0"/>
+    <dwg name="27" key="0"/>
+    <dwg name="28" key="0"/>
+    <dwg name="29" key="0"/>
+    <dwg name="30" key="0"/>
+    <dwg name="31" key="0"/>
+    <dwg name="32" key="0"/>
+    <dwg name="33"/>
+    <dwg name="34" key="0"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
    </drawings>
   </element>
   <element id="8" elementName="FG,_Bushes" elementFolder="FG,_Bushes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="Bushes" scaleFactor="1"/>
+    <dwg name="Bushes"/>
    </drawings>
   </element>
   <element id="9" elementName="FG,_Tree" elementFolder="FG,_Tree" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="Tree" scaleFactor="1"/>
+    <dwg name="Tree"/>
    </drawings>
   </element>
   <element id="10" elementName="BG,Rocks" elementFolder="BG,Rocks" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="Rocks" scaleFactor="1"/>
+    <dwg name="Rocks"/>
    </drawings>
   </element>
   <element id="12" elementName="OB" elementFolder="OB" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="007" scaleFactor="1"/>
-    <dwg name="010" scaleFactor="1"/>
-    <dwg name="013" scaleFactor="1"/>
-    <dwg name="016" scaleFactor="1"/>
-    <dwg name="019" scaleFactor="1"/>
-    <dwg name="022" scaleFactor="1"/>
-    <dwg name="025" scaleFactor="1"/>
-    <dwg name="028" scaleFactor="1"/>
-    <dwg name="031" scaleFactor="1"/>
-    <dwg name="034" scaleFactor="1"/>
-    <dwg name="037" scaleFactor="1"/>
-    <dwg name="040" scaleFactor="1"/>
-    <dwg name="043" scaleFactor="1"/>
-    <dwg name="046" scaleFactor="1"/>
-    <dwg name="049" scaleFactor="1"/>
-    <dwg name="052" scaleFactor="1"/>
-    <dwg name="055" scaleFactor="1"/>
-    <dwg name="058" scaleFactor="1"/>
-    <dwg name="061" scaleFactor="1"/>
-    <dwg name="067" scaleFactor="1"/>
-    <dwg name="072" scaleFactor="1"/>
-    <dwg name="083" scaleFactor="1"/>
-    <dwg name="101" scaleFactor="1"/>
+    <dwg name="007"/>
+    <dwg name="010"/>
+    <dwg name="013"/>
+    <dwg name="016"/>
+    <dwg name="019"/>
+    <dwg name="022"/>
+    <dwg name="025"/>
+    <dwg name="028"/>
+    <dwg name="031"/>
+    <dwg name="034"/>
+    <dwg name="037"/>
+    <dwg name="040"/>
+    <dwg name="043"/>
+    <dwg name="046"/>
+    <dwg name="049"/>
+    <dwg name="052"/>
+    <dwg name="055"/>
+    <dwg name="058"/>
+    <dwg name="061"/>
+    <dwg name="067"/>
+    <dwg name="072"/>
+    <dwg name="083"/>
+    <dwg name="101"/>
    </drawings>
   </element>
   <element id="13" elementName="1st-Monkey" elementFolder="1st-Monkey" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="085" scaleFactor="1"/>
-    <dwg name="089" scaleFactor="1"/>
-    <dwg name="093" scaleFactor="1"/>
-    <dwg name="097" scaleFactor="1"/>
-    <dwg name="101" scaleFactor="1"/>
-    <dwg name="105" scaleFactor="1"/>
-    <dwg name="109" scaleFactor="1"/>
+    <dwg name="085"/>
+    <dwg name="089"/>
+    <dwg name="093"/>
+    <dwg name="097"/>
+    <dwg name="101"/>
+    <dwg name="105"/>
+    <dwg name="109"/>
    </drawings>
   </element>
   <element id="14" elementName="1st_Monkey-2nd_Pass" elementFolder="1st_Monkey-2nd_Pass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
    </drawings>
   </element>
   <element id="16" elementName="2nd_Monkey-2nd_Pass" elementFolder="2nd_Monkey-2nd_Pass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
   <element id="17" elementName="3rd_Monkey-2nd-Pass" elementFolder="3rd_Monkey-2nd-Pass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
   <element id="18" elementName="Monkies_Roughs" elementFolder="Monkies_Roughs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="19" elementName="OB-Pass2" elementFolder="OB-Pass2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1" key="0"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1" key="0"/>
-    <dwg name="4" scaleFactor="1" key="0"/>
-    <dwg name="5" scaleFactor="1" key="0"/>
-    <dwg name="6" scaleFactor="1" key="0"/>
-    <dwg name="7" scaleFactor="1" key="0"/>
-    <dwg name="8" scaleFactor="1" key="0"/>
-    <dwg name="9" scaleFactor="1" key="0"/>
-    <dwg name="10" scaleFactor="1" key="0"/>
-    <dwg name="11" scaleFactor="1" key="0"/>
-    <dwg name="12" scaleFactor="1" key="0"/>
-    <dwg name="13" scaleFactor="1" key="0"/>
-    <dwg name="14" scaleFactor="1" key="0"/>
-    <dwg name="15" scaleFactor="1" key="0"/>
-    <dwg name="16" scaleFactor="1" key="0"/>
-    <dwg name="17" scaleFactor="1" key="0"/>
-    <dwg name="18" scaleFactor="1" key="0"/>
-    <dwg name="19" scaleFactor="1" key="0"/>
-    <dwg name="20" scaleFactor="1" key="0"/>
-    <dwg name="21" scaleFactor="1" key="0"/>
-    <dwg name="22" scaleFactor="1" key="0"/>
-    <dwg name="23" scaleFactor="1" key="0"/>
-    <dwg name="24" scaleFactor="1" key="0"/>
-    <dwg name="25" scaleFactor="1" key="0"/>
-    <dwg name="26" scaleFactor="1" key="0"/>
-    <dwg name="27" scaleFactor="1" key="0"/>
-    <dwg name="28" scaleFactor="1" key="0"/>
-    <dwg name="29" scaleFactor="1" key="0"/>
-    <dwg name="30" scaleFactor="1" key="0"/>
-    <dwg name="31" scaleFactor="1" key="0"/>
-    <dwg name="32" scaleFactor="1" key="0"/>
-    <dwg name="33" scaleFactor="1" key="0"/>
-    <dwg name="34" scaleFactor="1" key="0"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
+    <dwg name="1" key="0"/>
+    <dwg name="2"/>
+    <dwg name="3" key="0"/>
+    <dwg name="4" key="0"/>
+    <dwg name="5" key="0"/>
+    <dwg name="6" key="0"/>
+    <dwg name="7" key="0"/>
+    <dwg name="8" key="0"/>
+    <dwg name="9" key="0"/>
+    <dwg name="10" key="0"/>
+    <dwg name="11" key="0"/>
+    <dwg name="12" key="0"/>
+    <dwg name="13" key="0"/>
+    <dwg name="14" key="0"/>
+    <dwg name="15" key="0"/>
+    <dwg name="16" key="0"/>
+    <dwg name="17" key="0"/>
+    <dwg name="18" key="0"/>
+    <dwg name="19" key="0"/>
+    <dwg name="20" key="0"/>
+    <dwg name="21" key="0"/>
+    <dwg name="22" key="0"/>
+    <dwg name="23" key="0"/>
+    <dwg name="24" key="0"/>
+    <dwg name="25" key="0"/>
+    <dwg name="26" key="0"/>
+    <dwg name="27" key="0"/>
+    <dwg name="28" key="0"/>
+    <dwg name="29" key="0"/>
+    <dwg name="30" key="0"/>
+    <dwg name="31" key="0"/>
+    <dwg name="32" key="0"/>
+    <dwg name="33" key="0"/>
+    <dwg name="34" key="0"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
    </drawings>
   </element>
   <element id="20" elementName="YB_Roughs" elementFolder="YB_Roughs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="21" elementName="OB_Roughs" elementFolder="OB_Roughs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="22" elementName="BG-Rocks-Pass2" elementFolder="BG-Rocks-Pass2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
+    <dwg name="1"/>
    </drawings>
   </element>
   <element id="23" elementName="FG_Bushes_Pass2" elementFolder="FG_Bushes_Pass2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
+    <dwg name="1"/>
    </drawings>
   </element>
   <element id="24" elementName="FG_Bushes_Pass3" elementFolder="FG_Bushes_Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
+    <dwg name="1"/>
    </drawings>
   </element>
   <element id="25" elementName="YB-OnModel-01" elementFolder="YB-OnModel-01" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
    </drawings>
   </element>
   <element id="26" elementName="YB-OnModel-02" elementFolder="YB-OnModel-02" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
+    <dwg name="37"/>
+    <dwg name="38"/>
+    <dwg name="39"/>
+    <dwg name="40"/>
    </drawings>
   </element>
   <element id="27" elementName="Monkey1-2ndPass" elementFolder="Monkey1-2ndPass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
   <element id="28" elementName="Monkey1-3rdPass" elementFolder="Monkey1-3rdPass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
    </drawings>
   </element>
   <element id="29" elementName="Monkey2-Pass3" elementFolder="Monkey2-Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
    </drawings>
   </element>
   <element id="30" elementName="Monkey3-Pass3" elementFolder="Monkey3-Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
    </drawings>
   </element>
   <element id="31" elementName="Foreground" elementFolder="Foreground" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
@@ -387,121 +387,127 @@
   <element id="33" elementName="YB-Pass3" elementFolder="YB-Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="34" elementName="YB-3-RoughFixes" elementFolder="YB-3-RoughFixes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
    </drawings>
   </element>
   <element id="35" elementName="YB3-ModelFixes" elementFolder="YB3-ModelFixes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
    </drawings>
   </element>
   <element id="36" elementName="YB-Pass4" elementFolder="YB-Pass4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="37" elementName="Right_Arm" elementFolder="Right_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
    </drawings>
   </element>
   <element id="38" elementName="BodyandLegs" elementFolder="BodyandLegs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
-    <dwg name="22" scaleFactor="1"/>
-    <dwg name="23" scaleFactor="1"/>
-    <dwg name="24" scaleFactor="1"/>
-    <dwg name="25" scaleFactor="1"/>
-    <dwg name="26" scaleFactor="1"/>
-    <dwg name="27" scaleFactor="1"/>
-    <dwg name="28" scaleFactor="1"/>
-    <dwg name="29" scaleFactor="1"/>
-    <dwg name="30" scaleFactor="1"/>
-    <dwg name="31" scaleFactor="1"/>
-    <dwg name="32" scaleFactor="1"/>
-    <dwg name="33" scaleFactor="1"/>
-    <dwg name="34" scaleFactor="1"/>
-    <dwg name="35" scaleFactor="1"/>
-    <dwg name="36" scaleFactor="1"/>
-    <dwg name="37" scaleFactor="1"/>
-    <dwg name="38" scaleFactor="1"/>
-    <dwg name="39" scaleFactor="1"/>
-    <dwg name="40" scaleFactor="1"/>
-    <dwg name="41" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
+    <dwg name="22"/>
+    <dwg name="23"/>
+    <dwg name="24"/>
+    <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
+    <dwg name="37"/>
+    <dwg name="38"/>
+    <dwg name="39"/>
+    <dwg name="40"/>
+    <dwg name="41"/>
    </drawings>
   </element>
   <element id="39" elementName="LeftArm" elementFolder="LeftArm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
-    <dwg name="3" scaleFactor="1"/>
-    <dwg name="4" scaleFactor="1"/>
-    <dwg name="5" scaleFactor="1"/>
-    <dwg name="6" scaleFactor="1"/>
-    <dwg name="7" scaleFactor="1"/>
-    <dwg name="8" scaleFactor="1"/>
-    <dwg name="9" scaleFactor="1"/>
-    <dwg name="10" scaleFactor="1"/>
-    <dwg name="11" scaleFactor="1"/>
-    <dwg name="12" scaleFactor="1"/>
-    <dwg name="13" scaleFactor="1"/>
-    <dwg name="14" scaleFactor="1"/>
-    <dwg name="15" scaleFactor="1"/>
-    <dwg name="16" scaleFactor="1"/>
-    <dwg name="17" scaleFactor="1"/>
-    <dwg name="18" scaleFactor="1"/>
-    <dwg name="19" scaleFactor="1"/>
-    <dwg name="20" scaleFactor="1"/>
-    <dwg name="21" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
+    <dwg name="19"/>
+    <dwg name="20"/>
+    <dwg name="21"/>
    </drawings>
   </element>
   <element id="40" elementName="rough" elementFolder="rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
-    <dwg name="1" scaleFactor="1"/>
-    <dwg name="2" scaleFactor="1"/>
+    <dwg name="1"/>
+    <dwg name="2"/>
+   </drawings>
+  </element>
+  <element id="42" elementName="YBpose1" elementFolder="YBpose1" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
    </drawings>
   </element>
  </elements>
@@ -511,6 +517,7 @@
   <framerate val="24"/>
   <zdragging val="true"/>
   <zOrderCompatibilityWith7_3 val="false"/>
+  <pixelPerModelUnitForVectorLayers val="0.28799999999999998"/>
   <pixelPerModelUnitForBitmapLayers val="0.28800000000000009"/>
   <canvasForBitmapLayers size="3840,2160"/>
   <cameraInSymbols val="true"/>
@@ -854,7 +861,8 @@
      <elementSeq exposures="12-13" val="4" id="34"/>
     </column>
     <column type="0" name="ATV-08DBC946B9D16D2D" displayOrder="20" width="100" anonymous="true" id="35">
-     <elementSeq exposures="10-11" val="1" id="35"/>
+     <elementSeq exposures="10-13" val="1" id="35"/>
+     <elementSeq exposures="14" val="2" id="35"/>
     </column>
     <column type="0" name="ATV-08E058F818C0AD99" displayOrder="4" width="100" anonymous="true" id="36"/>
     <column type="0" name="Right_Arm" displayOrder="5" width="100" anonymous="true" id="37">
@@ -943,9 +951,61 @@
      <elementSeq exposures="58-60" val="20" id="39"/>
      <elementSeq exposures="64-66" val="21" id="39"/>
     </column>
-    <column type="0" name="ATV-08E145022CB0A10D" display="false" displayOrder="10" width="100" anonymous="true" id="40">
+    <column type="0" name="ATV-08E145022CB0A10D" displayOrder="10" width="100" anonymous="true" id="40">
      <elementSeq exposures="102-103" val="1" id="40"/>
      <elementSeq exposures="108-109" val="2" id="40"/>
+    </column>
+    <column type="0" name="ATV-090AC3BBF8608079" displayOrder="36" width="100" anonymous="true" id="42">
+     <elementSeq exposures="1-122" val="1" id="42"/>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FC7" displayOrder="37" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="-8.2999800752212582" y="-8.2999800752212582"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FC8" displayOrder="38" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.88888675504377423" y="0.88888675504377423"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FC9" displayOrder="39" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FCA" displayOrder="40" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.67875549983063355" y="0.67875549983063355"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FCB" displayOrder="41" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0.67875549983063355" y="0.67875549983063355"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FCC" displayOrder="42" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-090AC3BBF8608FCD" displayOrder="43" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <noFrames/>
+     <points version="2">
+      <pt constSeg="false" x="1" yLocal="0" y="0"/>
+     </points>
     </column>
    </columns>
    <options>
@@ -956,10 +1016,10 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,0" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="0,0,1" publishUnderTab="Composite">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <compositeMode val="compositeBitmap"/>
@@ -975,21 +1035,22 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,0" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="50,50,2" publishUnderTab="Display">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,0" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-50,50,3" publishUnderTab="Write">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <exportToMovie val="false"/>
        <drawingName val="frames/final-"/>
        <moviePath val="frames/output"/>
+       <movieFormat val="com.toonboom.quicktime.legacy"/>
        <movieAudio/>
        <movieVideo/>
        <movieVideoaudio/>
@@ -1007,11 +1068,11 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB" pos="0,0,0" publishUnderTab="YB">
+     <module type="READ" name="YB" pos="0,0,4" publishUnderTab="YB">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1085,6 +1146,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -1112,10 +1177,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-Pass2" pos="0,0,0" publishUnderTab="YB-Pass2">
+     <module type="READ" name="YB-Pass2" pos="0,0,5" publishUnderTab="YB-Pass2">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1189,6 +1255,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -1216,11 +1286,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Y-Pass3" pos="0,0,0" publishUnderTab="Y-Pass3">
+     <module type="READ" name="Y-Pass3" pos="0,0,6" publishUnderTab="Y-Pass3">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1294,6 +1364,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -1321,11 +1395,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="OB" pos="0,0,0" publishUnderTab="OB">
+     <module type="READ" name="OB" pos="0,0,7" publishUnderTab="OB">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1399,6 +1473,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -1426,11 +1504,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="3rd_Monkey-2nd-Pass" pos="0,0,0" publishUnderTab="3rd_Monkey-2nd-Pass">
+     <module type="READ" name="3rd_Monkey-2nd-Pass" pos="0,0,8" publishUnderTab="3rd_Monkey-2nd-Pass">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1504,6 +1582,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -1531,11 +1613,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="2nd_Monkey-2nd_Pass" pos="0,0,0" publishUnderTab="2nd_Monkey-2nd_Pass">
+     <module type="READ" name="2nd_Monkey-2nd_Pass" pos="0,0,9" publishUnderTab="2nd_Monkey-2nd_Pass">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1609,6 +1691,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -1636,11 +1722,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="1st_Monkey-2nd_Pass" pos="0,0,0" publishUnderTab="1st_Monkey-2nd_Pass">
+     <module type="READ" name="1st_Monkey-2nd_Pass" pos="0,0,10" publishUnderTab="1st_Monkey-2nd_Pass">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1714,6 +1800,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -1741,12 +1831,12 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="1st-Monkey" pos="0,0,0" publishUnderTab="1st-Monkey">
+     <module type="READ" name="1st-Monkey" pos="0,0,11" publishUnderTab="1st-Monkey">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1820,6 +1910,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -1847,11 +1941,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="BG,Rocks" pos="0,0,0" publishUnderTab="BG,Rocks">
+     <module type="READ" name="BG,Rocks" pos="0,0,12" publishUnderTab="BG,Rocks">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -1925,6 +2019,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -1952,10 +2050,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="BG_White_Rect" pos="-65,-50,0" publishUnderTab="Drawing">
+     <module type="READ" name="BG_White_Rect" pos="-65,-50,13" publishUnderTab="Drawing">
       <options>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2029,6 +2127,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2056,11 +2158,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-Pass3" pos="0,0,0" publishUnderTab="YB-Pass3">
+     <module type="READ" name="YB-Pass3" pos="0,0,14" publishUnderTab="YB-Pass3">
       <options>
-       <disabled val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
-       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2134,6 +2235,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2161,10 +2266,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB_Roughs" pos="0,0,0" publishUnderTab="YB_Roughs">
+     <module type="READ" name="YB_Roughs" pos="0,0,15" publishUnderTab="YB_Roughs">
       <options>
+       <disabled val="true"/>
+       <collapsed val="false"/>
        <version val="1"/>
-       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2238,6 +2344,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2265,11 +2375,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkey1-2ndPass" pos="0,0,0" publishUnderTab="Monkey1-2ndPass">
+     <module type="READ" name="Monkey1-2ndPass" pos="0,0,16" publishUnderTab="Monkey1-2ndPass">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2343,6 +2453,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2370,11 +2484,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="OB-Pass2" pos="0,0,0" publishUnderTab="OB-Pass2">
+     <module type="READ" name="OB-Pass2" pos="0,0,17" publishUnderTab="OB-Pass2">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2448,6 +2562,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2475,10 +2593,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="FG_Bushes_Pass2" pos="0,0,0" publishUnderTab="FG_Bushes_Pass2">
+     <module type="READ" name="FG_Bushes_Pass2" pos="0,0,18" publishUnderTab="FG_Bushes_Pass2">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2552,6 +2671,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2579,10 +2702,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkies-Pass2" pos="0,0,0" publishUnderTab="Monkies-Pass2">
+     <module type="READ" name="Monkies-Pass2" pos="0,0,19" publishUnderTab="Monkies-Pass2">
       <options>
+       <disabled val="true"/>
+       <collapsed val="true"/>
        <version val="1"/>
-       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2656,6 +2780,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2683,10 +2811,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="OB_Roughs" pos="0,0,0" publishUnderTab="OB_Roughs">
+     <module type="READ" name="OB_Roughs" pos="0,0,20" publishUnderTab="OB_Roughs">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2760,6 +2889,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2787,10 +2920,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="BG-Rocks-Pass2" pos="0,0,0" publishUnderTab="BG-Rocks-Pass2">
+     <module type="READ" name="BG-Rocks-Pass2" pos="0,0,21" publishUnderTab="BG-Rocks-Pass2">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2864,6 +2998,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2891,11 +3029,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-OnModel-01" pos="0,0,0" publishUnderTab="YB-OnModel-01">
+     <module type="READ" name="YB-OnModel-01" pos="0,0,22" publishUnderTab="YB-OnModel-01">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -2969,6 +3107,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -2996,10 +3138,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-Pass4" pos="0,0,0" publishUnderTab="YB-Pass4">
+     <module type="READ" name="YB-Pass4" pos="0,0,23" publishUnderTab="YB-Pass4">
       <options>
+       <collapsed val="false"/>
        <version val="1"/>
-       <collapsed val="true"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3073,6 +3215,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3100,10 +3246,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="LeftArm" pos="0,0,0" publishUnderTab="LeftArm">
+     <module type="READ" name="LeftArm" pos="0,0,24" publishUnderTab="LeftArm">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3177,6 +3323,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3204,11 +3354,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-OnModel-02" pos="0,0,0" publishUnderTab="YB-OnModel-02">
+     <module type="READ" name="YB-OnModel-02" pos="0,0,25" publishUnderTab="YB-OnModel-02">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3282,6 +3432,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3309,11 +3463,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkey1-3rdPass" pos="0,0,0" publishUnderTab="Monkey1-3rdPass">
+     <module type="READ" name="Monkey1-3rdPass" pos="0,0,26" publishUnderTab="Monkey1-3rdPass">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3387,6 +3541,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3414,11 +3572,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkey3-Pass3" pos="0,0,0" publishUnderTab="Monkey3-Pass3">
+     <module type="READ" name="Monkey3-Pass3" pos="0,0,27" publishUnderTab="Monkey3-Pass3">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3492,6 +3650,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3519,10 +3681,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkey2-Pass3" pos="0,0,0" publishUnderTab="Monkey2-Pass3">
+     <module type="READ" name="Monkey2-Pass3" pos="0,0,28" publishUnderTab="Monkey2-Pass3">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3596,6 +3759,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3623,10 +3790,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Monkies_Roughs" pos="0,0,0" publishUnderTab="Monkies_Roughs">
+     <module type="READ" name="Monkies_Roughs" pos="0,0,29" publishUnderTab="Monkies_Roughs">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3700,6 +3868,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -3727,11 +3899,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="FG,_Bushes" pos="0,0,0" publishUnderTab="FG,_Bushes">
+     <module type="READ" name="FG,_Bushes" pos="0,0,30" publishUnderTab="FG,_Bushes">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3805,6 +3977,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -3832,11 +4008,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="FG,_Tree" pos="0,0,0" publishUnderTab="FG,_Tree">
+     <module type="READ" name="FG,_Tree" pos="0,0,31" publishUnderTab="FG,_Tree">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -3910,6 +4086,10 @@
        <lineArtDrawingMode val="BitmapDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="Y"/>
@@ -3937,10 +4117,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="FG_Bushes_Pass3" pos="0,0,0" publishUnderTab="FG_Bushes_Pass3">
+     <module type="READ" name="FG_Bushes_Pass3" pos="0,0,32" publishUnderTab="FG_Bushes_Pass3">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4014,6 +4195,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4041,10 +4226,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Foreground" pos="0,0,0" publishUnderTab="Foreground">
+     <module type="READ" name="Foreground" pos="0,0,33" publishUnderTab="Foreground">
       <options>
-       <version val="1"/>
+       <disabled val="true"/>
        <collapsed val="true"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4118,6 +4304,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4145,11 +4335,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB-3-RoughFixes" pos="0,0,0" publishUnderTab="YB-3-RoughFixes">
+     <module type="READ" name="YB-3-RoughFixes" pos="0,0,34" publishUnderTab="YB-3-RoughFixes">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4223,6 +4413,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4250,11 +4444,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="YB3-ModelFixes" pos="0,0,0" publishUnderTab="YB3-ModelFixes">
+     <module type="READ" name="YB3-ModelFixes" pos="0,0,35" publishUnderTab="YB3-ModelFixes">
       <options>
-       <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4328,6 +4521,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4355,10 +4552,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Right_Arm" pos="0,0,0" publishUnderTab="Btwn-Arm-Fix">
+     <module type="READ" name="Right_Arm" pos="0,0,36" publishUnderTab="Btwn-Arm-Fix">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4432,6 +4629,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4459,10 +4660,10 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="BodyandLegs" pos="0,0,0" publishUnderTab="BodyandLegs">
+     <module type="READ" name="BodyandLegs" pos="0,0,37" publishUnderTab="BodyandLegs">
       <options>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4536,6 +4737,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4563,11 +4768,11 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="rough" pos="0,0,0" publishUnderTab="rough">
+     <module type="READ" name="rough" pos="0,0,38" publishUnderTab="rough">
       <options>
        <disabled val="true"/>
-       <version val="1"/>
        <collapsed val="false"/>
+       <version val="1"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -4641,6 +4846,10 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
        <applyMatteToColor val="N"/>
@@ -4668,70 +4877,184 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="READ" name="YBpose1" pos="0,0,0" publishUnderTab="YBpose1">
+      <options>
+       <collapsed val="false"/>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0" col="ATV-090AC3BBF8608FC7"/>
+        <y val="0" defaultValue="0" col="ATV-090AC3BBF8608FC8"/>
+        <z val="0" defaultValue="0" col="ATV-090AC3BBF8608FC9"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="0.67875549983063355" defaultValue="1" col="ATV-090AC3BBF8608FCA"/>
+        <y val="0.67875549983063355" defaultValue="1" col="ATV-090AC3BBF8608FCB"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0" col="ATV-090AC3BBF8608FCC"/>
+       </rotation>
+       <angle val="0" defaultValue="0" col="ATV-090AC3BBF8608FCC"/>
+       <skew val="0" defaultValue="0" col="ATV-090AC3BBF8608FCD"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-090AC3BBF8608079">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <pencilLineDeformationPreserveThickness val="false"/>
+       <pencilLineDeformationQuality val="Low"/>
+       <pencilLineDeformationSmooth val="1"/>
+       <pencilLineDeformationFitError val="3" defaultValue="3"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="W"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIT"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="YB" in="Composite" inport="8"/>
-     <link out="YB-Pass2" in="Composite" inport="9"/>
-     <link out="Y-Pass3" in="Composite" inport="10"/>
-     <link out="OB" in="Composite" inport="20"/>
-     <link out="3rd_Monkey-2nd-Pass" in="Composite" inport="5"/>
-     <link out="2nd_Monkey-2nd_Pass" in="Composite" inport="4"/>
-     <link out="1st_Monkey-2nd_Pass" in="Composite" inport="3"/>
-     <link out="1st-Monkey" in="Composite" inport="2"/>
-     <link out="BG,Rocks" in="Composite" inport="18"/>
-     <link out="BG_White_Rect" in="Composite" inport="17"/>
-     <link out="YB-Pass3" in="YB3-ModelFixes"/>
-     <link out="YB-Pass3" in="YB-3-RoughFixes"/>
-     <link out="YB-Pass3" in="YB-OnModel-02"/>
-     <link out="YB-Pass3" in="Composite" inport="16"/>
-     <link out="YB_Roughs" in="YB-OnModel-01"/>
-     <link out="YB_Roughs" in="Y-Pass3"/>
-     <link out="YB_Roughs" in="YB-Pass2"/>
-     <link out="YB_Roughs" in="YB"/>
-     <link out="YB_Roughs" in="Composite" inport="12"/>
-     <link out="Monkey1-2ndPass" in="Composite" inport="6"/>
-     <link out="OB-Pass2" in="Composite" inport="21"/>
-     <link out="FG_Bushes_Pass2" in="Composite" inport="32"/>
-     <link out="Monkies-Pass2" in="Monkey2-Pass3"/>
-     <link out="Monkies-Pass2" in="rough"/>
-     <link out="Monkies-Pass2" in="Monkey3-Pass3"/>
-     <link out="Monkies-Pass2" in="Monkey1-3rdPass"/>
-     <link out="Monkies-Pass2" in="Composite" inport="27"/>
-     <link out="OB_Roughs" in="OB-Pass2"/>
-     <link out="OB_Roughs" in="OB"/>
-     <link out="OB_Roughs" in="Composite" inport="22"/>
-     <link out="BG-Rocks-Pass2" in="Composite" inport="19"/>
-     <link out="YB-OnModel-01" in="Composite" inport="11"/>
-     <link out="YB-Pass4" in="Right_Arm"/>
-     <link out="YB-Pass4" in="BodyandLegs"/>
-     <link out="YB-Pass4" in="LeftArm"/>
-     <link out="YB-Pass4" in="Composite" inport="33"/>
-     <link out="LeftArm" in="Composite" inport="28"/>
-     <link out="YB-OnModel-02" in="Composite" inport="13"/>
-     <link out="Monkey1-3rdPass" in="Composite" inport="23"/>
-     <link out="Monkey3-Pass3" in="Composite" inport="24"/>
-     <link out="Monkey2-Pass3" in="Composite" inport="26"/>
-     <link out="Monkies_Roughs" in="Monkey1-2ndPass"/>
-     <link out="Monkies_Roughs" in="3rd_Monkey-2nd-Pass"/>
-     <link out="Monkies_Roughs" in="2nd_Monkey-2nd_Pass"/>
-     <link out="Monkies_Roughs" in="1st_Monkey-2nd_Pass"/>
-     <link out="Monkies_Roughs" in="1st-Monkey"/>
-     <link out="Monkies_Roughs" in="Composite" inport="7"/>
-     <link out="FG,_Bushes" in="Composite" inport="1"/>
-     <link out="FG,_Tree" in="Composite" inport="0"/>
-     <link out="FG_Bushes_Pass3" in="Composite" inport="31"/>
-     <link out="Foreground" in="FG_Bushes_Pass2"/>
-     <link out="Foreground" in="FG_Bushes_Pass3"/>
-     <link out="Foreground" in="Composite" inport="34"/>
-     <link out="YB-3-RoughFixes" in="Composite" inport="14"/>
-     <link out="YB3-ModelFixes" in="Composite" inport="15"/>
-     <link out="Right_Arm" in="Composite" inport="30"/>
-     <link out="BodyandLegs" in="Composite" inport="29"/>
-     <link out="rough" in="Composite" inport="25"/>
+     <link out="YB" in="Composite" inport="9"/>
+     <link out="YB-Pass2" in="Composite" inport="10"/>
+     <link out="Y-Pass3" in="Composite" inport="11"/>
+     <link out="OB" in="Composite" inport="21"/>
+     <link out="3rd_Monkey-2nd-Pass" in="Composite" inport="6"/>
+     <link out="2nd_Monkey-2nd_Pass" in="Composite" inport="5"/>
+     <link out="1st_Monkey-2nd_Pass" in="Composite" inport="4"/>
+     <link out="1st-Monkey" in="Composite" inport="3"/>
+     <link out="BG,Rocks" in="Composite" inport="19"/>
+     <link out="BG_White_Rect" in="Composite" inport="18"/>
+     <link out="YB-Pass3" in="YB3-ModelFixes" inport="0"/>
+     <link out="YB-Pass3" in="YB-3-RoughFixes" inport="0"/>
+     <link out="YB-Pass3" in="YB-OnModel-02" inport="0"/>
+     <link out="YB-Pass3" in="Composite" inport="17"/>
+     <link out="YB_Roughs" in="YB-OnModel-01" inport="0"/>
+     <link out="YB_Roughs" in="Y-Pass3" inport="0"/>
+     <link out="YB_Roughs" in="YB-Pass2" inport="0"/>
+     <link out="YB_Roughs" in="YB" inport="0"/>
+     <link out="YB_Roughs" in="Composite" inport="13"/>
+     <link out="Monkey1-2ndPass" in="Composite" inport="7"/>
+     <link out="OB-Pass2" in="Composite" inport="22"/>
+     <link out="FG_Bushes_Pass2" in="Composite" inport="33"/>
+     <link out="Monkies-Pass2" in="Monkey2-Pass3" inport="0"/>
+     <link out="Monkies-Pass2" in="rough" inport="0"/>
+     <link out="Monkies-Pass2" in="Monkey3-Pass3" inport="0"/>
+     <link out="Monkies-Pass2" in="Monkey1-3rdPass" inport="0"/>
+     <link out="Monkies-Pass2" in="Composite" inport="28"/>
+     <link out="OB_Roughs" in="OB-Pass2" inport="0"/>
+     <link out="OB_Roughs" in="OB" inport="0"/>
+     <link out="OB_Roughs" in="Composite" inport="23"/>
+     <link out="BG-Rocks-Pass2" in="Composite" inport="20"/>
+     <link out="YB-OnModel-01" in="Composite" inport="12"/>
+     <link out="YB-Pass4" in="Right_Arm" inport="0"/>
+     <link out="YB-Pass4" in="BodyandLegs" inport="0"/>
+     <link out="YB-Pass4" in="LeftArm" inport="0"/>
+     <link out="YB-Pass4" in="Composite" inport="34"/>
+     <link out="LeftArm" in="Composite" inport="29"/>
+     <link out="YB-OnModel-02" in="Composite" inport="14"/>
+     <link out="Monkey1-3rdPass" in="Composite" inport="24"/>
+     <link out="Monkey3-Pass3" in="Composite" inport="25"/>
+     <link out="Monkey2-Pass3" in="Composite" inport="27"/>
+     <link out="Monkies_Roughs" in="Monkey1-2ndPass" inport="0"/>
+     <link out="Monkies_Roughs" in="3rd_Monkey-2nd-Pass" inport="0"/>
+     <link out="Monkies_Roughs" in="2nd_Monkey-2nd_Pass" inport="0"/>
+     <link out="Monkies_Roughs" in="1st_Monkey-2nd_Pass" inport="0"/>
+     <link out="Monkies_Roughs" in="1st-Monkey" inport="0"/>
+     <link out="Monkies_Roughs" in="Composite" inport="8"/>
+     <link out="FG,_Bushes" in="Composite" inport="2"/>
+     <link out="FG,_Tree" in="Composite" inport="1"/>
+     <link out="FG_Bushes_Pass3" in="Composite" inport="32"/>
+     <link out="Foreground" in="FG_Bushes_Pass2" inport="0"/>
+     <link out="Foreground" in="FG_Bushes_Pass3" inport="0"/>
+     <link out="Foreground" in="Composite" inport="35"/>
+     <link out="YB-3-RoughFixes" in="Composite" inport="15"/>
+     <link out="YB3-ModelFixes" in="Composite" inport="16"/>
+     <link out="Right_Arm" in="Composite" inport="31"/>
+     <link out="BodyandLegs" in="Composite" inport="30"/>
+     <link out="rough" in="Composite" inport="26"/>
+     <link out="YBpose1" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
+   <metas>
+    <meta type="guideList" name="guideList" creator="Harmony Premium" version="1.0">
+     <guideList selectedGuide="-1"/>
+    </meta>
+   </metas>
   </scene>
  </scenes>
  <symbols>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elements source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
+<elements source="Harmony Premium (HarmonyPremium.exe) version 15.0.0 build 13055 2017-10-12 14:25:19" version="1500" build="13055">
  <element id="1" elementName="BG_White_Rect" elementFolder="BG_White_Rect" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="4" elementName="YB" elementFolder="YB" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="5" elementName="YB-Pass2" elementFolder="YB-Pass2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
@@ -35,4 +35,5 @@
  <element id="38" elementName="BodyandLegs" elementFolder="BodyandLegs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="39" elementName="LeftArm" elementFolder="LeftArm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="40" elementName="rough" elementFolder="rough" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="42" elementName="YBpose1" elementFolder="YBpose1" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
 </elements>
