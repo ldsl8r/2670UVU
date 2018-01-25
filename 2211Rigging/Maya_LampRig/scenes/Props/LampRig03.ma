@@ -1,9 +1,10 @@
 //Maya ASCII 2017ff05 scene
-//Name: LampRig02.ma
-//Last modified: Thu, Jan 25, 2018 11:58:29 AM
+//Name: LampRig03.ma
+//Last modified: Thu, Jan 25, 2018 11:55:26 AM
 //Codeset: 1252
 requires maya "2017ff05";
 currentUnit -l centimeter -a degree -t film;
+fileInfo "exportedFrom" "C:/Users/10561728/Documents/2670UVU/2211Rigging/Maya_LampRig/scenes/Props/LampRig02.ma";
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2017";
 fileInfo "version" "2017";
@@ -22154,4 +22155,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "PoleShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "BarShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of LampRig02.ma
+// End of LampRig03.ma
