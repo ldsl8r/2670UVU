@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: BruteMeshPose1.ma
-//Last modified: Tue, Feb 20, 2018 08:45:37 AM
+//Name: BruteMeshPose2.ma
+//Last modified: Tue, Feb 20, 2018 09:29:26 AM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKControlSetNode"
@@ -21,8 +21,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "E34849F4-6540-E9D3-6154-A3AE6851E63C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -23.618075118611813 33.342463457632689 8.6003557383380755 ;
-	setAttr ".r" -type "double3" -379.53835292639673 -7610.5999999930555 7.5163111308797383e-015 ;
+	setAttr ".t" -type "double3" -43.850875762140895 39.742244291816618 30.281540671182245 ;
+	setAttr ".r" -type "double3" -384.93835292630098 -7621.7999999928397 -3.3653047642442302e-015 ;
 	setAttr ".rp" -type "double3" 0 4.4408920985006262e-016 0 ;
 	setAttr ".rpt" -type "double3" 3.5914492685404367e-015 -7.8315972577638205e-017 
 		-4.1765258934360367e-015 ;
@@ -30,7 +30,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C1F5BD4-2747-A283-21B1-41A02BC1721D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 27.282899704723995;
+	setAttr ".coi" 53.607139579932948;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -17745,8 +17745,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftWristEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
-	setAttr ".t" -type "double3" -7.6531162261962891 28.171841442584991 1.3479918241500854 ;
-	setAttr ".r" -type "double3" 35.492415147336438 -122.2484881945213 -59.736170967026652 ;
+	setAttr ".t" -type "double3" -7.388054370880127 28.116688549518585 2.1157329082489014 ;
+	setAttr ".r" -type "double3" 37.55532905815673 -122.44640910184175 -62.480090728499469 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
@@ -17841,8 +17841,8 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftElbowEffector" -p "Quick
 	setAttr -k off -cb on ".v";
 	setAttr ".ove" yes;
 	setAttr ".ovc" 6;
-	setAttr ".t" -type "double3" -1.1185517311096191 27.619955837726593 -1.2273569107055664 ;
-	setAttr ".r" -type "double3" -67.797455236486257 -24.722724901263458 149.81403898433419 ;
+	setAttr ".t" -type "double3" -0.89154481887817383 27.631398022174835 -0.5670619010925293 ;
+	setAttr ".r" -type "double3" -66.263252261344832 -24.984698294437475 148.66661412434405 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
@@ -17984,7 +17984,7 @@ createNode hikIKEffector -n "QuickRigCharacter_Ctrl_LeftShoulderEffector" -p "Qu
 	setAttr ".ove" yes;
 	setAttr ".ovc" 4;
 	setAttr ".t" -type "double3" 4.5192179679870605 28.106945812702179 -2.8047735691070557 ;
-	setAttr ".r" -type "double3" -75.161989708196359 37.414237610186277 -154.90441214311826 ;
+	setAttr ".r" -type "double3" -70.355816843743852 35.390400581075028 -146.81579857896989 ;
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
 	setAttr -k off ".sz";
@@ -18396,7 +18396,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftArm" -p "QuickRigCharacter_
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -51.334472095208895 13.938580164503689 -120.95492266849868 ;
+	setAttr ".r" -type "double3" -50.231741030204752 9.6265507132080987 -115.56253488026978 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -18419,7 +18419,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftForeArm" -p "QuickRigCharac
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" 4.8147055570799075 4.081374418144299 7.7478394559891095 ;
+	setAttr ".r" -type "double3" 4.8046293560328035 -1.7438328587583172 7.2578661760637413 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -18442,7 +18442,7 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_LeftHand" -p "QuickRigCharacter
 	setAttr -k off ".tx";
 	setAttr -k off ".ty";
 	setAttr -k off ".tz";
-	setAttr ".r" -type "double3" -59.9538924840029 0.20058141292318618 -59.281739834341124 ;
+	setAttr ".r" -type "double3" -59.953811036494479 0.20072274389895958 -59.28173781475072 ;
 	setAttr -l on ".s";
 	setAttr -k off ".sx";
 	setAttr -k off ".sy";
@@ -18591,12 +18591,27 @@ createNode hikFKJoint -n "QuickRigCharacter_Ctrl_Head" -p "QuickRigCharacter_Ctr
 	setAttr -l on ".jo";
 	setAttr ".radi" 1.0576233614408055;
 instanceable -a 0;
-createNode transform -n "pCylinder1";
-	rename -uid "80420DB2-41A9-5E93-CF32-F788E35E0F7C";
-	setAttr ".t" -type "double3" 0 18.331142786840005 12.630087897530561 ;
-	setAttr ".s" -type "double3" 14.897725494397232 1.7432653127503963 14.897725494397232 ;
-createNode mesh -n "pCylinderShape1" -p "pCylinder1";
-	rename -uid "5ABE4750-45D2-CD42-C777-BEB1FA4A0DE5";
+createNode transform -n "camera1_Viewport";
+	rename -uid "BAC92F07-495F-05FD-59B5-3EB2BA24AC9D";
+	setAttr ".t" -type "double3" -22.206374421736683 29.373060616755026 8.0530603965300163 ;
+	setAttr ".r" -type "double3" -2.3999999999999928 -58.799999999999983 0 ;
+createNode camera -n "camera1_ViewportShape" -p "camera1_Viewport";
+	rename -uid "6C2F4564-409F-D32E-31B1-D58D05703507";
+	setAttr -k off ".v";
+	setAttr ".rnd" no;
+	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
+	setAttr ".ff" 0;
+	setAttr ".coi" 24.08695861777241;
+	setAttr ".ow" 30;
+	setAttr ".imn" -type "string" "camera1";
+	setAttr ".den" -type "string" "camera1_depth";
+	setAttr ".man" -type "string" "camera1_mask";
+createNode transform -n "pCube1";
+	rename -uid "12F14E44-495E-B978-3082-389DFBFEC93A";
+	setAttr ".t" -type "double3" 0 18.393828365222255 13.368754339953485 ;
+	setAttr ".s" -type "double3" 32.046642713621033 3.4694543821600763 32.046642713621033 ;
+createNode mesh -n "pCubeShape1" -p "pCube1";
+	rename -uid "A2658E87-44F6-6FD7-325C-F3ADD13A2B74";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
@@ -18605,21 +18620,6 @@ createNode mesh -n "pCylinderShape1" -p "pCylinder1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "camera1_Viewport";
-	rename -uid "BAC92F07-495F-05FD-59B5-3EB2BA24AC9D";
-	setAttr ".t" -type "double3" -24.099426357110076 29.413436061925363 7.8036165775964887 ;
-	setAttr ".r" -type "double3" -2.3999999999999928 -58.799999999999983 0 ;
-createNode camera -n "camera1_ViewportShape" -p "camera1_Viewport";
-	rename -uid "6C2F4564-409F-D32E-31B1-D58D05703507";
-	setAttr -k off ".v";
-	setAttr ".rnd" no;
-	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
-	setAttr ".ff" 0;
-	setAttr ".coi" 25.577372688791158;
-	setAttr ".ow" 30;
-	setAttr ".imn" -type "string" "camera1";
-	setAttr ".den" -type "string" "camera1_depth";
-	setAttr ".man" -type "string" "camera1_mask";
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "81F2F485-4E4E-46C9-CE01-289C19BF3B04";
 	setAttr -s 29 ".lnk";
@@ -20058,30 +20058,30 @@ createNode HIKState2SK -n "HIKState2SK1";
 	setAttr ".LeftArmTx" 3.5368138814794228;
 	setAttr ".LeftArmTy" -2.4040545909542743e-007;
 	setAttr ".LeftArmTz" 9.9250255480853866e-007;
-	setAttr ".LeftArmRx" -51.334508446802886;
-	setAttr ".LeftArmRy" -13.938566517235634;
-	setAttr ".LeftArmRz" 120.9549192674381;
-	setAttr ".LeftArmSx" 1.0000000103688782;
-	setAttr ".LeftArmSy" 0.99999998370064058;
-	setAttr ".LeftArmSz" 0.99999997161567189;
-	setAttr ".LeftForeArmTx" 5.8745084061830966;
-	setAttr ".LeftForeArmTy" -1.6366556003788446e-006;
-	setAttr ".LeftForeArmTz" 2.5484343981752033e-006;
-	setAttr ".LeftForeArmRx" 4.8147113351566304;
-	setAttr ".LeftForeArmRy" 4.08137103892998;
-	setAttr ".LeftForeArmRz" 7.7478455076513555;
-	setAttr ".LeftForeArmSx" 0.9999999802570152;
-	setAttr ".LeftForeArmSy" 0.99999995485552184;
-	setAttr ".LeftForeArmSz" 1.000000012995663;
-	setAttr ".LeftHandTx" 7.0453906219112588;
-	setAttr ".LeftHandTy" -1.188530216467143e-006;
-	setAttr ".LeftHandTz" -1.4983438838545027e-006;
-	setAttr ".LeftHandRx" -79.666715746093331;
-	setAttr ".LeftHandRy" 16.341884947541093;
-	setAttr ".LeftHandRz" -34.180451361859511;
-	setAttr ".LeftHandSx" 0.99999994407889992;
-	setAttr ".LeftHandSy" 1.0000000288734403;
-	setAttr ".LeftHandSz" 0.99999998809299662;
+	setAttr ".LeftArmRx" -50.231781143404575;
+	setAttr ".LeftArmRy" -9.6265347373865122;
+	setAttr ".LeftArmRz" 115.5625159319969;
+	setAttr ".LeftArmSx" 0.99999996607354802;
+	setAttr ".LeftArmSy" 0.99999996645577449;
+	setAttr ".LeftArmSz" 0.99999996155985149;
+	setAttr ".LeftForeArmTx" 5.8745085394024423;
+	setAttr ".LeftForeArmTy" -1.174943310644494e-006;
+	setAttr ".LeftForeArmTz" 4.0837658764059228e-006;
+	setAttr ".LeftForeArmRx" 4.8046275619741037;
+	setAttr ".LeftForeArmRy" -1.7438376796067809;
+	setAttr ".LeftForeArmRz" 7.2578719486305827;
+	setAttr ".LeftForeArmSx" 1.0000000270501463;
+	setAttr ".LeftForeArmSy" 1.0000003072266124;
+	setAttr ".LeftForeArmSz" 0.99999999245188143;
+	setAttr ".LeftHandTx" 7.0453906564540807;
+	setAttr ".LeftHandTy" 1.4135122583525117e-007;
+	setAttr ".LeftHandTz" 2.6556674379563106e-006;
+	setAttr ".LeftHandRx" -79.666614869540069;
+	setAttr ".LeftHandRy" 16.341946088564335;
+	setAttr ".LeftHandRz" -34.180518789247159;
+	setAttr ".LeftHandSx" 1.0000000527408806;
+	setAttr ".LeftHandSy" 1.0000001934803033;
+	setAttr ".LeftHandSz" 1.0000001753045358;
 	setAttr ".RightArmTx" -3.5368185425112539;
 	setAttr ".RightArmTy" 3.9827953877136224e-006;
 	setAttr ".RightArmTz" 8.9530532321191458e-007;
@@ -20350,15 +20350,15 @@ createNode HIKState2FK -n "HIKState2FK1";
 	setAttr ".SpineGX" -type "matrix" 0.99169421195983887 0.003204024164006114 0.1285812109708786 0
 		 -0.003204036271199584 0.99999523162841797 -0.00020675416453741491 0 -0.1285812109708786 -0.00020694194245152175 0.99169933795928955 0
 		 -5.111367380646872e-016 17.382486343383789 -6.0884132385253906 1;
-	setAttr ".LeftArmGX" -type "matrix" -0.62269586324691772 -0.13272517919540405 0.7711251974105835 0
-		 0.77191317081451416 0.057094097137451172 0.63315922021865845 0 -0.12806273996829987 0.98950719833374023 0.066900186240673065 0
+	setAttr ".LeftArmGX" -type "matrix" -0.52689403295516968 -0.12553638219833374 0.84060895442962646 0
+		 0.8412519097328186 0.063952505588531494 0.53684782981872559 0 -0.12115281820297241 0.99002575874328613 0.071911752223968506 0
 		 4.5192179679870605 27.169906616210937 -2.483950138092041 1;
-	setAttr ".LeftForeArmGX" -type "matrix" -0.57408833503723145 0.024545729160308838 0.81842541694641113 0
-		 0.81841254234313965 0.047683712095022202 0.57264918088912964 0 -0.02496945858001709 0.99856090545654297 -0.047463178634643555 0
-		 -1.1185517311096191 26.682916641235352 -0.90653347969055176 1;
-	setAttr ".LeftHandGX" -type "matrix" -0.26892086863517761 -0.84574198722839355 0.4608711302280426 0
-		 0.84850907325744629 -0.43444639444351196 -0.30214032530784607 0 0.45575657486915588 0.30980142951011658 0.83445149660110474 0
-		 -7.6531162261962891 27.23480224609375 1.6688143014907837 1;
+	setAttr ".LeftForeArmGX" -type "matrix" -0.560089111328125 0.026078939437866211 0.82802188396453857 0
+		 0.82741391658782959 0.067156732082366943 0.55756282806396484 0 -0.041066553443670273 0.99740153551101685 -0.059191759675741196 0
+		 -0.89154481887817383 26.694355010986328 -0.24624037742614746 1;
+	setAttr ".LeftHandGX" -type "matrix" -0.24789805710315704 -0.84389388561248779 0.47580441832542419 0
+		 0.84968006610870361 -0.42532646656036377 -0.31167504191398621 0 0.46539285778999329 0.32701781392097473 0.82247751951217651 0
+		 -7.3880548477172852 27.179649353027344 2.4365527629852295 1;
 	setAttr ".RightArmGX" -type "matrix" 0.64454412460327148 0.2841871976852417 -0.70978957414627075 0
 		 -0.39339929819107056 0.91930437088012695 0.010836079716682434 0 0.65559172630310059 0.27224633097648621 0.70433086156845093 0
 		 -4.8750495910644531 27.789436340332031 -9.537968635559082 1;
@@ -20414,9 +20414,9 @@ createNode HIKState2Effector -n "HIKState2Effector1";
 	setAttr ".RightAnkleEffectorGXM[0]" -type "matrix" 0.87460201978683472 -0.034617532044649124 0.48360428214073181 0
 		 0.06495434045791626 0.99682217836380005 -0.046115536242723465 0 -0.48047104477882385 0.071744933724403381 0.87407118082046509 0
 		 -8.9947338104248047 2.629948616027832 -0.4497673511505127 1;
-	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" -0.26892086863517761 -0.84574198722839355 0.4608711302280426 0
-		 0.84850907325744629 -0.43444639444351196 -0.30214032530784607 0 0.45575657486915588 0.30980142951011658 0.83445149660110474 0
-		 -7.6531162261962891 27.23480224609375 1.6688143014907837 1;
+	setAttr ".LeftWristEffectorGXM[0]" -type "matrix" -0.24789805710315704 -0.84389388561248779 0.47580441832542419 0
+		 0.84968006610870361 -0.42532646656036377 -0.31167504191398621 0 0.46539285778999329 0.32701781392097473 0.82247751951217651 0
+		 -7.3880548477172852 27.179649353027344 2.4365527629852295 1;
 	setAttr ".RightWristEffectorGXM[0]" -type "matrix" 0.077426612377166748 -0.82448697090148926 -0.56055903434753418 0
 		 -0.69280397891998291 -0.44881415367126465 0.56443643569946289 0 -0.71695733070373535 0.34465515613555908 -0.60595798492431641 0
 		 -2.8414652347564697 28.277317047119141 -2.2871358394622803 1;
@@ -20426,9 +20426,9 @@ createNode HIKState2Effector -n "HIKState2Effector1";
 	setAttr ".RightKneeEffectorGXM[0]" -type "matrix" 0.83403438329696655 -0.20460252463817596 0.5123717188835144 0
 		 0.17388598620891571 0.97884500026702881 0.10782650113105774 0 -0.5235939621925354 -0.00083674117922782898 0.85196775197982788 0
 		 -7.2436962127685547 12.377322196960449 0.60799503326416016 1;
-	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" -0.57408833503723145 0.024545729160308838 0.81842541694641113 0
-		 0.81841260194778442 0.0476837158203125 0.57264924049377441 0 -0.02496945858001709 0.99856090545654297 -0.047463178634643555 0
-		 -1.1185517311096191 26.682916641235352 -0.90653347969055176 1;
+	setAttr ".LeftElbowEffectorGXM[0]" -type "matrix" -0.560089111328125 0.026078939437866211 0.82802188396453857 0
+		 0.82741391658782959 0.067156732082366943 0.55756282806396484 0 -0.041066557168960571 0.99740159511566162 -0.059191763401031494 0
+		 -0.89154481887817383 26.694355010986328 -0.24624037742614746 1;
 	setAttr ".RightElbowEffectorGXM[0]" -type "matrix" 0.003650963306427002 -0.92431157827377319 -0.38162142038345337 0
 		 -0.85176092386245728 0.19706666469573975 -0.48545661568641663 0 0.52391797304153442 0.32682254910469055 -0.78657293319702148 0
 		 -6.406822681427002 23.413724899291992 -5.9301071166992188 1;
@@ -20444,8 +20444,8 @@ createNode HIKState2Effector -n "HIKState2Effector1";
 	setAttr ".RightFootEffectorGXM[0]" -type "matrix" 0.87460201978683472 -0.034617532044649124 0.48360428214073181 0
 		 0.06495434045791626 0.99682217836380005 -0.046115536242723465 0 -0.48047104477882385 0.071744933724403381 0.87407118082046509 0
 		 -10.778066635131836 0.1286003589630127 2.5655033588409424 1;
-	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" -0.62269586324691772 -0.13272517919540405 0.7711251974105835 0
-		 0.77191317081451416 0.057094097137451172 0.63315922021865845 0 -0.12806275486946106 0.98950725793838501 0.066900193691253662 0
+	setAttr ".LeftShoulderEffectorGXM[0]" -type "matrix" -0.52689403295516968 -0.12553638219833374 0.84060895442962646 0
+		 0.8412519097328186 0.063952505588531494 0.53684782981872559 0 -0.12115281820297241 0.99002575874328613 0.071911752223968506 0
 		 4.5192179679870605 27.169906616210937 -2.483950138092041 1;
 	setAttr ".RightShoulderEffectorGXM[0]" -type "matrix" 0.64454412460327148 0.2841871976852417 -0.70978957414627075 0
 		 -0.39339929819107056 0.91930437088012695 0.010836079716682434 0 0.65559178590774536 0.27224636077880859 0.7043309211730957 0
@@ -49193,10 +49193,9 @@ createNode dagPose -n "bindPose1";
 createNode geomBind -n "geomBind1";
 	rename -uid "B2FCD8F6-4EB9-F642-F8F0-059F14A45932";
 	setAttr ".mi" 5;
-createNode polyCylinder -n "polyCylinder1";
-	rename -uid "1D98ECF4-4651-2893-C770-DF85A0AADF02";
-	setAttr ".sc" 1;
-	setAttr ".cuv" 3;
+createNode polyCube -n "polyCube1";
+	rename -uid "25B12037-4014-BABF-B7A3-72B59C85A357";
+	setAttr ".cuv" 4;
 select -ne :time1;
 	setAttr -av -k on ".cch";
 	setAttr -cb on ".ihi";
@@ -49264,10 +49263,10 @@ select -ne :initialParticleSE;
 select -ne :defaultRenderGlobals;
 	setAttr ".ep" 1;
 select -ne :defaultResolution;
-	setAttr ".w" 640;
-	setAttr ".h" 480;
+	setAttr ".w" 1920;
+	setAttr ".h" 1080;
 	setAttr ".pa" 1;
-	setAttr ".dar" 1.3333332538604736;
+	setAttr ".dar" 1.7777777910232544;
 select -ne :defaultLightSet;
 	setAttr -k on ".cch";
 	setAttr -k on ".nds";
@@ -49859,7 +49858,7 @@ connectAttr "QuickRigCharacter_ControlRig.rao" "QuickRigCharacter_Ctrl_Head.uagx
 connectAttr "QuickRigCharacter_Ctrl_Neck.s" "QuickRigCharacter_Ctrl_Head.is";
 connectAttr "HIKState2FK1.HeadGX" "QuickRigCharacter_Ctrl_Head.agx";
 connectAttr "HIKState2FK2.HeadGX" "QuickRigCharacter_Ctrl_Head.atx";
-connectAttr "polyCylinder1.out" "pCylinderShape1.i";
+connectAttr "polyCube1.out" "pCubeShape1.i";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" "GenericMesh_V10_1:PS_1:Quadra_defaultMat.message" ":defaultLightSet.message";
@@ -51629,5 +51628,5 @@ connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pSphereShape2.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "pCylinderShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of BruteMeshPose1.ma
+connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
+// End of BruteMeshPose2.ma
