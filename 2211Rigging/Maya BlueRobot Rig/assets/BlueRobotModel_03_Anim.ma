@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: BlueRobotModel 02.ma
-//Last modified: Sat, Feb 24, 2018 07:23:32 AM
+//Name: BlueRobotModel_03_Anim.ma
+//Last modified: Sat, Feb 24, 2018 07:27:13 AM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "DB04E300-4D3C-4BB0-DCE5-8192AEF35D23";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 9.5626104334043767 5.1672506326446497 10.635549687480292 ;
-	setAttr ".r" -type "double3" -14.738352631707217 -2830.1999999985251 0 ;
+	setAttr ".t" -type "double3" 4.6441652214275644 18.040633082337024 22.945165069616593 ;
+	setAttr ".r" -type "double3" -18.938352631676644 -2874.1999999983459 -5.99422621711309e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CC0963B7-4FEE-36D0-55E1-6C9298C5A8DA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 15.989815174532085;
+	setAttr ".coi" 26.417958316934122;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -50706,7 +50706,6 @@ createNode joint -n "Spine_01_Jnt" -p "Cog_Jnt";
 	rename -uid "6F6F4CC5-4D2E-C22A-41C2-FF8CBC09118B";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".jo" -type "double3" -5.6498000615042016e-030 1.2722218725854064e-014 -6.3611093629270367e-015 ;
 	setAttr ".radi" 0.52574928053494152;
@@ -50714,6 +50713,7 @@ createNode joint -n "Spine_02_Jnt" -p "Spine_01_Jnt";
 	rename -uid "DEC2D424-4024-C3A6-50BE-248E5EC1588E";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
+	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".radi" 0.64899420738220215;
 createNode joint -n "Spine_03_Jnt" -p "Spine_02_Jnt";
@@ -50772,7 +50772,6 @@ createNode joint -n "Lft_Arm_01_Jnt" -p "Spine_03_Jnt";
 	rename -uid "6A9D952E-47C7-A92B-4D38-048E4F7741AC";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".jo" -type "double3" 179.99999998461897 1.5521040765323193 -179.27945857152804 ;
 	setAttr ".pa" -type "double3" 0 5 0 ;
@@ -50798,7 +50797,6 @@ createNode joint -n "Lft_Thumb_01_Jnt" -p "Lft_Arm_03_Jnt";
 	rename -uid "CA50C08A-451B-9815-CE16-AAB0F20B74EE";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".jo" -type "double3" 93.035251339673138 12.368572906199695 -70.273001798202017 ;
 	setAttr ".radi" 0.5;
@@ -51363,7 +51361,6 @@ createNode joint -n "Rght_Arm_01_Jnt" -p "Spine_03_Jnt";
 	rename -uid "931061A4-4340-E491-5801-FCA480191987";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".jo" -type "double3" 179.99999878451123 1.5521040765323031 -179.27945857152804 ;
 	setAttr ".radi" 0.61600326022304941;
@@ -51387,7 +51384,6 @@ createNode joint -n "Rght_Thumb_01_Jnt" -p "Rght_Arm_03_Jnt";
 	rename -uid "C9D0D4D6-4046-A8D3-8A91-899E216B3C80";
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
-	setAttr ".dla" yes;
 	setAttr ".jot" -type "string" "xzy";
 	setAttr ".jo" -type "double3" 93.035250828659699 12.368571514187149 -70.273001907660898 ;
 	setAttr ".radi" 0.5;
@@ -56913,4 +56909,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "orange_model_01_defaultRenderLayer.msg" ":defaultRenderingList1.r" 
 		-na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of BlueRobotModel 02.ma
+// End of BlueRobotModel_03_Anim.ma
