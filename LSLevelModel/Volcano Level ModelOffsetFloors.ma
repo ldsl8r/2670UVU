@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Volcano Level ModelOffsetFloors.ma
-//Last modified: Wed, Mar 14, 2018 04:46:33 PM
+//Last modified: Thu, Mar 15, 2018 07:59:23 AM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "F9F19FDB-4EBD-906A-D732-31B0C5308830";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -84.633682415621465 -177.43241942942001 111.17912538162477 ;
-	setAttr ".r" -type "double3" 440.06164739173994 -9739.3999999975786 0 ;
+	setAttr ".t" -type "double3" -403.29601863402712 161.211442816915 6.8020383688866985 ;
+	setAttr ".r" -type "double3" 359.66164739144375 -9818.1999999969921 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2611353D-4D02-EDC8-0F54-888E3279777C";
 	setAttr -k off ".v" no;
