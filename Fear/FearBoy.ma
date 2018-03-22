@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: FearBoy.ma
-//Last modified: Wed, Mar 21, 2018 03:35:56 PM
+//Last modified: Wed, Mar 21, 2018 09:27:01 PM
 //Codeset: 1252
 requires maya "2017";
 requires -nodeType "HIKSolverNode" -nodeType "HIKCharacterNode" -nodeType "HIKControlSetNode"
@@ -21,15 +21,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "E34849F4-6540-E9D3-6154-A3AE6851E63C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -13.659569791893663 28.455847379337563 8.6536073095030162 ;
-	setAttr ".r" -type "double3" 367.46164716854435 -5831.7999999993963 1.2728942926521648e-015 ;
+	setAttr ".t" -type "double3" -19.214403447876002 46.947739294155738 6.5736442624678872 ;
+	setAttr ".r" -type "double3" 333.26164716841231 -5833.3999999998214 -5.5664756502348436e-015 ;
 	setAttr ".rp" -type "double3" 3.5527136788005009e-015 0 0 ;
 	setAttr ".rpt" -type "double3" 3.2314389341845297e-015 -7.817147633059193e-017 -2.6181459155494883e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C1F5BD4-2747-A283-21B1-41A02BC1721D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 15.393357822750399;
+	setAttr ".coi" 24.882978517426501;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -16351,7 +16351,7 @@ createNode mesh -n "HairShape" -p "Hair";
 	setAttr -s 6 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.095895821656687322 0.28910819009650168 ;
+	setAttr ".pv" -type "double2" 0.828865647315979 0.92273560166358948 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -31691,7 +31691,7 @@ createNode joint -n "QuickRigCharacter1_Head" -p "QuickRigCharacter1_Neck";
 createNode transform -n "QuickRigCharacter1_Ctrl_Reference";
 	rename -uid "6B4B1C2F-428A-374E-AB12-E680B0F05715";
 	addAttr -s false -ci true -sn "ch" -ln "ControlSet" -at "message";
-	setAttr -k off -cb on ".v" no;
+	setAttr -k off -cb on ".v";
 	setAttr ".t" -type "double3" 0 3.7907581329345703 -0.71478056907653809 ;
 	setAttr -l on ".ra";
 createNode locator -n "QuickRigCharacter1_Ctrl_ReferenceShape" -p "QuickRigCharacter1_Ctrl_Reference";
@@ -32628,6 +32628,21 @@ createNode hikFKJoint -n "QuickRigCharacter1_Ctrl_Head" -p "QuickRigCharacter1_C
 	setAttr -l on ".jo";
 	setAttr ".radi" 0.87351968618539699;
 instanceable -a 0;
+createNode transform -n "camera1";
+	rename -uid "69D71571-409A-DCF6-0635-FBAC9F69A05A";
+	setAttr ".t" -type "double3" -62.603791347906466 26.458927328767146 41.836701239450598 ;
+	setAttr ".r" -type "double3" -5.9999999999999876 -54.800000000000132 0 ;
+createNode camera -n "cameraShape1" -p "camera1";
+	rename -uid "6DF0F013-4416-F1C9-AE5E-62B2E3F25806";
+	setAttr -k off ".v";
+	setAttr ".rnd" no;
+	setAttr ".cap" -type "double2" 1.41732 0.94488 ;
+	setAttr ".ff" 0;
+	setAttr ".coi" 81.034546007573311;
+	setAttr ".ow" 30;
+	setAttr ".imn" -type "string" "camera1";
+	setAttr ".den" -type "string" "camera1_depth";
+	setAttr ".man" -type "string" "camera1_mask";
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "F543CBCB-451C-9B1D-2A25-BA97FA7017B6";
 	setAttr -s 19 ".lnk";
