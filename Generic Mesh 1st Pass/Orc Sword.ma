@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Orc Sword.ma
-//Last modified: Wed, Mar 21, 2018 09:59:48 PM
+//Last modified: Wed, Mar 21, 2018 10:01:39 PM
 //Codeset: 1252
 requires maya "2017";
 requires -dataType "HIKCharacter" -dataType "HIKCharacterState" -dataType "HIKEffectorState"
@@ -16,13 +16,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A0461F2F-4F4D-DAB2-3BE6-14BF24B39ED1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 16.017403735146935 9.6921788177498325 19.313692964172017 ;
-	setAttr ".r" -type "double3" 6.2616472625719588 38.600000000010994 1.5261378909979812e-015 ;
+	setAttr ".t" -type "double3" 2.5065898046380877 8.5662375234849719 43.328506934339188 ;
+	setAttr ".r" -type "double3" 5.0616472625687523 2.6000000000008558 1.243684458799394e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "86E42AEC-40B8-2281-7D2D-A8B3F19ACBF7";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.964611624647869;
+	setAttr ".coi" 43.62362327775967;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
