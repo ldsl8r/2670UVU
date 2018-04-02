@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Hero Mesh.ma
-//Last modified: Sun, Apr 01, 2018 03:46:48 PM
+//Last modified: Mon, Apr 02, 2018 07:40:36 AM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "E34849F4-6540-E9D3-6154-A3AE6851E63C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.4407797753134917 22.260064167271707 -0.52319994961711735 ;
-	setAttr ".r" -type "double3" -69.938352734426914 10525.399999997469 0 ;
+	setAttr ".t" -type "double3" 9.2332946002655163 9.6013429214358528 9.6771677059353802 ;
+	setAttr ".r" -type "double3" -6.9383527344571547 10486.199999997476 0 ;
 	setAttr ".rp" -type "double3" 3.5527136788005009e-015 0 0 ;
 	setAttr ".rpt" -type "double3" 3.2314389341845297e-015 -7.817147633059193e-017 -2.6181459155494883e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -14746,7 +14746,6 @@ createNode imagePlane -n "imagePlaneShape2" -p "imagePlane2";
 	setAttr ".cs" -type "string" "sRGB";
 createNode transform -n "imagePlane3";
 	rename -uid "5E900970-4C80-F310-9DEC-228F44857E96";
-	setAttr ".v" no;
 	setAttr ".t" -type "double3" -0.67624256171824371 7.4255159009094891 -9.0378414123195974 ;
 createNode imagePlane -n "imagePlaneShape3" -p "imagePlane3";
 	rename -uid "7C575B5B-4504-CE08-443C-D0B427691FCA";
