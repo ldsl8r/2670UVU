@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Hero Mesh.ma
-//Last modified: Mon, Apr 02, 2018 09:59:02 PM
+//Last modified: Mon, Apr 02, 2018 10:00:14 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
