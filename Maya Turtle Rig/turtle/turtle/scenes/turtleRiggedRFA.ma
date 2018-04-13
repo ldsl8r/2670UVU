@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: turtleRiggedWIP.ma
-//Last modified: Fri, Apr 13, 2018 04:25:25 PM
+//Name: turtleRiggedRFA.ma
+//Last modified: Fri, Apr 13, 2018 04:33:50 PM
 //Codeset: 1252
 requires maya "2017";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.3.0.0";
@@ -14987,7 +14987,9 @@ createNode place3dTexture -n "r_eye_projector" -p "r_eye_projector_grp";
 	rename -uid "ADAAC8A2-41D9-04AA-0A34-AABF5F28325F";
 	setAttr ".t" -type "double3" -1.7763568394002505e-015 2.2204460492503131e-016 8.8817841970012523e-016 ;
 	setAttr ".s" -type "double3" 0.99999999999999978 1.0000000000000002 1 ;
-createNode joint -n "COG_Jnt";
+createNode transform -n "Skeleton" -p "sea_turtle";
+	rename -uid "CCF32C76-4C4E-F7FC-3A78-17B565D2DCC4";
+createNode joint -n "COG_Jnt" -p "Skeleton";
 	rename -uid "4BA2C3BD-4840-5132-9721-679CA7B9AB96";
 	addAttr -ci true -sn "liw" -ln "lockInfluenceWeights" -min 0 -max 1 -at "bool";
 	setAttr ".uoc" 1;
@@ -16177,7 +16179,9 @@ createNode scaleConstraint -n "COG_Jnt_scaleConstraint1" -p "COG_Jnt";
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
 	setAttr -k on ".w0";
-createNode transform -n "Transform_Crtl_Grp";
+createNode transform -n "Controls" -p "sea_turtle";
+	rename -uid "009E63CA-48F5-95D7-5756-FEBB6F5BC8AD";
+createNode transform -n "Transform_Crtl_Grp" -p "Controls";
 	rename -uid "7E05FC6C-4E70-5CFB-F84F-B0B90A3722C8";
 createNode transform -n "Transform_Crtl" -p "Transform_Crtl_Grp";
 	rename -uid "4D5D363B-4EF0-9B86-A1D4-78AD1413AE5C";
@@ -23109,4 +23113,4 @@ connectAttr "Head_GeoShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Shell_GeoShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "R_Leg_GeoShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "L_Leg_GeoShape.iog" ":initialShadingGroup.dsm" -na;
-// End of turtleRiggedWIP.ma
+// End of turtleRiggedRFA.ma
